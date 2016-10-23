@@ -4,16 +4,26 @@
 body {
 	margin:0;
 	padding:0;
-	background-color: red;
+	font-family:'Brandon Text W01 Regular';
+	font-size: 10pt;
+	color: black;
 }
 h1 {
-
+	font-family:'Brandon Grot W01 Black';
+	font-size: 24pt;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-weight: normal;
 }
 h2 {
-
+	font-family:'Brandon Grot W01 Bold';
+	font-size: 12pt;
+	margin-bottom: 0;
+	font-weight: normal;
 }
-h3 {
-
+a {
+	text-decoration: none;
+	color: black;
 }
 .page {
 	
@@ -34,7 +44,7 @@ h3 {
 
 }
 .info {
-
+	color:#bcbcbc;
 }
 .project-title {
 
