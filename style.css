@@ -4,6 +4,16 @@
 body {
 	margin:0;
 	padding:0;
+	background-color: red;
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
 }
 .page {
 	
@@ -14,10 +24,16 @@ body {
 .nav {
 
 }
+.projects {
+
+}
 .thumbnail {
 
 }
 .thumbnail img {
+
+}
+.info {
 
 }
 .project-title {
