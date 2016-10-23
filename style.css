@@ -48,6 +48,7 @@ a {
 }
 .nav li {
 	display: inline-block;
+	margin-right: 10px;
 }
 .clear {
 	clear: both;
@@ -61,19 +62,22 @@ a {
 	display: inline-block;
 	margin: 0px 10px 10px 0px;
 	border:1px solid black;
-	height:300px;
-	width:300px;
+	height:375px;
+	width:350px;
 	padding:5px;
 	position: relative;
 }
 .thumbnail img {
-
+	max-width: 350px;
+	max-height: 350px;
 }
 .info {
 	vertical-align: bottom;
 	position: absolute;
 	bottom: 2px;
 	left: 5px;
+	height: 25px;
+	width: 350px;
 }
 .project-description {
 	color:#bcbcbc;
