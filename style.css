@@ -49,7 +49,9 @@ a {
 	display: inline-block;
 }
 .projects {
-
+	max-width: 930px;
+	margin:0 auto;
+	height: auto;
 }
 .thumbnail {
 	display: inline-block;
