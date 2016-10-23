@@ -61,13 +61,15 @@ a {
 .thumbnail {
 	display: inline-block;
 	margin: 0px 10px 10px 0px;
-	border:1px solid black;
-	height:375px;
+/*	border:1px solid black;
+*/	height:30px;
 	width:350px;
-	padding:5px;
-	position: relative;
+/*	padding:5px;
+*/	position: relative;
 }
 .thumbnail-img {
+	width: 350px;
+	height: 350px;
 	max-width: 350px;
 	max-height: 350px;
 	background: green;
