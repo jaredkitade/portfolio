@@ -70,13 +70,16 @@ a {
 .thumbnail img {
 	max-width: 350px;
 	max-height: 350px;
+	background: green;
 }
 .info {
 	vertical-align: bottom;
 	position: absolute;
-	bottom: 2px;
+	/*bottom: 2px;
 	left: 5px;
-	height: 25px;
+	height: 25px;*/
+	bottom: 0px;
+	left: 0px;
 	width: 350px;
 }
 .project-description {
