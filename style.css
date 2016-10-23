@@ -39,6 +39,7 @@ a {
 	font-family:'Brandon Grot W01 Bold';
 	text-transform: uppercase;
 	float: left;
+	position: relative;
 }
 .nav ul {
 	list-style: none;
@@ -48,8 +49,11 @@ a {
 .nav li {
 	display: inline-block;
 }
+.clear {
+	clear: both;
+}
 .projects {
-	max-width: 930px;
+	max-width: 940px;
 	margin:0 auto;
 	height: auto;
 }
