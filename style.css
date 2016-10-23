@@ -13,13 +13,13 @@ h1 {
 	font-family:'Brandon Grot W01 Black';
 	font-size: 24pt;
 	text-transform: uppercase;
-	margin-bottom: 0;
+	margin: 0;
 	font-weight: normal;
 }
 h2 {
 	font-family:'Brandon Grot W01 Bold';
 	font-size: 10pt;
-	margin-bottom: 0;
+	margin: 0;
 	font-weight: normal;
 	color: black;
 	text-transform: uppercase;
@@ -55,15 +55,19 @@ a {
 	display: inline-block;
 	margin: 0px 10px 10px 0px;
 	border:1px solid black;
-	height:400px;
-	width:400px;
+	height:300px;
+	width:300px;
 	padding:5px;
+	position: relative;
 }
 .thumbnail img {
 
 }
 .info {
-
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
 }
 .project-description {
 	color:#bcbcbc;
