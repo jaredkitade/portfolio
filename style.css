@@ -18,9 +18,11 @@ h1 {
 }
 h2 {
 	font-family:'Brandon Grot W01 Bold';
-	font-size: 12pt;
+	font-size: 10pt;
 	margin-bottom: 0;
 	font-weight: normal;
+	color: black;
+	text-transform: uppercase;
 }
 a {
 	text-decoration: none;
@@ -33,7 +35,7 @@ a {
 
 }
 .nav {
-	font-size: 18pt;
+	font-size: 12pt;
 	font-family:'Brandon Grot W01 Bold';
 	text-transform: uppercase;
 	float: left;
@@ -50,16 +52,22 @@ a {
 
 }
 .thumbnail {
-
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
+	border:1px solid black;
+	height:400px;
+	width:400px;
+	padding:5px;
 }
 .thumbnail img {
 
 }
 .info {
-	color:#bcbcbc;
+
 }
 .project-description {
-
+	color:#bcbcbc;
+	font-family:'Brandon Text W01 Regular';
 }
 .hero-image {
 
