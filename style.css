@@ -163,11 +163,10 @@ a {
 	position: relative;
 	background: black;
 }
-.work-image {
+.work-image img {
 	display: block;
 	height:334px;
 	width:590px;
-	position: relative;
 	background: black;
 }
 .work-text {
