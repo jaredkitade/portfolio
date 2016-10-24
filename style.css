@@ -148,10 +148,18 @@ a {
 	width:1190px;
 	max-width: 1190px;
 	height:794px;
+	display: block;
 }
 .work-image {
 	display: inline-block;
 	margin: 0px 7px 10px 0px;
+	height:334px;
+	width:590px;
+	position: relative;
+	background: black;
+}
+.work-image {
+	display: block;
 	height:334px;
 	width:590px;
 	position: relative;
