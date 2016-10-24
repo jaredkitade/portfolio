@@ -37,9 +37,10 @@ a {
 	width: 1200px;
 	margin: 0 auto;
 	margin-top:10px;
-	position: fixed;
+	/*position: fixed;
 	top:0;
-	background-color: rgba(255,255,255,255.8);
+	z-index: 1;
+	background-color: rgba(255,255,255,255.8);*/
 }
 .page-content {
 	width: 1200px;
