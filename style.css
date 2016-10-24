@@ -55,6 +55,7 @@ a {
 .nav {
 	float: left;
 	position: relative;
+	vertical-align: bottom;
 }
 .nav ul {
 	list-style: none;
