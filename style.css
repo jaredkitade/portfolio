@@ -82,7 +82,7 @@ a {
 }
 .thumbnail {
 	display: inline-block;
-	margin: 0px 7px 10px 0px;
+	margin: 10px 7px 0px 0px;
 	height:430px;
 	width:390px;
 	position: relative;
