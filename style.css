@@ -118,25 +118,18 @@ a {
 	max-width: 1190px;
 	height:794px;;
 	background: black;
+	display: inline-block;
 }
 .hero-image img {
 	width:1190px;
 	max-width: 1190px;
 	height:794px;
 }
-.work-image-left {
+.work-image {
 	display: inline-block;
 	margin: 0px 7px 10px 0px;
 	height:334px;
-	width:595px;
-	position: relative;
-	background: black;
-}
-.work-image-right {
-	display: inline-block;
-	margin: 0px 7px 0px 0px;
-	height:334px;
-	width:595px;
+	width:585px;
 	position: relative;
 	background: black;
 }
