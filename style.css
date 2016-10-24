@@ -91,7 +91,7 @@ a {
 	background: black;
 }
 .thumbnail img {
-	width: 390px;
+	width: auto;
 	height: 390px;
 	max-width: 390px;
 	max-height: 390px;
