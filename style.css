@@ -68,6 +68,10 @@ a {
 	display: inline-block;
 	margin-right: 30px;
 }
+.rule, .rule img {
+	width: 1190px;
+	height: 10px;
+}
 .clear {
 	clear: both;
 }
