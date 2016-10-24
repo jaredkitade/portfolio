@@ -101,10 +101,10 @@ a {
 }
 .thumbnail img {
 	display: block;
-	width: auto;
-	height: 390px;
-	max-width: 390px;
-	max-height: 390px;
+	width: 400px;
+	height: 400px;
+	max-width: 400px;
+	max-height: 400px;
 }
 .three {
 	margin-right:0;
