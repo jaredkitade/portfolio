@@ -10,20 +10,85 @@
 <body>
 
 	<div class='page-head'>
-		<div class='logo'><img src='images/logo.png'></div>
+		<a href='index.html'>
+			<div class='logo'>
+				<!-- <img id='logo-image'> -->
+				<img src='images/logo.gif'>
+			</div>
+		</a>
 		<div class='nav'>
 			<ul>
-				<li><a href='gd.html'>Graphic Design</a></li>
+				<li><a href='graphic-design.html'>Graphic Design</a></li>
 				<li><a href='illustration.html'>Fine Art/Illustration</a></li>
 				<li><a href='about.html'>About</a></li>
 			</ul>
 		</div>
 		<div class='clear'></div>
+		<div class='rule'>
+			<img id='rule-image'>
+		</div>
 		<hr>
 	</div>
 	<div class='clear'></div>
 	<div class='page-content'>
+		<div class='hero-image'>
+			<!-- <img src='images/sp-cover-hero.png'> -->
+		</div>
+		<div class='work-image'>
+			<!-- <img src='images/space-stomp.jpg'> -->
+		</div>
+		<div class='work-image'>
+			<!-- <img src='images/store.jpg'> -->
+		</div>
+		<div class='work-image'>
+		</div>
+		<div class='work-image'>
+		</div>
+		<div class='clear'></div>
+		<hr>
+		<div class='rule'>
+			<!-- <img id='bottom-rule-image'> -->
+			<img src='images/rule.gif'>
+		</div>
+		</div>
+		<div class='footer'>
+			<p>This is my footer.</p>
+		</div>
 	</div>
 
 </body>
+
+<script>
+	var logo = [
+	  'images/logo.png',
+	  'images/logo-red.png',
+	  'images/logo-blue.png',
+	  'images/logo-purple.png',
+	  'images/logo-orange.png',
+	  'images/logo-pink.png',
+	  'images/logo-green.png'
+	];
+
+	var size = logo.length
+	var x = Math.floor(size*Math.random())
+	document.getElementById('logo-image').src=logo[x];
+
+	var rule = [
+	  'images/rule.jpg',
+	  'images/rule-red.jpg',
+	  'images/rule-blue.jpg',
+	  'images/rule-purple.jpg',
+	  //'images/rule-orange.jpg',
+	  'images/rule-pink.jpg'//,
+	  // 'images/rule-green.jpg',
+	];
+
+	var size = rule.length
+	var x = Math.floor(size*Math.random())
+	document.getElementById('rule-image').src=rule[x];
+</script>
+
+
 </html>
+
+

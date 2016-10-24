@@ -146,8 +146,8 @@ a {
 	width:1190px;
 	max-width: 1190px;
 	height:794px;;
-/*	background: black;
-*/	display: inline-block;
+	background: black;
+	display: inline-block;
 	margin: 10px 0px;
 }
 .hero-image img {
