@@ -97,7 +97,7 @@ a {
 	max-width: 390px;
 	max-height: 390px;
 }
-.overlay {
+/*.overlay {
     top: 0;
     left: 0;
     height:390px;
@@ -114,7 +114,7 @@ a {
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
-}
+}*/
 .info {
 	vertical-align: bottom;
 	position: absolute;
