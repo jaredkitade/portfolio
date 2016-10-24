@@ -113,6 +113,11 @@ a {
 	font-family:'Brandon Text W01 Regular';
 	text-transform: capitalize;
 }
+.footer, .footer img {
+	margin: 0 auto;
+	width: 1190px;
+	height: 150px;
+}
 .hero-image {
 	width:1190px;
 	max-width: 1190px;
