@@ -10,9 +10,9 @@ body {
 	line-height: 1.4em;
 }
 hr {
-	width: 1200px;
+	/*width: 1200px;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 0 auto;*/
 }
 h1 {
 	font-family:'Brandon Grot W01 Black';
@@ -47,6 +47,7 @@ a {
 .logo {
 	height: 125px;
 	width:97px;
+	float:left;
 }
 .logo img {
 	height: 125px;
@@ -55,7 +56,6 @@ a {
 }
 .nav {
 	font-size: 10pt;
-	font-family:'Brandon Grot W01 Bold';
 	text-transform: uppercase;
 	float: left;
 	position: relative;
@@ -65,7 +65,8 @@ a {
 	margin: 0;
 	padding: 0;
 }
-.nav li {
+.nav li {		
+	font-family:'Brandon Grot W01 Bold';
 	display: inline-block;
 	margin-right: 20px;
 }
