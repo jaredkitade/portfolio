@@ -17,7 +17,7 @@ h1 {
 	font-weight: normal;
 }
 h2 {
-	font-family:'Brandon Grot W01 Bold';
+	font-family:'Brandon Grot W01 Black';
 	font-size: 10pt;
 	margin: 0;
 	font-weight: normal;
@@ -27,15 +27,23 @@ h2 {
 a {
 	text-decoration: none;
 	color: black;
+	cursor:pointer;
 }
-.page {
-	
+.page-head {
+	width: 1200px;
+	margin: 0 auto;
+	height: 150px;
+}
+.page-content {
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
 }
 .logo {
 
 }
 .nav {
-	font-size: 12pt;
+	font-size: 10pt;
 	font-family:'Brandon Grot W01 Bold';
 	text-transform: uppercase;
 	float: left;
@@ -48,7 +56,7 @@ a {
 }
 .nav li {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 .clear {
 	clear: both;
@@ -61,11 +69,9 @@ a {
 .thumbnail {
 	display: inline-block;
 	margin: 0px 7px 10px 0px;
-/*	border:1px solid black;
-*/	height:430px;
+	height:430px;
 	width:390px;
-/*	padding:5px;
-*/	position: relative;
+	position: relative;
 }
 .thumbnail-img {
 	width: 390px;
@@ -77,9 +83,6 @@ a {
 .info {
 	vertical-align: bottom;
 	position: absolute;
-	/*bottom: 2px;
-	left: 5px;
-	height: 25px;*/
 	bottom: 0px;
 	left: 0px;
 	width: 350px;
