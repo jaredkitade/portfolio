@@ -10,9 +10,8 @@ body {
 	line-height: 1.4em;
 }
 hr {
-	/*width: 1200px;
-	max-width: 1200px;
-	margin: 0 auto;*/
+	margin-left:0;
+	width:1190px;
 }
 h1 {
 	font-family:'Brandon Grot W01 Black';
@@ -72,7 +71,7 @@ a {
 .clear {
 	clear: both;
 }
-.projects {
+.projects {	
 	max-width: 1200px;
 	margin:0 auto;
 	height: auto;
