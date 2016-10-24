@@ -9,6 +9,11 @@ body {
 	color: black;
 	line-height: 1.4em;
 }
+hr {
+	width: 1200px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 h1 {
 	font-family:'Brandon Grot W01 Black';
 	font-size: 24pt;
