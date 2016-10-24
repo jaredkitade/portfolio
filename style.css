@@ -159,14 +159,14 @@ a {
 .work-image {
 	display: inline-block;
 	margin: 0px 7px 10px 0px;
-	height:334px;
+	height:auto;
 	width:590px;
 	position: relative;
 	background: black;
 }
 .work-image img {
 	display: block;
-	height:334px;
+	height:auto;
 	width:590px;
 	background: black;
 }
