@@ -47,15 +47,11 @@ a {
 	margin: 0 auto;
 	height: auto;
 }
-.logo {
-	height: 125px;
-	width:97px;
+.logo, .logo img{
+	height: 100;
+	width:auto;
 /*	float:left;
 */}
-.logo img {
-	height: 125px;
-	width: 97px;
-}
 .nav {
 	float: left;
 	position: relative;
