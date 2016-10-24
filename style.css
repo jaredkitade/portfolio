@@ -53,10 +53,7 @@ a {
 	height: 125px;
 	width: 97px;
 }
-}
 .nav {
-	font-size: 10pt;
-	text-transform: uppercase;
 	float: left;
 	position: relative;
 }
@@ -67,6 +64,8 @@ a {
 }
 .nav li {		
 	font-family:'Brandon Grot W01 Bold';
+	font-size: 10pt;
+	text-transform: uppercase;
 	display: inline-block;
 	margin-right: 20px;
 }
