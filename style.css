@@ -36,6 +36,7 @@ a {
 .page-head {
 	width: 1200px;
 	margin: 0 auto;
+	margin-top:10px;
 }
 .page-content {
 	width: 1200px;
