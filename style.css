@@ -97,6 +97,24 @@ a {
 	max-width: 390px;
 	max-height: 390px;
 }
+.overlay {
+    top: 0;
+    left: 0;
+    height:390px;
+    width:390px;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    z-index: 99;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+.overlay:hover {
+	background: none;
+	-webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
 .info {
 	vertical-align: bottom;
 	position: absolute;
