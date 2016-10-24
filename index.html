@@ -9,7 +9,10 @@
 </head>
 <body>
 	<div class='page-head'>
-		<div class='logo'><img src='images/logo.png'></div>
+		<div class='logo'>
+			<img id='image'>
+			<!-- <img src='images/logo.png'> -->
+		</div>
 		<div class='nav'>
 			<ul>
 				<li><a href='gd.html'>Graphic Design</a></li>
@@ -114,4 +117,22 @@
 		</div>
 	</div>
 </body>
+<script>
+	var description = [
+	  'images/logo.png',
+	  'images/logo-red.png',
+	  'images/logo-blue.png',
+	  'images/logo-purple.png',
+	  'images/logo-orange.png',
+	  'images/logo-pink.png',
+	  'images/logo-green.png',
+	];
+
+	var size = description.length
+	var x = Math.floor(size*Math.random())
+	document.getElementById('image').src=description[x];
+</script>
 </html>
+
+
+
