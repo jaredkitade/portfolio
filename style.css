@@ -68,7 +68,12 @@ a {
 	display: inline-block;
 	margin-right: 30px;
 }
-.rule, .rule img {
+.rule {
+	width: 1190px;
+	height: 10px;
+	margin-bottom: 10px;
+}
+.rule img {
 	width: 1190px;
 	height: 10px;
 }
