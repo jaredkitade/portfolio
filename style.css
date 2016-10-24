@@ -45,7 +45,13 @@ a {
 	height: auto;
 }
 .logo {
-	
+	height: 125px;
+	width:97px;
+}
+.logo img {
+	height: 125px;
+	width: 97px;
+}
 }
 .nav {
 	font-size: 10pt;
