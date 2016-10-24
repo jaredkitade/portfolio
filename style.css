@@ -17,7 +17,7 @@ h1 {
 	font-weight: normal;
 }
 h2 {
-	font-family:'Brandon Grot W01 Black';
+	font-family:'Brandon Grot W01 Bold';
 	font-size: 10pt;
 	margin: 0;
 	font-weight: normal;
@@ -90,6 +90,7 @@ a {
 .project-description {
 	color:#bcbcbc;
 	font-family:'Brandon Text W01 Regular';
+	text-transform: capitalize;
 }
 .hero-image {
 
