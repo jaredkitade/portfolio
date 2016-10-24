@@ -116,18 +116,18 @@ a {
 .hero-image {
 	width:1190px;
 	max-width: 1190px;
-	height:auto;
+	height:794px;;
 	background: black;
 }
 .hero-image img {
 	width:1190px;
 	max-width: 1190px;
-	height:auto;
+	height:794px;
 }
 .work-image-left {
 	display: inline-block;
 	margin: 0px 7px 10px 0px;
-	height:auto;
+	height:334px;
 	width:595px;
 	position: relative;
 	background: black;
@@ -135,7 +135,7 @@ a {
 .work-image-right {
 	display: inline-block;
 	margin: 0px 7px 0px 0px;
-	height:auto;
+	height:334px;
 	width:595px;
 	position: relative;
 	background: black;
