@@ -114,13 +114,31 @@ a {
 	text-transform: capitalize;
 }
 .hero-image {
-
+	width:1190px;
+	max-width: 1190px;
+	height:auto;
+	background: black;
 }
 .hero-image img {
-
+	width:1190px;
+	max-width: 1190px;
+	height:auto;
 }
-.work-image {
-
+.work-image-left {
+	display: inline-block;
+	margin: 0px 7px 10px 0px;
+	height:auto;
+	width:595px;
+	position: relative;
+	background: black;
+}
+.work-image-right {
+	display: inline-block;
+	margin: 0px 7px 0px 0px;
+	height:auto;
+	width:595px;
+	position: relative;
+	background: black;
 }
 .work-text {
 
