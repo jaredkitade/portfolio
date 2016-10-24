@@ -11,7 +11,7 @@ body {
 }
 hr {
 	margin-left:0;
-	width:1200px;
+	width:1190px;
 }
 h1 {
 	font-family:'Brandon Grot W01 Black';
@@ -69,12 +69,12 @@ a {
 	margin-right: 30px;
 }
 .rule {
-	width: 1200px;
+	width: 1190px;
 	height: 10px;
 	margin-bottom: 10px;
 }
 .rule img {
-	width: 1200px;
+	width: 1190px;
 	height: 10px;
 }
 .clear {
