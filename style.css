@@ -148,7 +148,8 @@ a {
 .hero-image {
 	width:1190px;
 	max-width: 1190px;
-	height:794px;;
+	/*height:794px;*/
+	height: auto;
 	background: black;
 	display: inline-block;
 	margin: 10px 0px;
