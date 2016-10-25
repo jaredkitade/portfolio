@@ -157,7 +157,7 @@ a {
 .hero-image img {
 	width:1190px;
 	max-width: 1190px;
-	height:794px;
+	height:auto;
 	display: block;
 }
 .work-image {
