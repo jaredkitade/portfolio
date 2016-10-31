@@ -179,10 +179,10 @@ a {
 }
 @media only screen and (max-width: 1200px) {
 	.page-head {
-		width: 920px;
+		width: 921px;
 	}
 	.page-content {
-		width: 920px;
+		width: 921px;
 	}
 	.thumbnail {
 		width:300px;
@@ -196,6 +196,12 @@ a {
 	}	
 	.info {
 		width:300px;
+	}
+	hr {
+		width: 921px;
+	}
+	.rule, .rule img {
+		width: 921px;
 	}
 }
 
