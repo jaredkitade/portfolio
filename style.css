@@ -231,3 +231,31 @@ a {
 		width: 621px;
 	}
 }
+@media only screen and (max-width: 650px) {
+	.page-head {
+		width: 100%;
+	}
+	.page-content {
+		width: 100%;
+	}
+	.thumbnail {
+		width:100%;
+		height:auto;
+		display: block;
+	}
+	.thumbnail img, .thumbnail-img {
+		width:100%;
+		height:auto;
+		max-width:100%;
+		max-height:auto;
+	}	
+	.info {
+		width:100%;
+	}
+	hr {
+		width: 100%;
+	}
+	.rule, .rule img {
+		width: 100%;
+	}
+}
