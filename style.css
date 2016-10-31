@@ -177,3 +177,25 @@ a {
 .work-text {
 
 }
+@media only screen and (min-width: 1200px) {
+	.page-head {
+		width: 920px;
+	}
+	.page-content {
+		width: 920px;
+	}
+	.thumbnail {
+		width:300px;
+		height:330px;
+	}
+	.thumbnail img {
+		width:300px;
+		height:300px;
+		max-width:300px;
+		max-height:300px;
+	}	
+	.info {
+		width:300px;
+	}
+}
+
