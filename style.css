@@ -204,4 +204,30 @@ a {
 		width: 921px;
 	}
 }
-
+@media only screen and (max-width: 950px) {
+	.page-head {
+		width: 621px;
+	}
+	.page-content {
+		width: 621px;
+	}
+	.thumbnail {
+		width:200px;
+		height:225px;
+	}
+	.thumbnail img, .thumbnail-img {
+		width:200px;
+		height:200px;
+		max-width:200px;
+		max-height:200px;
+	}	
+	.info {
+		width:200px;
+	}
+	hr {
+		width: 621px;
+	}
+	.rule, .rule img {
+		width: 621px;
+	}
+}
