@@ -231,7 +231,7 @@ a {
 		width: 621px;
 	}
 }
-@media only screen and (max-width: 650px) {
+/*@media only screen and (max-width: 650px) {
 	.page-head {
 		width: 100%;
 	}
@@ -242,12 +242,13 @@ a {
 		width:100%;
 		height:auto;
 		display: block;
-	}
+		max-height:none;
+		max-width: none;	}
 	.thumbnail img, .thumbnail-img {
 		width:100%;
 		height:auto;
-		max-width:100%;
-		max-height:auto;
+		max-height:none;
+		max-width: none;
 	}	
 	.info {
 		width:100%;
@@ -258,4 +259,4 @@ a {
 	.rule, .rule img {
 		width: 100%;
 	}
-}
+}*/
