@@ -11,10 +11,7 @@
 	<?php include 'page-head.html'; ?>
 	<div class='clear'></div>
 	<div class='page-content'>
-
 		<div class='projects'>
-		
-			
 			<div class='thumbnail'>
 				<a href='sound-pack.html'>
 					<img src='images/home/sp-cover.jpg'>
