@@ -42,13 +42,13 @@ a {
 	transform:translate(-50%,0);
 	z-index: 1;
 	background: white;
-	height:165px;
+	height:120px;
 }
 .page-content {
 	width: 1200px;
 	margin: 0 auto;
 	height: auto;
-	margin-top:160px;
+	margin-top:118px;
 	margin-bottom: 80px;
 }
 .logo, .logo img{
@@ -60,7 +60,7 @@ a {
 	float: left;
 	position: absolute;
 	right:0;
-	bottom: 56px;
+	bottom: 12px;
 }
 .nav ul {
 	list-style: none;
