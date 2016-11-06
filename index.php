@@ -8,27 +8,7 @@
 	<link rel="shortcut icon" type="img/png" href="images/favicon.ico">
 </head>
 <body>
-	<div class='page-head'>
-		<a href='index.html'>
-			<div class='logo'>
-				<!-- <img id='logo-image'> -->
-				<img src='images/logo.gif'>
-			</div>
-		</a>
-		<div class='nav'>
-			<ul>
-				<li><a href='index.html'>Graphic Design</a></li>
-				<li><a href='illustration.html'>Fine Art/Illustration</a></li>
-				<li><a href='about.html'>About</a></li>
-			</ul>
-		</div>
-		<div class='clear'></div>
-		<div class='rule'>
-			<!-- <img id='rule-image'> -->
-			<img src='images/rule.gif'>
-		</div>
-		<hr>
-	</div>
+	<?php include 'page-head.html'; ?>
 	<div class='clear'></div>
 	<div class='page-content'>
 
