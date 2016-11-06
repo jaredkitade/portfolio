@@ -49,6 +49,7 @@ a {
 	margin: 0 auto;
 	height: auto;
 	margin-top:160px;
+	margin-bottom: 80px;
 }
 .logo, .logo img{
 	height: 100px;
@@ -57,7 +58,9 @@ a {
 */}
 .nav {
 	float: left;
-	position: relative;
+	position: absolute;
+	right:0;
+	bottom: 56px;
 }
 .nav ul {
 	list-style: none;
@@ -148,7 +151,7 @@ a {
 	font-size: 8pt;
 	font-family:'Brandon Text W01 Light';
 	background: white;
-	height:60px;
+	height:80px;
 	bottom:0;	
 	position: fixed;
 }
