@@ -36,17 +36,19 @@ a {
 .page-head {
 	width: 1200px;
 	margin: 0 auto;
-	margin-top:10px;
 	position: fixed;
 	top:0;
+	left:50%;
+	transform:translate(-50%,0);
 	z-index: 1;
 	background: white;
-	height:200px;
+	height:165px;
 }
 .page-content {
 	width: 1200px;
 	margin: 0 auto;
 	height: auto;
+	margin-top:160px;
 }
 .logo, .logo img{
 	height: 100px;
@@ -148,6 +150,7 @@ a {
 	background: white;
 	height:60px;
 	bottom:0;	
+	position: fixed;
 }
 .hero-image {
 	width:1190px;
