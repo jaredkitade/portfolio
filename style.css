@@ -11,7 +11,7 @@ body {
 }
 hr {
 	margin-left:0;
-	width:1190px;
+	width:1200px;
 }
 h1 {
 	font-family:'Brandon Grot W01 Black';
@@ -75,12 +75,12 @@ li {
 	margin-right: 30px;
 }
 .rule {
-	width: 1190px;
+	width: 1200px;
 	height: 10px;
 	margin-bottom: 10px;
 }
 .rule img {
-	width: 1190px;
+	width: 1200px;
 	height: 10px;
 }
 .clear {
@@ -146,7 +146,7 @@ li {
 	text-transform: capitalize;
 }
 .footer {
-	width: 1190px;
+	width: 1200px;
 	height: auto;
 	font-size: 8pt;
 	font-family:'Brandon Text W01 Light';
@@ -156,7 +156,7 @@ li {
 	position: fixed;
 }
 .hero-image {
-	width:1190px;
+	width:1200px;
 	max-width: 1190px;
 	/*height:794px;*/
 	height: auto;
