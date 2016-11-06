@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Cosplay</title>
+	<title>Concept Lecture Series</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="//fast.fonts.net/jsapi/9fed162e-fca2-4291-b51c-42d1c1f922e4.js"></script>
 	<link rel="shortcut icon" type="img/png" href="images/favicon.ico">
@@ -18,7 +18,7 @@
 		</a>
 		<div class='nav'>
 			<ul>
-				<li><a href='index.html'>Graphic Design</a></li>
+				<li><a href='gd.html'>Graphic Design</a></li>
 				<li><a href='illustration.html'>Fine Art/Illustration</a></li>
 				<li><a href='about.html'>About</a></li>
 			</ul>
@@ -36,7 +36,7 @@
 			<!-- <img src='images/sp-cover-hero.png'> -->
 		</div>
 		<div class='work-image'>
-			<img src='images/cosplay/unzip.jpg'>
+			<!-- <img src='images/space-stomp.jpg'> -->
 		</div>
 		<div class='work-image'>
 			<!-- <img src='images/store.jpg'> -->
@@ -51,9 +51,7 @@
 			<!-- <img id='bottom-rule-image'> -->
 			<img src='images/rule.gif'>
 		</div>
-		<div class='footer'>
-			<p>This is my footer.</p>
-		</div>
+		<?php include 'footer.html'; ?>
 		</div>
 	</div>
 

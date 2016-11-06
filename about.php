@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Illustration</title>
+	<title>About</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="//fast.fonts.net/jsapi/9fed162e-fca2-4291-b51c-42d1c1f922e4.js"></script>
 	<link rel="shortcut icon" type="img/png" href="images/favicon.ico">
@@ -51,12 +51,9 @@
 			<!-- <img id='bottom-rule-image'> -->
 			<img src='images/rule.gif'>
 		</div>
-		<div class='footer'>
-			<p>This is my footer.</p>
+		<?php include 'footer.html'; ?>
 		</div>
-
-		</div>
-			</div>
+	</div>
 
 </body>
 
@@ -92,5 +89,3 @@
 
 
 </html>
-
-

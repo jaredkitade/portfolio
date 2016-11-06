@@ -17,7 +17,7 @@
 		</a>
 		<div class='nav'>
 			<ul>
-				<li><a href='gd.html'>Graphic Design</a></li>
+				<li><a href='index.html'>Graphic Design</a></li>
 				<li><a href='illustration.html'>Fine Art/Illustration</a></li>
 				<li><a href='about.html'>About</a></li>
 			</ul>
@@ -37,7 +37,7 @@
 			
 			<div class='thumbnail'>
 				<a href='sound-pack.html'>
-					<img src='images/sp-cover.jpg'>
+					<img src='images/home/sp-cover.jpg'>
 					<!-- <div class='overlay'>
 						<img src='images/sp-cover.jpg'>
 					</div> -->
@@ -61,7 +61,7 @@
 
 			<div class='thumbnail three'>
 				<a href='remotely-remote.html'>
-					<img src='images/remote.gif'>
+					<img src='images/home/remote.gif'>
 					<div class='info'>
 						<h2>Remotely Remote<h2>
 						<div class='project-description'>Web Design</div>
@@ -84,7 +84,7 @@
 			<div class='thumbnail'>
 				<a href='motion-to-still.html'>
 					<!-- <img src=''> -->
-					<img src='images/a2.gif'>
+					<img src='images/home/a2.gif'>
 					<div class='info'>
 						<h2>Motion to Still<h2>
 						<div class='project-description'>Animation/Web Design</div>
@@ -94,8 +94,8 @@
 
 			<div class='thumbnail three'>
 				<a href='concept.html'>			
-					<!-- <img src=''> -->
-					<div class='thumbnail-img'></div>			
+					<img src='images/home/concept2.gif'>
+					<!-- <div class='thumbnail-img'></div> -->			
 					<div class='info'>
 						<h2>Concept Lecture Series<h2>
 						<div class='project-description'>Web Design</div>
@@ -116,8 +116,9 @@
 			<div class='thumbnail'>
 				<a href='bjork.html'>
 					<!-- <img src=''> -->
-					<div class='thumbnail-img'></div>			
-					<div class='info'>
+					<img src='images/home/bjork.jpg'>
+<!-- 					<div class='thumbnail-img'></div>			
+ -->					<div class='info'>
 						<h2>Bjork: This Is How I'm Feeling<h2>
 						<div class='project-description'>Exhibition Design</div>
 					</div>
@@ -130,9 +131,7 @@
 			<img src='images/rule.gif'>
 		</div>
 		</div>
-		<div class='footer'>
-			<p>This is my footer.</p>
-		</div>
+		<?php include 'footer.html'; ?>
 	</div>
 </body>
 <script>

@@ -71,9 +71,7 @@
 			<!-- <img id='bottom-rule-image'> -->
 			<img src='images/rule.gif'>
 		</div>
-		<div class='footer'>
-			<p>This is my footer.</p>
-		</div>
+		<?php include 'footer.html'; ?>
 	</div>
 </div>
 
