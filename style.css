@@ -182,18 +182,18 @@ li {
 	display: block;
 }
 .work-image {
-	display: inline-block;
+	/*display: inline-block;*/
 	margin: 0px 10px 10px 0px;
 	height:auto;
 	width:595px;
 	position: relative;
 	background: black;
+	float: left;
 }
 .work-image img {
 	display: block;
 	height:auto;
 	width:595px;
-	background: black;
 }
 .work-text {
 
