@@ -40,7 +40,7 @@ a {
 	top:0;
 	left:50%;
 	transform:translate(-50%,0);
-	z-index: 1;
+	z-index: 2;
 	background: white;
 	height:120px;
 }
@@ -121,7 +121,7 @@ li {
     width:393px;
     position: absolute;
     background: rgba(0,0,0,.5);
-    z-index: 99;
+    z-index: 1;
     -webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
@@ -133,7 +133,7 @@ li {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
-.overlay:hover > .info {
+.overlay:hover .info {
 	color: #f04242;
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
@@ -173,6 +173,7 @@ li {
 	height:70px;
 	bottom:0;	
 	position: fixed;
+	z-index: 3;
 }
 .hero-image {
 	width:1200px;
