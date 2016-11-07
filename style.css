@@ -113,9 +113,6 @@ li {
 	max-width: 393px;
 	max-height: 393px;
 }
-.three {
-	margin-right:0;
-}
 /*.overlay {
     top: 0;
     left: 0;
@@ -194,6 +191,9 @@ li {
 	display: block;
 	height:auto;
 	width:595px;
+}
+.three {
+	margin-right:0;
 }
 .work-text {
 
