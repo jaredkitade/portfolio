@@ -146,10 +146,14 @@ li {
 	font-family:'Brandon Text W01 Regular';
 	text-transform: capitalize;
 }
-.fade, .fade img {
+.fade {
 	width: 1200px;
 	bottom:70px;
 	position: absolute;
+	height:30px;
+}
+.fade img {
+	width: 1200px;
 	height:30px;
 }
 .footer {
