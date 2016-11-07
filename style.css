@@ -92,7 +92,8 @@ li {
 	height: auto;
 }
 .thumbnail {
-	display: inline-block;
+	/*display: inline-block;*/
+	float:left;
 	margin: 10px 5px 0px 0px;
 	height:440px;
 	width:395px;
