@@ -146,13 +146,18 @@ li {
 	font-family:'Brandon Text W01 Regular';
 	text-transform: capitalize;
 }
+.fade {
+	width: 1200px;
+	bottom:70px;
+	position: absolute;
+}
 .footer {
 	width: 1200px;
 	height: auto;
 	font-size: 8pt;
 	font-family:'Brandon Text W01 Light';
 	background: white;
-	height:80px;
+	height:70px;
 	bottom:0;	
 	position: fixed;
 }
