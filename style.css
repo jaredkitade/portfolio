@@ -146,7 +146,7 @@ li {
 	font-family:'Brandon Text W01 Regular';
 	text-transform: capitalize;
 }
-.fade {
+.fade, .fade img {
 	width: 1200px;
 	bottom:70px;
 	position: absolute;
