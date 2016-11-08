@@ -32,6 +32,9 @@ a {
 	text-decoration: none;
 	color: black;
 	cursor:pointer;
+	-webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
 }
 .page-head {
 	width: 1200px;
@@ -105,7 +108,7 @@ li {
 	/*display: inline-block;*/
 	float:left;
 	margin: 10px 10px 0px 0px;
-	height:433px;
+	height:393px;
 	width:393px;
 	position: relative;
 }
@@ -135,7 +138,9 @@ li {
     /*background: rgba(0,0,0,.5);*/
     /*background: rgba(255,255,255,.75);*/
     background: none;
+    opacity: 0;
     z-index: 1;
+    text-align: center;
     -webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
@@ -143,6 +148,7 @@ li {
 .overlay:hover {
 	cursor:pointer;
 	background: rgba(255,255,255,.75);
+	opacity:100;
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
