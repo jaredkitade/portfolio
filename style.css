@@ -235,6 +235,7 @@ li {
 	height: auto;
 	display: block;
 	margin:0 auto;
+	margin-top: 40px;
 }
 .body-text {
 	width: 500px;
