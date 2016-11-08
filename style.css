@@ -231,14 +231,17 @@ li {
 	margin-right:0;
 }
 .work-text {
-	width: 500px;
+	width: 600px;
 	height: auto;
 	display: block;
 	margin:0 auto;
 	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 13pt;
+	line-height: 1.4em;
 }
 .body-text {
-	width: 500px;
+	width: 600px;
 	height: auto;
 }
 @media only screen and (max-width: 1200px) {
