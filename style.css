@@ -51,7 +51,7 @@ a {
 	width: 1200px;
 	margin: 0 auto;
 	height: auto;
-	margin-top:118px;
+	margin-top:103px;
 	margin-bottom: 85px;
 }
 .logo, .logo img{
@@ -107,7 +107,7 @@ li {
 .thumbnail {
 	/*display: inline-block;*/
 	float:left;
-	margin: 10px 10px 0px 0px;
+	margin: 25px 10px 0px 0px;
 	height:433px;
 	width:393px;
 	position: relative;
