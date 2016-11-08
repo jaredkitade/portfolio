@@ -115,13 +115,6 @@ li {
 .thumbnail:hover {
 	cursor: pointer;
 }
-.thumbnail-img {
-	width: 393px;
-	height: 393px;
-	max-width: 393px;
-	max-height: 393px;
-	background: black;
-}
 .thumbnail img {
 	display: block;
 	width: 393px;
