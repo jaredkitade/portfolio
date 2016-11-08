@@ -14,8 +14,8 @@ hr {
 	width:1200px;
 }
 h1 {
-	font-family:'Brandon Grot W01 Black';
-	font-size: 24pt;
+	font-family:'Brandon Grot W01 Bold';
+	font-size: 18pt;
 	text-transform: uppercase;
 	margin: 0;
 	font-weight: normal;
@@ -231,7 +231,13 @@ li {
 	margin-right:0;
 }
 .work-text {
-
+	width: 1200px;
+	height: auto;
+	display: block;
+}
+.body-text {
+	width: 500px;
+	height: auto;
 }
 @media only screen and (max-width: 1200px) {
 	.page-head {
