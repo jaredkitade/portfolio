@@ -78,7 +78,7 @@ li {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
-.nav li:hover {
+li:hover {
 	color: #f04242;
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
