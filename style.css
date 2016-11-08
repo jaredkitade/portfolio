@@ -231,9 +231,10 @@ li {
 	margin-right:0;
 }
 .work-text {
-	width: 1200px;
+	width: 500px;
 	height: auto;
 	display: block;
+	margin:0 auto;
 }
 .body-text {
 	width: 500px;
