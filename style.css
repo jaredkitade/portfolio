@@ -272,6 +272,10 @@ li {
 		width: 921px;
 		max-width: 921px;
 	}
+	.work-image, .work-image img {
+		width: 455px;
+		max-width: 455px; 
+	}
 }
 @media only screen and (max-width: 950px) {
 	.page-head {
