@@ -268,6 +268,10 @@ li {
 	.rule, .rule img {
 		width: 921px;
 	}
+	.hero-image, .hero-image img {
+		width: 921px;
+		max-width: 921px;
+	}
 }
 @media only screen and (max-width: 950px) {
 	.page-head {
