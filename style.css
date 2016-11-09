@@ -60,13 +60,14 @@ a {
 .logo, .logo img{
 	height: 70px;
 	width:auto;
+	margin-top:5px;
 /*	float:left;
 */}
 .nav {
 	float: left;
 	position: absolute;
 	right:0;
-	bottom: 12px;
+	bottom: 5px;
 }
 .nav ul {
 	list-style: none;
@@ -93,12 +94,12 @@ li {
 }
 .rule {
 	width: 1200px;
-	height: 10px;
+	height: 5px;
 	margin-bottom: 10px;
 }
 .rule img {
 	width: 1200px;
-	height: 10px;
+	height: 5px;
 }
 .clear {
 	clear: both;
