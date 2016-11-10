@@ -178,7 +178,7 @@ li {
 }
 .fade {
 	width: 1200px;
-	bottom:70px;
+	bottom:55px;
 	position: absolute;
 	height:45px;
 }
@@ -189,10 +189,10 @@ li {
 .footer {
 	width: 1200px;
 	height: auto;
-	font-size: 8pt;
+	font-size: 10pt;
 	font-family:'Brandon Text W01 Light';
 	background: white;
-	height:70px;
+	height:60px;
 	bottom:0;	
 	position: fixed;
 	z-index: 3;
