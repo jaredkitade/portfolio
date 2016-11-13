@@ -240,26 +240,26 @@ li {
 	margin-right:0;
 }
 .work-text {
-	width: 810px;
+	width: 400px;
 	height: auto;
 	display: block;
 	margin:0 auto;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	font-size: 13pt;
 	line-height: 1.4em;
 }
 .project-title {
-	float: left;
-	width: 300px;
-	margin-right: 10px;
+	width: 400px;
+	/*float: left;
+	margin-right: 10px;*/
 	position: relative;
 	line-height: 1.8em;
 }
 .body-text {
-	width: 500px;
+	font-size: 12pt;
+	width: 400px;
 	height: auto;
-	float:left;
+	/*float:left;*/
 	position: relative;
 }
 a.fancybox img {
