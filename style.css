@@ -10,7 +10,7 @@ body {
 	line-height: 1.4em;
 }
 p {
-	margin: 0;
+	margin-top: 0;
 }
 hr {
 	margin-left:0;
@@ -18,25 +18,25 @@ hr {
 }
 h1 {
 	font-family:'Brandon Grot W01 Black';
-	font-size: 18pt;
+	font-size: 22pt;
 	text-transform: uppercase;
 	margin: 0;
 	font-weight: normal;
 }
 h2 {
+	font-family: 'Brandon Text W01 Regular';
+	font-size: 14pt;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+}
+h3 {
 	font-family:'Brandon Grot W01 Bold';
 	font-size: 10pt;
 	margin: 0;
 	font-weight: normal;
 	color: black;
 	text-transform: uppercase;
-}
-h3 {
-	font-family: 'Brandon Text W01 Regular';
-	font-size: 10pt;
-	font-weight: normal;
-	color: black;
-	margin: 0;
 }
 a {
 	text-decoration: none;
@@ -240,7 +240,7 @@ li {
 	margin-right:0;
 }
 .work-text {
-	width: 1000px;
+	width: 810px;
 	height: auto;
 	display: block;
 	margin:0 auto;
@@ -251,12 +251,13 @@ li {
 }
 .project-title {
 	float: left;
-	width: 295px;
+	width: 300px;
 	margin-right: 10px;
 	position: relative;
+	line-height: 1.8em;
 }
 .body-text {
-	width: 695px;
+	width: 500px;
 	height: auto;
 	float:left;
 	position: relative;
