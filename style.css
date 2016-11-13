@@ -48,6 +48,12 @@ a {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
+.link {
+	font-family: 'Brandon Text W01 Bold';
+}
+.link:hover {
+	text-decoration: underline;
+}
 .email:hover {
 	text-decoration: underline;
 }
