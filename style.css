@@ -48,9 +48,6 @@ a {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
-.email:hover {
-	text-decoration: underline;
-}
 .page-head {
 	width: 1200px;
 	margin: 0 auto;
@@ -291,6 +288,9 @@ a.fancybox img {
     -webkit-transform: scale(1.03,1.03); 
     transform: scale(1.03,1.03);
 }*/
+.email:hover {
+	text-decoration: underline;
+}
 .link {
 	font-family: 'Brandon Text W01 Bold';
 }
