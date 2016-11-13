@@ -9,6 +9,9 @@ body {
 	color: black;
 	line-height: 1.4em;
 }
+p {
+	margin: 0;
+}
 hr {
 	margin-left:0;
 	width:1200px;
