@@ -261,6 +261,7 @@ li {
 	height: auto;
 	/*float:left;*/
 	position: relative;
+	line-height: 1.4em;
 }
 a.fancybox img {
     border: none;
