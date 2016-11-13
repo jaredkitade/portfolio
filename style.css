@@ -254,7 +254,7 @@ li {
 .project-title {
 	/*width: 400px;*/
 	margin-bottom: 40px;
-	width: 595px;
+	width: 400px;
 	float: left;
 	margin-right: 10px;
 	position: relative;
@@ -263,7 +263,7 @@ li {
 .body-text {
 	/*width: 400px;*/
 	font-size: 12pt;
-	width: 595px;
+	width: 790px;
 	float:left;
 	height: auto;
 	position: relative;
