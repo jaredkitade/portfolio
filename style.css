@@ -240,7 +240,8 @@ li {
 	margin-right:0;
 }
 .work-text {
-	width: 400px;
+	/*width: 400px;*/
+	width: 890px;
 	height: auto;
 	display: block;
 	margin:0 auto;
@@ -249,17 +250,19 @@ li {
 	line-height: 1.4em;
 }
 .project-title {
-	width: 400px;
-	/*float: left;
-	margin-right: 10px;*/
+	/*width: 400px;*/
+	width: 280px;
+	float: left;
+	margin-right: 10px;
 	position: relative;
 	line-height: 1.8em;
 }
 .body-text {
+	/*width: 400px;*/
 	font-size: 12pt;
-	width: 400px;
+	width: 600px;
 	height: auto;
-	/*float:left;*/
+	float:left;
 	position: relative;
 	line-height: 1.4em;
 }
