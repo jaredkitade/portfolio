@@ -25,10 +25,12 @@ h1 {
 }
 h2 {
 	font-family: 'Brandon Text W01 Regular';
-	font-size: 14pt;
+	font-size: 10pt;
 	font-weight: normal;
 	/*color: #bcbcbc;*/
 	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: .5px;
 }
 h3 {
 	font-family:'Brandon Grot W01 Bold';
@@ -251,12 +253,12 @@ li {
 }
 .project-title {
 	width: 400px;
-	margin-bottom: 32px;
+	margin-bottom: 40px;
 	/*width: 280px;
 	float: left;*/
 	margin-right: 10px;
 	position: relative;
-	line-height: 2em;
+	line-height: 2.2em;
 }
 .body-text {
 	width: 400px;
