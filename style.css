@@ -207,8 +207,8 @@ li {
 	margin: 25px 0px 0px 0px;
 }
 .hero-image img {
-	width:1200px;
-	max-width: 1200px;
+	width:100%;
+	max-width: 100%;
 	height:auto;
 	display: block;
 }
@@ -292,10 +292,10 @@ a.fancybox img {
 	.rule, .rule img {
 		width: 921px;
 	}
-	.hero-image, .hero-image img {
+	/*.hero-image, .hero-image img {
 		width: 921px;
 		max-width: 921px;
-	}
+	}*/
 	.work-image, .work-image img {
 		width: 455px;
 		max-width: 455px; 
