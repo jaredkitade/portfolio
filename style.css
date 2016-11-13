@@ -27,7 +27,7 @@ h2 {
 	font-family: 'Brandon Text W01 Regular';
 	font-size: 14pt;
 	font-weight: normal;
-	color: #bcbcbc;
+	/*color: #bcbcbc;*/
 	margin: 0;
 }
 h3 {
@@ -255,7 +255,7 @@ li {
 	float: left;
 	margin-right: 10px;
 	position: relative;
-	line-height: 1.8em;
+	line-height: 2em;
 }
 .body-text {
 	/*width: 400px;*/
