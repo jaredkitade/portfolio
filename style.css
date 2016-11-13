@@ -28,6 +28,13 @@ h2 {
 	color: black;
 	text-transform: uppercase;
 }
+h3 {
+	font-family: 'Brandon Text W01 Regular';
+	font-size: 10pt;
+	font-weight: normal;
+	color: black;
+	margin: 0;
+}
 a {
 	text-decoration: none;
 	color: black;
@@ -230,7 +237,7 @@ li {
 	margin-right:0;
 }
 .work-text {
-	width: 600px;
+	width: 1000px;
 	height: auto;
 	display: block;
 	margin:0 auto;
@@ -239,9 +246,17 @@ li {
 	font-size: 13pt;
 	line-height: 1.4em;
 }
+.project-title {
+	float: left;
+	width: 295px;
+	margin-right: 10px;
+	position: relative;
+}
 .body-text {
-	width: 600px;
+	width: 695px;
 	height: auto;
+	float:left;
+	position: relative;
 }
 a.fancybox img {
     border: none;
