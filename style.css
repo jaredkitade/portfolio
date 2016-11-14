@@ -360,8 +360,75 @@ a.fancybox img {
 		float: none;
 	}
 }
-/*------------------------------------------------------------iPHONE 6*/
+/*------------------------------------------------------------iPHONE 6s*/
 @media only screen and (max-width: 650px) {
+	.page-head {
+		width: 395px;
+	}
+	.page-content {
+		width: 395px;
+	}
+	.footer {
+		width: 395px;
+	}
+	.nav {
+		float: none;
+	}
+	.nav li {
+		font-size: 8pt;
+		margin-right: 12px;
+	}
+	.logo {
+		float: none;
+	}
+	.thumbnail {
+		width:395px;
+		height:425px;
+		display: block;
+		max-height:none;
+		max-width: none;
+		float: none;	
+	}
+	.thumbnail img, .thumbnail-img {
+		width:395px;
+		height:auto;
+		max-height:none;
+		max-width: none;
+	}	
+	.info {
+		width:395px;
+		top: 400px;
+	}
+	.rule, .rule img {
+		width: 395px;
+	}
+	.work-text {
+		width: 395px;
+	}
+	.project-title {
+		float: none;
+		width: 395px;
+		margin-right: 0;
+	}
+	.body-text {
+		float: none;
+		width: 395px;
+	}
+	.hero-image, .hero-image img {
+		width: 395px;
+		max-width: 395px;
+		float: none;
+	}
+	.work-image, .work-image img {
+		width: 395px;
+		max-width: 395px;
+		float: none;
+	}
+	.three {
+		margin-right: 0;
+	}
+	/*------------------------------------------------------------iPHONE 6*/
+@media only screen and (max-width: 375px) {
 	.page-head {
 		width: 350px;
 	}
