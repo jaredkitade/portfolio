@@ -126,6 +126,7 @@ li {
 	height:433px;
 	width:393px;
 	position: relative;
+	cursor: pointer;
 }
 .thumbnail:hover {
 	cursor: pointer;
@@ -138,6 +139,7 @@ li {
 	max-height: 393px;
 }
 .overlay {
+	cursor: pointer;
     top: 0;
     left: 0;
     height:393px;
