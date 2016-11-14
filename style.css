@@ -265,11 +265,12 @@ a.fancybox img {
 .link:hover {
 	text-decoration: underline;
 }
-a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover, .overlay:hover {
+.thumbnail:hover, .work-image:hover, .hero-image:hover, .overlay:hover, .nav li:hover {
 	cursor: pointer;
 }
 .nav a:hover {
 	/*color: #f04242;*/
+	cursor: pointer;
 	text-decoration: underline;
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
