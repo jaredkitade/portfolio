@@ -49,6 +49,7 @@ a {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
+/*---------------------------------------------------------------HOME PAGE*/
 .page-head {
 	width: 1200px;
 	margin: 0 auto;
@@ -129,7 +130,6 @@ li {
 	max-height: 393px;
 }
 .overlay {
-	cursor: pointer;
     top: 0;
     left: 0;
     height:393px;
@@ -191,6 +191,7 @@ li {
 	position: fixed;
 	z-index: 3;
 }
+/*---------------------------------------------------------------WORK PAGES*/
 .hero-image {
 	width:1200px;
 	max-width: 1200px;
@@ -254,6 +255,7 @@ li {
 a.fancybox img {
     border: none;
 } 
+/*--------------------------------------------------------------------HOVER*/
 .email:hover {
 	text-decoration: underline;
 }
@@ -263,7 +265,7 @@ a.fancybox img {
 .link:hover {
 	text-decoration: underline;
 }
-a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover {
+a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover, .overlay:hover {
 	cursor: pointer;
 }
 .nav a:hover {
@@ -274,7 +276,6 @@ a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover {
     transition: .2s ease-out;
 }
 .thumbnail:hover .overlay {
-	cursor: pointer;
 	z-index: 99;
 	background: rgba(255,255,255,.5);
 	/*background: rgba(0,0,0,.5);*/
@@ -289,6 +290,7 @@ a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }*/
+/*------------------------------------------------------------MEDIA QUERIES*/
 @media only screen and (max-width: 1200px) {
 	.page-head {
 		width: 921px;
