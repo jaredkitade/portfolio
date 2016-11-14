@@ -135,7 +135,7 @@ li {
 .info {
 	vertical-align: bottom;
 	position: absolute;
-	bottom: 0px;
+	top: 398px;
 	left: 0px;
 	width: 393px;
 	-webkit-transition: .2s ease-out;
