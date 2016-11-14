@@ -240,7 +240,7 @@ a.fancybox img {
 .link:hover {
 	text-decoration: underline;
 }
-.thumbnail:hover, .work-image:hover, .hero-image:hover, .overlay:hover, .nav li:hover {
+.thumbnail:hover, .work-image:hover, .hero-image:hover, .nav li:hover {
 	cursor: pointer;
 }
 .nav a:hover {
@@ -251,14 +251,7 @@ a.fancybox img {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
-/*.thumbnail:hover .overlay {
-	z-index: 99;
-	background: rgba(255,255,255,.5);
-	-webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    transition: .2s ease-out;
-}*/
-.thumbnail:hover .image img {
+.thumbnail:hover {
 	opacity: 70%;
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
@@ -279,7 +272,7 @@ a.fancybox img {
 		width:300px;
 		height:340px;
 	}
-	.thumbnail img, .thumbnail-img, .overlay {
+	.thumbnail img, .thumbnail-img {
 		width:300px;
 		height:300px;
 		max-width:300px;
@@ -323,7 +316,7 @@ a.fancybox img {
 		width:200px;
 		height:240px;
 	}
-	.thumbnail img, .thumbnail-img, .overlay {
+	.thumbnail img, .thumbnail-img {
 		width:200px;
 		height:200px;
 		max-width:200px;
