@@ -294,10 +294,10 @@ a.fancybox img {
 /*------------------------------------------------------------MEDIA QUERIES*/
 @media only screen and (max-width: 1200px) {
 	.page-head {
-		width: 921px;
+		width: 920px;
 	}
 	.page-content {
-		width: 921px;
+		width: 920px;
 	}
 	.thumbnail {
 		width:300px;
@@ -313,26 +313,29 @@ a.fancybox img {
 		width:300px;
 	}
 	hr {
-		width: 921px;
+		width: 920px;
 	}
 	.rule, .rule img {
-		width: 921px;
+		width: 920px;
 	}
 	.hero-image, .hero-image img {
-		width: 921px;
-		max-width: 921px;
+		width: 920px;
+		max-width: 920px;
 	}
 	.work-image, .work-image img {
 		width: 455px;
 		max-width: 455px; 
 	}
+	.body-text {
+		width: 510px;
+	}
 }
 @media only screen and (max-width: 950px) {
 	.page-head {
-		width: 621px;
+		width: 620px;
 	}
 	.page-content {
-		width: 621px;
+		width: 620px;
 	}
 	.thumbnail {
 		width:200px;
@@ -348,10 +351,18 @@ a.fancybox img {
 		width:200px;
 	}
 	hr {
-		width: 621px;
+		width: 620px;
 	}
 	.rule, .rule img {
-		width: 621px;
+		width: 620px;
+	}
+	.hero-image, .hero-image img {
+		width: 620px;
+		max-width: 620px;
+	}
+	.work-image, .work-image img {
+		width: 305px;
+		max-width: 305px;
 	}
 }
 /*@media only screen and (max-width: 650px) {
