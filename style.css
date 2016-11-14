@@ -269,6 +269,9 @@ a.fancybox img {
 	.page-head {
 		width: 920px;
 	}
+	.footer {
+		width: 920px;
+	}
 	.page-content {
 		width: 920px;
 	}
@@ -311,6 +314,9 @@ a.fancybox img {
 		width: 620px;
 	}
 	.page-content {
+		width: 620px;
+	}
+	.footer {
 		width: 620px;
 	}
 	.thumbnail {
@@ -362,6 +368,9 @@ a.fancybox img {
 		width: 350px;
 	}
 	.page-content {
+		width: 350px;
+	}
+	.footer {
 		width: 350px;
 	}
 	.nav {
