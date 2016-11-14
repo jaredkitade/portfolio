@@ -394,6 +394,9 @@ a.fancybox img {
 	.nav {
 		float: none;
 	}
+	.logo {
+		float: none;
+	}
 	.thumbnail {
 		width:350px;
 		height:380px;
