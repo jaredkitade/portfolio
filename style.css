@@ -386,13 +386,14 @@ a.fancybox img {
 /*------------------------------------------------------------iPHONE 6s*/
 @media only screen and (max-width: 650px) {
 	.page-head {
-		width: 395px;
+		width: 396px;
 	}
 	.page-content {
 		width: 395px;
+		margin-top: 100px;
 	}
 	.footer {
-		width: 395px;
+		width: 396px;
 	}
 	.nav {
 		float: none;
