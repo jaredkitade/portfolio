@@ -129,32 +129,6 @@ li {
 	max-width: 393px;
 	max-height: 393px;
 }
-.overlay {
-    top: 0;
-    left: 0;
-    height:393px;
-    width:393px;
-    position: absolute;
-    /*background: rgba(0,0,0,.5);*/
-    /*background: rgba(255,255,255,.75);*/
-    background: none;
-    z-index: 1;
-    -webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    transition: .2s ease-out;
-}
-/*.overlay:hover ~ h2{
-	color: #f04242;
-	-webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    transition: .2s ease-out;
-}
-.overlay:hover ~ .project-description{
-	color: #f04242;
-	-webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    transition: .2s ease-out;
-}*/
 .info {
 	vertical-align: bottom;
 	position: absolute;
@@ -276,21 +250,19 @@ a.fancybox img {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
-.thumbnail:hover .overlay {
+/*.thumbnail:hover .overlay {
 	z-index: 99;
 	background: rgba(255,255,255,.5);
-	/*background: rgba(0,0,0,.5);*/
-	-webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    transition: .2s ease-out;
-}
-/*.overlay:hover {
-	background: rgba(255,255,255,.5);
-	/*background: rgba(0,0,0,.5);
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }*/
+.thumbnail:hover img {
+	opacity: 70%;
+	-webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
 /*------------------------------------------------------------MEDIA QUERIES*/
 @media only screen and (max-width: 1200px) {
 	.page-head {
@@ -393,6 +365,10 @@ a.fancybox img {
 	}
 	.nav {
 		float: none;
+	}
+	.nav li {
+		font-size: 8pt;
+		margin-right: 12px;
 	}
 	.logo {
 		float: none;
