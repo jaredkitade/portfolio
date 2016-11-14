@@ -384,7 +384,7 @@ a.fancybox img {
 		float: none;
 	}
 }
-/*@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) {
 	.page-head {
 		width: 375px;
 	}
@@ -396,7 +396,8 @@ a.fancybox img {
 		height:auto;
 		display: block;
 		max-height:none;
-		max-width: none;	
+		max-width: none;
+		float: none;	
 	}
 	.thumbnail img, .thumbnail-img {
 		width:375px;
@@ -413,4 +414,23 @@ a.fancybox img {
 	.work-text {
 		width: 375px;
 	}
-}*/
+	.project-title {
+		float: none;
+		width: 375px;
+		margin-right: 0;
+	}
+	.body-text {
+		float: none;
+		width: 375px;
+	}
+	.hero-image, .hero-image img {
+		width: 375px;
+		max-width: 375px;
+		float: none;
+	}
+	.work-image, .work-image img {
+		width: 375px;
+		max-width: 375px;
+		float: none;
+	}
+}
