@@ -352,6 +352,8 @@ a.fancybox img {
 	}	
 	.info {
 		width:200px;
+		top:205px;
+		bottom:auto;
 	}
 	hr {
 		width: 620px;
