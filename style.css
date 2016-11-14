@@ -305,6 +305,7 @@ a.fancybox img {
 		width: 510px;
 	}
 }
+/*------------------------------------------------------------13in MACBOOK*/
 @media only screen and (max-width: 950px) {
 	.page-head {
 		width: 620px;
@@ -359,6 +360,7 @@ a.fancybox img {
 		float: none;
 	}
 }
+/*------------------------------------------------------------iPHONE 6*/
 @media only screen and (max-width: 650px) {
 	.page-head {
 		width: 350px;
@@ -420,6 +422,73 @@ a.fancybox img {
 	.work-image, .work-image img {
 		width: 350px;
 		max-width: 350px;
+		float: none;
+	}
+	.three {
+		margin-right: 0;
+	}
+/*------------------------------------------------------------iPHONE 5*/
+@media only screen and (max-width: 320px) {
+	.page-head {
+		width: 300px;
+	}
+	.page-content {
+		width: 300px;
+	}
+	.footer {
+		width: 300px;
+	}
+	.nav {
+		float: none;
+	}
+	.nav li {
+		font-size: 8pt;
+		margin-right: 12px;
+	}
+	.logo {
+		float: none;
+	}
+	.thumbnail {
+		width:300px;
+		height:350px;
+		display: block;
+		max-height:none;
+		max-width: none;
+		float: none;	
+	}
+	.thumbnail img, .thumbnail-img {
+		width:300px;
+		height:auto;
+		max-height:none;
+		max-width: none;
+	}	
+	.info {
+		width:300px;
+		top: 305px;
+	}
+	.rule, .rule img {
+		width: 300px;
+	}
+	.work-text {
+		width: 300px;
+	}
+	.project-title {
+		float: none;
+		width: 300px;
+		margin-right: 0;
+	}
+	.body-text {
+		float: none;
+		width: 300px;
+	}
+	.hero-image, .hero-image img {
+		width: 300px;
+		max-width: 300px;
+		float: none;
+	}
+	.work-image, .work-image img {
+		width: 300px;
+		max-width: 300px;
 		float: none;
 	}
 	.three {
