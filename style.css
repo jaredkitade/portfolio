@@ -95,13 +95,6 @@ li {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
-.nav a:hover {
-	/*color: #f04242;*/
-	text-decoration: underline;
-	-webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    transition: .2s ease-out;
-}
 .rule {
 	width: 1200px;
 	height: 5px;
@@ -128,9 +121,6 @@ li {
 	position: relative;
 	cursor: pointer;
 }
-.thumbnail:hover {
-	cursor: pointer;
-}
 .thumbnail img {
 	display: block;
 	width: 393px;
@@ -150,14 +140,6 @@ li {
     background: none;
     z-index: 1;
     -webkit-transition: .2s ease-out;
-    -moz-transition: .2s ease-out;
-    transition: .2s ease-out;
-}
-.overlay:hover {
-	cursor:pointer;
-	background: rgba(255,255,255,.5);
-	/*background: rgba(0,0,0,.5);*/
-	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
@@ -299,6 +281,24 @@ a.fancybox img {
 }
 .link:hover {
 	text-decoration: underline;
+}
+a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover {
+	cursor: pointer;
+}
+.nav a:hover {
+	/*color: #f04242;*/
+	text-decoration: underline;
+	-webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+.overlay:hover {
+	cursor:pointer;
+	background: rgba(255,255,255,.5);
+	/*background: rgba(0,0,0,.5);*/
+	-webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
 }
 @media only screen and (max-width: 1200px) {
 	.page-head {
