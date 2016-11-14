@@ -269,6 +269,7 @@ a.fancybox img {
 }
 .thumbnail:hover img {
 	opacity: .6;
+	cursor: pointer;
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
