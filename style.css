@@ -292,14 +292,21 @@ a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
-.overlay:hover {
-	cursor:pointer;
+.thumbnail:hover ~ .overlay {
+	cursor: pointer;
 	background: rgba(255,255,255,.5);
 	/*background: rgba(0,0,0,.5);*/
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
 }
+/*.overlay:hover {
+	background: rgba(255,255,255,.5);
+	/*background: rgba(0,0,0,.5);*/
+	-webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}*/
 @media only screen and (max-width: 1200px) {
 	.page-head {
 		width: 921px;
