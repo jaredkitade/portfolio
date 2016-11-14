@@ -41,6 +41,14 @@ h3 {
 	color: black;
 	text-transform: uppercase;
 }
+h4 {
+	font-family:'Brandon Grot W01 Black';
+	font-size: 16pt;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.2em;
+}
 a {
 	text-decoration: none;
 	color: black;
