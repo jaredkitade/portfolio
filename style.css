@@ -129,7 +129,7 @@ li {
 	max-height: 393px;
 }
 .overlay {
-	/*cursor: pointer;*/
+	cursor: pointer;
     top: 0;
     left: 0;
     height:393px;
@@ -253,26 +253,7 @@ li {
 }
 a.fancybox img {
     border: none;
-   /* -o-transform: scale(1,1); 
-    -ms-transform: scale(1,1); 
-    -moz-transform: scale(1,1); 
-    -webkit-transform: scale(1,1); 
-    transform: scale(1,1); 
-    -o-transition: all 0.2s ease-in-out; 
-    -ms-transition: all 0.2s ease-in-out; 
-    -moz-transition: all 0.2s ease-in-out; 
-    -webkit-transition: all 0.2s ease-in-out; 
-    transition: all 0.2s ease-in-out;*/
 } 
-/*a.fancybox:hover img {
-    position: relative;
-    z-index: 999; 
-    -o-transform: scale(1.03,1.03); 
-    -ms-transform: scale(1.03,1.03); 
-    -moz-transform: scale(1.03,1.03); 
-    -webkit-transform: scale(1.03,1.03); 
-    transform: scale(1.03,1.03);
-}*/
 .email:hover {
 	text-decoration: underline;
 }
@@ -294,6 +275,7 @@ a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover {
 }
 .thumbnail:hover .overlay {
 	cursor: pointer;
+	z-index: 99;
 	background: rgba(255,255,255,.5);
 	/*background: rgba(0,0,0,.5);*/
 	-webkit-transition: .2s ease-out;
@@ -302,7 +284,7 @@ a:hover, .thumbnail:hover, .work-image:hover, .hero-image:hover {
 }
 /*.overlay:hover {
 	background: rgba(255,255,255,.5);
-	/*background: rgba(0,0,0,.5);*/
+	/*background: rgba(0,0,0,.5);
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
