@@ -416,4 +416,7 @@ a.fancybox img {
 		max-width: 350px;
 		float: none;
 	}
+	.three {
+		margin-right: 0;
+	}
 }
