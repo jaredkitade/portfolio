@@ -44,7 +44,7 @@ h3 {
 a {
 	text-decoration: none;
 	color: black;
-	cursor:pointer;
+	/*cursor:pointer;*/
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
@@ -90,7 +90,7 @@ li {
 	text-transform: uppercase;
 	display: inline-block;
 	margin-right: 30px;
-	cursor:pointer;
+	/*cursor:pointer;*/
 	-webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
@@ -119,7 +119,7 @@ li {
 	height:433px;
 	width:393px;
 	position: relative;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 .thumbnail img {
 	display: block;
@@ -129,7 +129,7 @@ li {
 	max-height: 393px;
 }
 .overlay {
-	cursor: pointer;
+	/*cursor: pointer;*/
     top: 0;
     left: 0;
     height:393px;
