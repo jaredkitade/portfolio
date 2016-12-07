@@ -265,6 +265,7 @@ a.fancybox img {
 	width: 500px;
 }
 .about-body {
+	font-size: 12pt;
 	width: 500px;
     height: auto;
     display: block;
