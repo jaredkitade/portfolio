@@ -67,17 +67,17 @@ a {
 	transform:translate(-50%,0);
 	z-index: 2;
 	background: white;
-	height:95px;
+	height:79px;
 }
 .page-content {
 	width: 1200px;
 	margin: 0 auto;
 	height: auto;
-	margin-top:73px;
-	margin-bottom: 65px;
+	margin-top:53px;
+	margin-bottom: 60px;
 }
 .logo, .logo img{
-	height: 70px;
+	height: 50px;
 	width:auto;
 	margin-top:5px;
 /*	float:left;
@@ -86,7 +86,7 @@ a {
 	float: left;
 	position: absolute;
 	right:0;
-	bottom: 5px;
+	bottom: 6px;
 }
 .nav ul {
 	list-style: none;
@@ -106,12 +106,12 @@ li {
 }
 .rule {
 	width: 1200px;
-	height: 5px;
+	height: 3px;
 	margin-bottom: 10px;
 }
 .rule img {
 	width: 1200px;
-	height: 5px;
+	height: 3px;
 }
 .clear {
 	clear: both;
