@@ -157,7 +157,7 @@ li {
 }
 .fade {
 	width: 1200px;
-	bottom:40px;
+	bottom:35px;
 	position: absolute;
 	height:45px;
 }
@@ -171,7 +171,7 @@ li {
 	font-size: 8pt;
 	font-family:'Brandon Text W01 Light';
 	background: white;
-	height:40px;
+	height:35px;
 	bottom:0;	
 	position: fixed;
 	z-index: 3;
