@@ -28,11 +28,26 @@
   position: relative;
   outline:none !important;
   transform:scale(.8);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  -ms-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
 
+}
+
+.hamburger:active {
+  background: transparent;
 }
 
 .hamburger:hover {
   opacity: 0.7; 
+  transform:rotate(-45deg) scale(.8);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  -ms-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
 }
 
 .hamburger-box {
