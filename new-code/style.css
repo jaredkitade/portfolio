@@ -55,7 +55,7 @@
 }
 @font-face {
 	font-family: WhitneyHTFSemibold;
-	src: url(assets/fonts/whitney/WhitneyHTF-Semibold.otf);
+	src: url(assets/fonts/whitney/WhitneyHTF-SemiBold.otf);
 }
 @font-face {
 	font-family: WhitneyHTFMedium;
@@ -144,11 +144,11 @@ p {
 	margin-top: 5px;
 }
 .menu {
-	position: absolute;
+	position: fixed;
 	right: -15%;
 	top: 45px;
 	background-color: rgba(255,255,255,.9);
-	width: 40%;
+	width: 25%;
 	height: 100%;
 	z-index: 1;
 	opacity: 0;
@@ -369,7 +369,7 @@ p {
 	width: 350px;
 	height: auto;
 	padding: 30px;
-	z-index: 2;
+	z-index: 100;
 }
 .thumbnail-button>span {
 	z-index: 3;
@@ -414,7 +414,7 @@ p {
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 }
-.thumbnail-button:hover.thumbnail-button>span {
+.thumbnail-portrait:hover > .thumbnail-button>span, .thumbnail-landscape:hover > .thumbnail-button>span {
 	-webkit-transform:translate(-10px,-10px);
 	-moz-transform:translate(-10px,-10px);
 	-o-transform:translate(-10px,-10px);
@@ -425,8 +425,9 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+	cursor: pointer;
 }
-.thumbnail-button:hover::before {
+.thumbnail-portrait:hover > .thumbnail-button::before, .thumbnail-landscape:hover > .thumbnail-button::before {
 	/*background: #0cd1c7;*/
 	-webkit-transform:translate(-10px,-10px);
 	-moz-transform:translate(-10px,-10px);
@@ -438,9 +439,10 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+	cursor: pointer;
 }
 
-.thumbnail-button:hover::after {
+.thumbnail-portrait:hover > .thumbnail-button::after, .thumbnail-landscape:hover > .thumbnail-button::after {
 	/*background: rgba(12,209,199,.6);*/
 	-webkit-transform:translate(10px,10px);
 	-moz-transform:translate(10px,10px);
@@ -452,8 +454,9 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+	cursor: pointer;
 }
-.thumbnail-button:hover + .thumbnail-portrait .overlay, .thumbnail-button:hover + .thumbnail-landscape .overlay {
+.thumbnail-portrait:hover .overlay, .thumbnail-landscape:hover .overlay {
 	opacity: 1;
 	height: 100%;
 	-webkit-transition: .2s ease-in-out;
@@ -461,8 +464,9 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+	cursor: pointer;
 }
-.thumbnail-button:hover + .thumbnail-landscape .bw-overlay, .thumbnail-button:hover + .thumbnail-portrait .bw-overlay {
+.thumbnail-landscape:hover .bw-overlay, .thumbnail-portrait:hover .bw-overlay {
 	/*opacity: 1;*/
 	display: inline-block;
 	-webkit-transition: .2s ease-in-out;
@@ -470,12 +474,13 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+	cursor: pointer;
 }
 
 /*-----------------------------------------------------------------HOME PAGE THUMBNAIL*/
 .center {
 	width: 100%;
-	height: 600px;
+	height: 750px;
 	position: relative;
 	margin-top: 10px;
 	clear: both;
@@ -488,8 +493,10 @@ p {
 	/*background: red;*/
 	margin-top: 10px;
 }
-.thumbnail-landscape, .thumbnail-landscape img {
-	width: 650px;
+.thumbnail-landscape {
+	width: 80%;
+	max-width: 900px;
+	min-width: 550px;
 	height: auto;
 	position: relative;
 	z-index: 1;
@@ -500,8 +507,9 @@ p {
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 }
-.thumbnail-portrait, .thumbnail-portrait img {
-	width: 450px;
+.thumbnail-landscape img {
+	width: 100%;
+	min-width: 550px;
 	height: auto;
 	position: relative;
 	z-index: 1;
@@ -511,6 +519,33 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+}
+.thumbnail-portrait {
+	width: 55%;
+	min-width: 440px;
+	height: auto;
+	position: relative;
+	z-index: 1;
+	display: block;
+	-webkit-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	-ms-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.thumbnail-portrait img {
+	width: 100%;
+	min-width: 400px;
+	height: auto;
+	position: relative;
+	z-index: 1;
+	display: block;
+	-webkit-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	-ms-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
 }
 .thumbnail-portrait img:hover, .thumbnail-landscape img:hover {
 	transform: scale(1.01);
@@ -519,6 +554,9 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+}
+.thumbnail-portrait img, .thumbnail-landscape img {
+	object-fit:cover;
 }
 .bw-overlay {
 	mix-blend-mode: color;
@@ -540,7 +578,7 @@ p {
 .overlay {
 	mix-blend-mode: multiply;
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	left: 0;
 	height: 0%;
 	width: 100%;
@@ -553,12 +591,12 @@ p {
 	transition: .2s ease-in-out;
 }
 #mdes-image {
-	top:80px;
-	left: 90px;
+	top: 15%;
+	left: 10%;
 }
 #mdes-description {
-	top: 140px;
-	left: 300px;
+	top: 15%;
+	left: 55%;
 	background-color: rgba(12,209,199,.7);
 }
 #mdes-description::before {
@@ -573,12 +611,12 @@ p {
 
 
 #nba-image {
-	top:140px;
-	left: 60px;
+	top: 25%;
+	right: -10%;
 }
 #nba-description {
-	top:500px;
-	left: 0px;
+	top:80%;
+	right: 55%;
 	background-color: rgba(50,190,100,.7);
 }
 #nba-description::before {
@@ -592,12 +630,12 @@ p {
 }
 
 #els-image {
-	top:180px;
+	top:20%;
 	left: 50%;
 	transform:translate(-50%,0);
 }
 #els-description {
-	top: 85%;
+	top: 82%;
 	left: 50%;
 	transform:translate(-50%,0);
 	background-color: rgba(237,91,46,.7);
@@ -613,12 +651,12 @@ p {
 }
 
 #diagram-image {
-	top:140px;
-	left: 60px;
+	top:20%;
+	left: 5%;
 }
 #diagram-description {
-	top:400px;
-	left: 120px;
+	top:75%;
+	left: 35%;
 	background-color: rgba(255,65,65,.7);
 }
 #diagram-description::before {
@@ -632,12 +670,12 @@ p {
 }
 
 #remote-image {
-	top:150px;
-	left: 60px;
+	top:25%;
+	right:-7%;
 }
 #remote-description {
-	top:440px;
-	left: 440px;
+	top:75%;
+	right: 5%;
 	background-color: rgba(220,220,30,.7);
 }
 #remote-description::before {
@@ -664,28 +702,26 @@ p {
 	height:auto;
 	float: left;
 	width:60%;
-	min-width: 50%;
-	max-width: 60%;
 	margin-top: 45px;
 	position: relative;
 	background-color: rgba(235,235,235,1);
 }
 .project-right {
-	height: auto;
+	height: 100%;
 	position: fixed;
 	right: 0;
 	top: 0;
 	width: 40%;
-	min-width: 40%;
-	max-width: 50%;
-	margin-top: 70px;
+	min-width: 490px;
 	color: black;
 	background: white;
 }
 .project-head {
 	width: 100%;
+	min-width: 490px
 	height: auto;
 	padding: 30px 10% 25px 10%;
+	margin-top: 70px;
 }
 .project-description {
 	margin:0px 10% 50px 10%;
