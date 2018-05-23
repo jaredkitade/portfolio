@@ -268,38 +268,28 @@ p {
 	bottom:35px;
 	left: 46%;
 	transform:translate(-50%,0);
-	width: 300px;
+	width: auto;
+	margin:0 auto;
 	height: 40px;
 	z-index: 100;
 }
-.drawing {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform:translate(-50%,0);
-}
-.design {
-	position: absolute;
-	left: 0;
-	top:0;
-}
-.about {
-	position: absolute;
-	right: 0;
-	top: 0;
-}
 /*-----------------------------------------------------------------OFFSET BUTTON*/
 .button-container {
-	position: relative;
 	z-index: 1;
+	display: inline-block;
+	height: auto;
+	width: auto;
+	margin-right: 150px;
 }
 .button-container a {
 	color: black;
 }
-
+.end {
+	margin-right: 0;
+}
 .button {
 	position: absolute;
-	width: 110px;
+	min-width: 110px;
 	height: auto;
 	padding: 5px 20px;
 	text-align: center;
@@ -815,20 +805,11 @@ p {
 .caption p {
 	margin: 0;
 	font-size: 14px;
-	/*font-family: WhitneyHTFBook;*/
 }
 .interior-nav {
 	margin: 0px 10% 50px 10%;
-	width: inherit;
+	width: auto;
 	position: relative;
-}
-.previous {
-	position: absolute;
-	left: 0;
-}
-.next {
-	right: -50%;
-	position: absolute;
 }
 .mdes-text {
 	color: rgba(12,209,199,1);
