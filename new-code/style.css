@@ -82,6 +82,7 @@ body {
 }
 a {
 	text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 h1 {
 	margin: 0;
@@ -803,11 +804,12 @@ p {
 .caption {
 	padding: 20px;
 	width: auto;
-	max-width: 500px;
+	max-width: 300px;
 	position: absolute;
 	color: white;
 	bottom: 0;
-	right: 2%;
+	left: 50%;
+	transform:translate(-50%,0%);
 	z-index: 2;
 }
 .caption p {
