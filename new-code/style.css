@@ -150,9 +150,10 @@ p {
 	right: -15%;
 	top: 45px;
 	background-color: rgba(255,255,255,.9);
+	min-width: 400px;
 	width: 25%;
 	height: 100%;
-	z-index: 1;
+	z-index: -1;
 	opacity: 0;
 	padding:0px 5% 50px 5%;
 	-webkit-transition: .25s ease-in-out;
@@ -928,6 +929,22 @@ p {
 	margin: 0px 10% 50px 10%;
 	width: auto;
 	position: relative;
+	font-family: DomaineDisplayBold;
+}
+.previous {
+	position: absolute;
+	left: 0;
+	z-index: 1000;
+}
+.back {
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%,0);
+}
+.next {
+	position: absolute;
+	right: 0;
+	z-index: 1000;
 }
 .mdes-text {
 	color: rgba(12,209,199,1);
