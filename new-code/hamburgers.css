@@ -43,6 +43,7 @@
   -o-transform:rotate(0deg);
   -moz-transform:rotate(0deg);
   -ms-transform:rotate(0deg);
+  transform:scale(.8);
 }
 
 .hamburger:hover {

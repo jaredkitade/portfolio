@@ -8,11 +8,13 @@ $(document).ready(function(){
 	$('.hamburger').click(function(){
 		$('.menu').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
+		$('body').toggleClass('scroll');
 	});
 
 	$('.clickoff').click(function(){
 		hamburger.classList.toggle('is-active');
 		$('.menu').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
+		$('body').toggleClass('scroll');
 	});
 });	
