@@ -9,6 +9,8 @@ $(document).ready(function(){
 		$('.menu').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
+		$('.all').toggleClass('body-menu');
+		$('.project-right').toggleClass('body-menu');
 	});
 
 	$('.clickoff').click(function(){
@@ -16,5 +18,6 @@ $(document).ready(function(){
 		$('.menu').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
+		$('.all').toggleClass('body-menu');
 	});
 });	
