@@ -94,11 +94,17 @@ h1 {
 	font-family: DomaineDisplayBold;
 	letter-spacing: .5px;
 	color: #231f20;
-	animation:1s ease-in 0s 1 fadeload;
+	position: relative;
+	/*animation:1s ease-in 0s 1 fadeload;
 	-webkit-animation:1s ease-in 0s 1 fadeload;
 	-moz-animation:1s ease-in 0s 1 fadeload;
 	-o-animation:1s ease-in 0s 1 fadeload;
-	-ms-animation:1s ease-in 0s 1 fadeload;
+	-ms-animation:1s ease-in 0s 1 fadeload;*/
+	animation:.75s ease-in-out 0s 1 forwards fadeleft;
+	-webkit-animation:.75s ease-in-out 0s 1 forwards fadeleft;
+	-moz-animation:.75s ease-in-out 0s 1 forwards fadeleft;
+	-o-animation:.75s ease-in-out 0s 1 forwards fadeleft;
+	-ms-animation:.75s ease-in-out 0s 1 forwards fadeleft;
 }
 h3 {
 	margin: 0;
@@ -108,6 +114,23 @@ h3 {
 	letter-spacing: .75px;
 	line-height: 1.2em;
 	position: relative;
+}
+ul {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+	-moz-margin-before: 0;
+    -moz-margin-after: 0;
+    -moz-margin-start: 0px;
+    -moz-margin-end: 0px;
+    -moz-padding-start: 0;
+    -o-margin-before: 0;
+    -o-margin-after: 0;
+    -o-margin-start: 0px;
+    -o-margin-end: 0px;
+    -o-padding-start: 0;
 }
 /*h3 > span {
 	border-bottom: 2px solid white;
@@ -139,11 +162,13 @@ h4 {
 	line-height: 1.2em;
 	font-size: 20px;
 	color: #231f20;
-	animation:1s ease-in 0s 1 fadeload;
-	-webkit-animation:1s ease-in 0s 1 fadeload;
-	-moz-animation:1s ease-in 0s 1 fadeload;
-	-o-animation:1s ease-in 0s 1 fadeload;
-	-ms-animation:1s ease-in 0s 1 fadeload;
+	position: relative;	
+	opacity: 0;
+	animation:.75s ease-in-out .15s 1 forwards fadeleft;
+	-webkit-animation:.75s ease-in-out .15s 1 forwards fadeleft;
+	-moz-animation:.75s ease-in-out .15s 1 forwards fadeleft;
+	-o-animation:.75s ease-in-out .15s 1 forwards fadeleft;
+	-ms-animation:.75s ease-in-out .15s 1 forwards fadeleft;
 }
 p {
 	margin: 0;
@@ -159,9 +184,9 @@ p {
 .menu {
 	position: fixed;
 	overflow-y: scroll;
-	right: -15%;
+	right: -25%;
 	top: 45px;
-	background-color: rgba(255,255,255,.9);
+	background-color: rgba(255,255,255,1);
 	min-width: 400px;
 	width: 25%;
 	height: 100%;
@@ -174,8 +199,53 @@ p {
 	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
 	transition: .25s cubic-bezier(.92,0,.5,1);
 }
-.menu a {
-	color: black;
+.menu-title, .menu-title > span, .menu-title a {
+	position: relative;
+}
+.menu-title span:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 6px;
+	/*background-image: url('assets/images/rule.gif');*/
+	display: block;
+	left: 0;
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.menu-title-active span:after {
+	width: 100%;
+}
+.about {
+	color:red;
+}
+.about span:after {
+	transition-delay:.25s;
+	background:red;
+}
+.featured {
+	color: blue;
+}
+.featured span:after {
+	transition-delay:.35s;
+	background:blue;
+}
+.design {
+	color:green;
+}
+.design span:after {
+	transition-delay:.45s;
+	background:green;
+}
+.drawing {
+	color: yellow;
+}
+.drawing span:after {
+	transition-delay:.55s;
+	background:yellow;
 }
 .clickoff {
 	width: 100vw;
@@ -186,25 +256,26 @@ p {
 	right: 0;
 	bottom: 0;
 	overflow: hidden;
-	z-index: 2;
-	display: none;
+	opacity: 0;
 	cursor: pointer;
-	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
-	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
-	-o-transition: .25s cubic-bezier(.92,0,.5,1);
-	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
-	transition: .25s cubic-bezier(.92,0,.5,1);
+	-webkit-transition: .75s linear;
+	-moz-transition: .75s linear;
+	-o-transition: .75s linear;
+	-ms-transition: .75s linear;
+	transition: .75s linear;
 }
 .scroll {
 	overflow: hidden;
 }
 .open-clickoff {
-	display: block;
-	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
-	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
-	-o-transition: .25s cubic-bezier(.92,0,.5,1);
-	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
-	transition: .25s cubic-bezier(.92,0,.5,1);
+	background: rgba(0,0,0,.25);
+	opacity: 1;
+	z-index: 2;
+	-webkit-transition: .75s linear;
+	-moz-transition: .75s linear;
+	-o-transition: .75s linear;
+	-ms-transition: .75s linear;
+	transition: .75s linear;
 }
 .menu ul, .menu li {
 	list-style: none;
@@ -235,6 +306,7 @@ p {
 	list-style: none;
 }
 .sub-menu li {
+	/*font-family:WhitneyHTFLight;*/
 	font-size: 18px;
 	margin-top: 10px;
 	position: relative;
@@ -362,7 +434,7 @@ p {
 }
 .body-menu {
 	right: 25% !important;
-	opacity: .5;
+	opacity: .4;
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
 	-o-transition: .25s cubic-bezier(.92,0,.5,1);
@@ -387,10 +459,20 @@ p {
 		opacity: 1;
 	}
 }
+@keyframes fadeleft {
+	0% {
+		left: -5%;
+		opacity: 0;
+	}
+	100% {
+		left: 0;
+		opacity: 1;
+	}
+}
 /*-----------------------------------------------------------------TOP NAV BAR*/
 .top-bar {
 	width: 100%;
-	height: 45px;
+	height: 60px;
 	position: fixed;
 	z-index: 3;
 	background-color: rgba(255,255,255,.75);
@@ -401,20 +483,18 @@ p {
 	-ms-animation:1s ease-in-out 0s 1 fadeload;
 }
 .jared {
-	font-family: DomaineDisplayBold;
-	position: fixed;
-	top: 15px;
+	position: absolute;
+	top: 50%;
 	left: 50%;
-	transform:translate(-50%,0);
+	transform: translate(-50%,-50%);
+	/*transform: translate(0,-50%);
+	left: 20px;*/
 	z-index: 100;
-	font-size: 20px;
-	z-index: 1;
-	color: black;
-	/*animation:color-change 3s infinite;
-	-webkit-animation: color-change 3s ease-out infinite;
-	-moz-animation: color-change 3s ease-out infinite;
-	-o-animation: color-change 3s ease-out infinite;
-	animation: color-change 3s ease-out infinite;*/
+	height: 40px;
+}
+.jared img {
+	height: 40px;
+	width: auto;
 }
 /*@-webkit-keyframes color-change {	
 	0% {color: black;}
@@ -427,27 +507,26 @@ p {
 	position: fixed;
 	width: 100%;
 	height: 2px;
-	top: 45px;
+	top: 60px;
 	z-index: 1;
 	left: 50%;
 	transform:translate(-50%,0);
 }
-
-/*-----------------------------------------------------------------MAIN NAV BAR*/
 .main-nav {
-	position: fixed;
-	bottom:35px;
-	left: 46%;
-	transform:translate(-50%,0);
+	left: 20px;
+	top: 50%;
+	/*left: 50%;
+	transform:translate(-50%,-50%);*/
+	transform:translate(0%,-50%);
+	position: absolute;
 	width: auto;
-	margin:0 auto;
-	height: 40px;
-	z-index: 100;
-	animation:1s ease-in 0s 1 fadeload;
-	-webkit-animation:1s ease-in 0s 1 fadeload;
-	-moz-animation:1s ease-in 0s 1 fadeload;
-	-o-animation:1s ease-in 0s 1 fadeload;
-	-ms-animation:1s ease-in 0s 1 fadeload;
+	margin: 0 auto;
+	height: auto;
+}
+.main-nav a {
+	color: black;
+	font-family: DomaineDisplayBold;
+	font-size: 16px;
 }
 /*-----------------------------------------------------------------OFFSET BUTTON*/
 .button-container {
@@ -920,7 +999,7 @@ p {
 	height:auto;
 	float: left;
 	width:60%;
-	margin-top: 45px;
+	margin-top: 60px;
 	position: relative;
 	background-color: rgba(235,235,235,1);
 	padding-bottom: 50px;
@@ -943,7 +1022,7 @@ p {
 }
 .project-head {
 	width: 100%;
-	min-width: 490px
+	min-width: 490px;
 	height: auto;
 	padding: 30px 10% 25px 10%;
 	margin-top: 70px;
@@ -952,11 +1031,12 @@ p {
 	margin:0px 10% 50px 10%;
 	padding-top: 10px;
 	position: relative;
-	animation:1s ease-out 0s 1 fadeload;
-	-webkit-animation:1s ease-out 0s 1 fadeload;
-	-moz-animation:1s ease-out 0s 1 fadeload;
-	-o-animation:1s ease-out 0s 1 fadeload;
-	-ms-animation:1s ease-out 0s 1 fadeload;
+	opacity: 0;
+	animation:.75s ease-in-out .25s 1 forwards fadeleft;
+	-webkit-animation:.75s ease-in-out .25s 1 forwards fadeleft;
+	-moz-animation:.75s ease-in-out .25s 1 forwards fadeleft;
+	-o-animation:.75s ease-in-out .25s 1 forwards fadeleft;
+	-ms-animation:.75s ease-in-out .25s 1 forwards fadeleft;
 }
 .project-description:before {
 	content: '';
@@ -1088,27 +1168,28 @@ p {
 .interior-nav:before {
 	content: '';
 	position: absolute;
-	width: 100%;
+	width: 0;
 	height: 2px;
 	display: block;
 	bottom: 20px;
-	right: 0;
-	animation:1s ease-out 0s 1 slideleft;
-	-webkit-animation:1s ease-out 0s 1 slideleft;
-	-moz-animation:1s ease-out 0s 1 slideleft;
-	-o-animation:1s ease-out 0s 1 slideleft;
-	-ms-animation:1s ease-out 0s 1 slideleft;
+	left: 0;
+	animation:1s ease-out .5s 1 forwards slideleft;
+	-webkit-animation:1s ease-out .5s 1 forwards slideleft;
+	-moz-animation:1s ease-out .5s 1 forwards slideleft;
+	-o-animation:1s ease-out .5s 1 forwards slideleft;
+	-ms-animation:1s ease-out .5s 1 forwards slideleft;
 }
 .previous {
 	position: absolute;
 	left: 0;
 	z-index: 1000;
 	color: black;
-	animation:1s ease-in 0s 1 fadeload;
-	-webkit-animation:1s ease-in 0s 1 fadeload;
-	-moz-animation:1s ease-in 0s 1 fadeload;
-	-o-animation:1s ease-in 0s 1 fadeload;
-	-ms-animation:1s ease-in 0s 1 fadeload;
+	opacity: 0;
+	animation:.75s ease-in .75s 1 forwards fadeload;
+	-webkit-animation:.75s ease-in .75s 1 forwards fadeload;
+	-moz-animation:.75s ease-in .75s 1 forwards fadeload;
+	-o-animation:.75s ease-in .75s 1 forwards fadeload;
+	-ms-animation:.75s ease-in .75s 1 forwards fadeload;
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
 	-o-transition: .25s cubic-bezier(.92,0,.5,1);
@@ -1117,17 +1198,23 @@ p {
 }
 .black {
 	color:black;
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
 }
 .back {
 	position: absolute;
 	right: 0;
 	z-index: 1000;
 	color: black;
-	animation:1.5s ease-in 0s 1 fadeload;
-	-webkit-animation:1.5s ease-in 0s 1 fadeload;
-	-moz-animation:1.5s ease-in 0s 1 fadeload;
-	-o-animation:1.5s ease-in 0s 1 fadeload;
-	-ms-animation:1.5s ease-in 0s 1 fadeload;
+	opacity: 0;
+	animation:.75s ease-in .75s 1 forwards fadeload;
+	-webkit-animation:.75s ease-in .75s 1 forwards fadeload;
+	-moz-animation:.75s ease-in .75s 1 forwards fadeload;
+	-o-animation:.75s ease-in .75s 1 forwards fadeload;
+	-ms-animation:.75s ease-in .75s 1 forwards fadeload;
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
 	-o-transition: .25s cubic-bezier(.92,0,.5,1);
