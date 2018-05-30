@@ -185,7 +185,7 @@ p {
 	position: fixed;
 	overflow-y: scroll;
 	right: -25%;
-	top: 45px;
+	top: 62px;
 	background-color: rgba(255,255,255,1);
 	min-width: 400px;
 	width: 25%;
@@ -396,6 +396,7 @@ p {
  	height: 1px;
   	display: block;
  	margin-top: 1px;
+  	/*right: 0;*/
   	left: 0;
   	background: black;
   	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
@@ -475,6 +476,7 @@ p {
 	height: 60px;
 	position: fixed;
 	z-index: 3;
+	top:0;
 	background-color: rgba(255,255,255,.75);
 	animation:1s ease-in-out 0s 1 fadeload;
 	-webkit-animation:1s ease-in-out 0s 1 fadeload;
@@ -485,10 +487,10 @@ p {
 .jared {
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	/*transform: translate(0,-50%);
-	left: 20px;*/
+	/*left: 50%;
+	transform: translate(-50%,-50%);*/
+	left: 20px;
+	transform:translate(0%,-50%);
 	z-index: 100;
 	height: 40px;
 }
@@ -513,11 +515,11 @@ p {
 	transform:translate(-50%,0);
 }
 .main-nav {
-	left: 20px;
 	top: 50%;
-	/*left: 50%;
-	transform:translate(-50%,-50%);*/
-	transform:translate(0%,-50%);
+	left: 50%;
+	transform:translate(-50%,-50%);
+	/*left: 20px;
+	transform:translate(0%,-50%);*/
 	position: absolute;
 	width: auto;
 	margin: 0 auto;
@@ -844,14 +846,14 @@ p {
 	-o-animation:1s ease-in 0s 1 fadeload;
 	-ms-animation:1s ease-in 0s 1 fadeload;
 }
-.thumbnail-portrait img:hover, .thumbnail-landscape img:hover {
+/*.thumbnail-portrait img:hover, .thumbnail-landscape img:hover {
 	transform: scale(1.01);
 	-webkit-transition: .2s ease-in-out;
 	-moz-transition: .2s ease-in-out;
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
-}
+}*/
 .thumbnail-portrait img, .thumbnail-landscape img {
 	object-fit:cover;
 }
@@ -1265,12 +1267,74 @@ p {
 @media only screen and (max-width: 768px) {
 	
 }
-/*------------------------------------------------------------iPHONE 6*/
+/*------------------------------------------------------------PHONE PORTRAIT*/
 @media only screen and (max-width: 414px) {
+	.all {
+		margin-top: 20%;
+	}
 	.two {
 		width: 100%;
 		float: none;
 	}
+	.center {
+		height: 500px;
+	}
+	.main-nav {
+		display: none;
+	}
+	.jared {
+		left: 20px;
+	}
+	.menu {
+		width: 100%;
+	}
+	.thumbnail-portrait, .thumbnail-landscape {
+		width: 90%;
+	}
+	.thumbnail-portrait img, .thumbnail-landscape img {
+		width: 100%;
+	}
+	#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image {
+		left: 50%;
+		top: 50%;
+		transform:translate(-50%,-50%);
+	}
+	#mdes-description, #nba-description, #els-description, #diagram-description, #remote-description {
+		left: 50%;
+		top: 75%;
+		transform:translate(-50%,0);
+	}
+	.overlay {
+		display: none;
+	}
+	.bw-overlay {
+		display: none;
+	}
+	.thumbnail-portrait > .thumbnail-button>span, .thumbnail-landscape > .thumbnail-button>span {
+		-webkit-transform:translate(-10px,-10px);
+		-moz-transform:translate(-10px,-10px);
+		-o-transform:translate(-10px,-10px);
+		-ms-transform:translate(-10px,-10px);
+		transform:translate(-10px,-10px);
+	}
+	.thumbnail-portrait > .thumbnail-button:before, .thumbnail-landscape > .thumbnail-button:before {
+		-webkit-transform:translate(-10px,-10px);
+		-moz-transform:translate(-10px,-10px);
+		-o-transform:translate(-10px,-10px);
+		-ms-transform:translate(-10px,-10px);
+		transform:translate(-10px,-10px);
+	}
+	.thumbnail-portrait > .thumbnail-button:after, .thumbnail-landscape > .thumbnail-button:after {
+		-webkit-transform:translate(10px,10px);
+		-moz-transform:translate(10px,10px);
+		-o-transform:translate(10px,10px);
+		-ms-transform:translate(10px,10px);
+		transform:translate(10px,10px);
+	}
+	.thumbnail-landscape:hover .bw-overlay, .thumbnail-portrait:hover .bw-overlay {
+	/*opacity: 1;*/
+	display: none;
+}
 }
 /*------------------------------------------------------------iPHONE 5*/
 @media only screen and (max-width: 320px) {
