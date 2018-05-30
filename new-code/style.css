@@ -776,7 +776,7 @@ p {
 .thumbnail-landscape {
 	width: 80%;
 	max-width: 900px;
-	min-width: 400px;
+	min-width: 300px;
 	height: auto;
 	position: relative;
 	z-index: 1;
@@ -794,7 +794,7 @@ p {
 }
 .thumbnail-landscape img {
 	width: 100%;
-	min-width: 400px;
+	min-width: 300px;
 	height: auto;
 	position: relative;
 	z-index: 1;
@@ -1269,15 +1269,18 @@ p {
 }
 /*------------------------------------------------------------PHONE PORTRAIT*/
 @media only screen and (max-width: 414px) {
+	h3 {
+		font-size: 24px;
+	}
 	.all {
-		margin-top: 20%;
+		margin-top: 15%;
 	}
 	.two {
 		width: 100%;
 		float: none;
 	}
 	.center {
-		height: 500px;
+		height: 400px;
 	}
 	.main-nav {
 		display: none;
@@ -1287,12 +1290,16 @@ p {
 	}
 	.menu {
 		width: 100%;
+		min-width: 300px;
 	}
 	.thumbnail-portrait, .thumbnail-landscape {
 		width: 90%;
 	}
 	.thumbnail-portrait img, .thumbnail-landscape img {
 		width: 100%;
+	}
+	.thumbnail-button {
+		width: 250px;
 	}
 	#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image {
 		left: 50%;
@@ -1332,9 +1339,8 @@ p {
 		transform:translate(10px,10px);
 	}
 	.thumbnail-landscape:hover .bw-overlay, .thumbnail-portrait:hover .bw-overlay {
-	/*opacity: 1;*/
-	display: none;
-}
+		display: none;
+	}
 }
 /*------------------------------------------------------------iPHONE 5*/
 @media only screen and (max-width: 320px) {
