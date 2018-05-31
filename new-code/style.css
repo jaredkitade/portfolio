@@ -161,6 +161,7 @@ h3:hover:before {
 h4 {
 	margin: 0;
 	font-family: MercuryTextItalic;
+	/*font-family: MercuryTextBoldItalic;*/
 	line-height: 1.2em;
 	font-size: 20px;
 	color: #231f20;
@@ -176,7 +177,8 @@ h4 {
 p {
 	margin: 0;
 	margin-top: 15px;
-	font-family: WhitneyHTFLight;
+	/*font-family: WhitneyHTFLight;*/
+	font-family: WhitneyHTFBook;
 	line-height: 1.4em;
 	font-size: 16px;
 	font-weight: normal;
@@ -1012,9 +1014,11 @@ p {
 	position: relative;
 	background-color: rgba(235,235,235,1);
 	padding-bottom: 50px;
+	z-index: 99;
 }
 .project-right {
 	height: 100%;
+	z-index: 100;
 	position: fixed;
 	right: 0;
 	top: 0;
@@ -1090,7 +1094,6 @@ p {
 	display: block;
 	overflow: hidden;
 	position: relative;
-	z-index: 99;
 	animation:1s ease-in-out 0s 1 fadeload;
 	-webkit-animation:1s ease-in-out 0s 1 fadeload;
 	-moz-animation:1s ease-in-out 0s 1 fadeload;
@@ -1154,6 +1157,7 @@ p {
 	padding: 20px;
 	width: auto;
 	max-width: 300px;
+	min-width: 250px;
 	position: absolute;
 	color: white;
 	bottom: 0;
