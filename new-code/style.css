@@ -95,6 +95,7 @@ h1 {
 	letter-spacing: .5px;
 	color: #231f20;
 	position: relative;
+	font-weight: normal;
 	/*animation:1s ease-in 0s 1 fadeload;
 	-webkit-animation:1s ease-in 0s 1 fadeload;
 	-moz-animation:1s ease-in 0s 1 fadeload;
@@ -114,6 +115,7 @@ h3 {
 	/*letter-spacing: .75px;*/
 	line-height: 1.2em;
 	position: relative;
+	font-weight: normal;
 }
 ul {
 	-webkit-margin-before: 0;
@@ -164,6 +166,7 @@ h4 {
 	color: #231f20;
 	position: relative;	
 	opacity: 0;
+	font-weight: normal;
 	animation:.75s ease-in-out .15s 1 forwards fadeleft;
 	-webkit-animation:.75s ease-in-out .15s 1 forwards fadeleft;
 	-moz-animation:.75s ease-in-out .15s 1 forwards fadeleft;
@@ -176,6 +179,7 @@ p {
 	font-family: WhitneyHTFLight;
 	line-height: 1.4em;
 	font-size: 16px;
+	font-weight: normal;
 }
 .thumbnail-button p {
 	margin-top: 5px;
@@ -298,6 +302,7 @@ p {
 }
 .menu li {
 	font-family: DomaineDisplayBold;
+	font-weight: normal;
 	font-size: 40px;
 	line-height: 1.2em;
 	margin-top: 25px;
@@ -306,11 +311,11 @@ p {
 	list-style: none;
 }
 .sub-menu li {
-	/*font-family:WhitneyHTFLight;*/
 	font-size: 18px;
 	margin-top: 10px;
 	position: relative;
 	text-decoration: none;
+	font-weight: normal;
 }
 .sub-menu a {
 	color: black;
@@ -554,6 +559,7 @@ p {
 .button>span {
 	z-index: 2;
 	font-family: WhitneyHTFBook;
+	font-weight: normal;
 	position:relative;
 	display: inline-block;
 	color: black;
@@ -652,6 +658,7 @@ p {
 }
 .thumbnail-button>span {
 	z-index: 3;
+	font-weight: normal;
 	position: relative;
 	display: inline-block;
 	color: white;
@@ -1073,6 +1080,7 @@ p {
 	margin-top: 25px;
 	line-height: 1.25em;
 	font-family: WhitneyHTFSemibold;
+	font-weight: normal;
 	/*animation:1s ease-out 0s 1 fadeload;
 	animation-delay:1s;*/
 }
@@ -1167,6 +1175,7 @@ p {
 	width: auto;
 	position: relative;
 	font-family: DomaineDisplayBold;
+	font-weight: normal;
 }
 .interior-nav:before {
 	content: '';
