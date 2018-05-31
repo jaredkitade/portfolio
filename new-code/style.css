@@ -1272,6 +1272,7 @@ p {
 @media only screen and (max-width: 414px) {
 	h1 {
 		font-size: 40px;
+		letter-spacing: auto;
 	}
 	h3 {
 		font-size: 24px;
