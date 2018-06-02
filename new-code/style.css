@@ -194,7 +194,7 @@ p {
 	top: 62px;
 	background-color: rgba(255,255,255,1);
 	min-width: 400px;
-	width: 25%;
+	width: 35%;
 	height: 100%;
 	z-index: -1;
 	opacity: 0;
@@ -225,33 +225,78 @@ p {
 .menu-title-active span:after {
 	width: 100%;
 }
-.about {
-	color:red;
-}
-.about span:after {
-	transition-delay:.25s;
-	background:red;
-}
-.featured {
-	color: blue;
+.featured a, .featured span {
+	/*color: #02CEBA;	*/
+	color: black;
+	cursor: pointer;
 }
 .featured span:after {
-	transition-delay:.35s;
-	background:blue;
+	transition-delay:.25s;
+	/*background:#02CEBA;*/
+	background: rgb(0,221,189); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,221,189,1) 0%, rgba(255,86,102,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ddbd', endColorstr='#ff5666',GradientType=1 ); /* IE6-9 */
 }
-.design {
-	color:green;
+.featured svg {
+	fill: #02CEBA;
+	height: 20px;
+	margin-left: -25px;
+}
+.design a, .design span {
+	/*color:#EF5B5B;*/
+	color: black;
+	cursor: pointer;
 }
 .design span:after {
-	transition-delay:.45s;
-	background:green;
+	transition-delay:.35s;
+	/*background:#EF5B5B;*/
+	background: rgb(0,221,189); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,221,189,1) 0%, rgba(255,86,102,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ddbd', endColorstr='#ff5666',GradientType=1 ); /* IE6-9 */
 }
-.drawing {
-	color: yellow;
+.design svg {
+	/*fill: #EF5B5B;*/
+	fill: #02CEBA;
+	height: 20px;
+	margin-left: -25px;
+}
+.drawing a, .drawing span {
+	/*color: #FFBA49;*/
+	color: black;
+	cursor: pointer;
 }
 .drawing span:after {
+	transition-delay:.45s;
+	/*background:#FFBA49;*/
+	background: rgb(0,221,189); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,221,189,1) 0%, rgba(255,86,102,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ddbd', endColorstr='#ff5666',GradientType=1 ); /* IE6-9 */
+}
+.drawing svg {
+	/*fill: #FFBA49;*/
+	fill: #02CEBA;
+	height: 20px;
+	margin-left: -25px;
+}
+.about a, .about span {
+	/*color:red;*/
+	color: black;
+	cursor: pointer;
+}
+.about span:after {
 	transition-delay:.55s;
-	background:yellow;
+	/*background:red;*/
+	background: rgb(0,221,189); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,221,189,1) 0%, rgba(255,86,102,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ddbd', endColorstr='#ff5666',GradientType=1 ); /* IE6-9 */
 }
 .clickoff {
 	width: 100vw;
@@ -309,17 +354,92 @@ p {
 	line-height: 1.2em;
 	margin-top: 25px;
 }
-.sub-menu ul {
-	list-style: none;
+.arrow {
+	height: 25px;
+	width: auto;
+	fill: currentColor;
+	position: relative;
 }
-.sub-menu li {
+.arrow-top1 {
+	transform-origin: center 40px;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	-ms-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.arrow-bottom1 {
+	transform-origin: center 20px;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	-ms-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.arrow-top2 {
+	transform: rotateX(0deg) scaleY(0);
+	transform-origin: center 20px;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	-ms-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.arrow-bottom2 {
+	transform: rotateX(0deg) scaleY(0);
+	transform-origin: center 40px;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	-ms-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.flip-on {
+	transform: rotateX(180deg) scaleY(1);
+	/*transform: scaleY(1);*/
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	-ms-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.flip-off {
+	transform: rotateX(180deg) scaleY(0);
+	/*transform: scaleY(0);*/
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	-ms-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.featured-sub-menu, .design-sub-menu, .drawing-sub-menu, .sub-menu {
+	max-height: 0;
+	opacity: 0;
+	pointer-events:none;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	-ms-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.show-sub-menu {
+	max-height: 1000px;
+	opacity: 1;
+	pointer-events:auto;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	-ms-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.featured-sub-menu li, .design-sub-menu li, .drawing-sub-menu li, .sub-menu li {
 	font-size: 18px;
 	margin-top: 10px;
 	position: relative;
 	text-decoration: none;
 	font-weight: normal;
 }
-.sub-menu a {
+.featured-sub-menu a, .design-sub-menu a, .drawing-sub-menu a, .sub-menu a {
 	color: black;
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
@@ -648,7 +768,8 @@ p {
 }
 .thumbnail-button {
 	position: absolute;;
-	width: 350px;
+	width: 375px;
+	min-width: 250px;
 	height: auto;
 	padding: 30px;
 	z-index: 100;
@@ -1278,8 +1399,17 @@ p {
 	}
 }
 /*------------------------------------------------------------iPHONE 6s*/
-@media only screen and (max-width: 768px) {
-	
+@media only screen and (max-width: 930px) {
+	.two {
+		width: 100%;
+		height: 550px;
+	}
+	.center {
+		height: 550px;
+	}
+	.thumbnail-button {
+		width: 375px;
+	}
 }
 /*------------------------------------------------------------PHONE PORTRAIT*/
 @media only screen and (max-width: 414px) {

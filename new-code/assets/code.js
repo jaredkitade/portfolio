@@ -23,39 +23,31 @@ $(document).ready(function(){
 		$('.menu-title').toggleClass('menu-title-active');
 	});
 
+	$('.featured').click(function(){
+		$('.featured-sub-menu').toggleClass('show-sub-menu');
+		$(this).find('.arrow-top1').toggleClass('flip-off');
+		$(this).find('.arrow-bottom1').toggleClass('flip-off');
+		$(this).find('.arrow-top2').toggleClass('flip-on');
+		$(this).find('.arrow-bottom2').toggleClass('flip-on');
+	});
+
+	$('.drawing').click(function(){
+		$('.drawing-sub-menu').toggleClass('show-sub-menu');
+		$(this).find('.arrow-top1').toggleClass('flip-off');
+		$(this).find('.arrow-bottom1').toggleClass('flip-off');
+		$(this).find('.arrow-top2').toggleClass('flip-on');
+		$(this).find('.arrow-bottom2').toggleClass('flip-on');
+	});
+
+	$('.design').click(function(){
+		$('.design-sub-menu').toggleClass('show-sub-menu');
+		$(this).find('.arrow-top1').toggleClass('flip-off');
+		$(this).find('.arrow-bottom1').toggleClass('flip-off');
+		$(this).find('.arrow-top2').toggleClass('flip-on');
+		$(this).find('.arrow-bottom2').toggleClass('flip-on');
+	});
+
 	var logo = [
-	  // 'assets/logos/j-domaine-1.svg',
-	  // 'assets/logos/j-domaine-2.svg',
-	  // 'assets/logos/j-domaine-3.svg',
-	  // 'assets/logos/j-domaine-4.svg',
-	  // 'assets/logos/j-domaine-5.svg',
-	  // 'assets/logos/j-domaine-6.svg',
-	  // 'assets/logos/j-domaine-7.svg',
-	  // 'assets/logos/j-domaine-8.svg',
-	  // 'assets/logos/j-din-1.svg',
-	  // 'assets/logos/j-din-2.svg',
-	  // 'assets/logos/j-din-3.svg',
-	  // 'assets/logos/j-din-4.svg',
-	  // 'assets/logos/j-din-5.svg',
-	  // 'assets/logos/j-din-6.svg',
-	  // 'assets/logos/j-din-7.svg',
-	  // 'assets/logos/j-din-8.svg',
-	  // 'assets/logos/j-bodoni-1.svg',
-	  // 'assets/logos/j-bodoni-2.svg',
-	  // 'assets/logos/j-bodoni-3.svg',
-	  // 'assets/logos/j-bodoni-4.svg',
-	  // 'assets/logos/j-bodoni-5.svg',
-	  // 'assets/logos/j-bodoni-6.svg',
-	  // 'assets/logos/j-bodoni-7.svg',
-	  // 'assets/logos/j-bodoni-8.svg',
-	  // 'assets/logos/j-planeta-1.svg',
-	  // 'assets/logos/j-planeta-2.svg',
-	  // 'assets/logos/j-planeta-3.svg',
-	  // 'assets/logos/j-planeta-4.svg',
-	  // 'assets/logos/j-planeta-5.svg',
-	  // 'assets/logos/j-planeta-6.svg',
-	  // 'assets/logos/j-planeta-7.svg',
-	  // 'assets/logos/j-planeta-8.svg'
 	  'assets/logos/planeta.gif',
 	  'assets/logos/domaine.gif',
 	  'assets/logos/bodoni.gif',
