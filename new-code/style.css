@@ -242,7 +242,7 @@ p {
 .featured svg {
 	fill: #02CEBA;
 	height: 20px;
-	margin-left: -25px;
+	/*margin-left: -25px;*/
 }
 .design a, .design span {
 	/*color:#EF5B5B;*/
@@ -262,7 +262,7 @@ p {
 	/*fill: #EF5B5B;*/
 	fill: #02CEBA;
 	height: 20px;
-	margin-left: -25px;
+	/*margin-left: -25px;*/
 }
 .drawing a, .drawing span {
 	/*color: #FFBA49;*/
@@ -282,7 +282,7 @@ p {
 	/*fill: #FFBA49;*/
 	fill: #02CEBA;
 	height: 20px;
-	margin-left: -25px;
+	/*margin-left: -25px;*/
 }
 .about a, .about span {
 	/*color:red;*/
@@ -297,6 +297,12 @@ p {
 	background: -webkit-linear-gradient(left,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  rgba(0,221,189,1) 0%,rgba(255,86,102,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ddbd', endColorstr='#ff5666',GradientType=1 ); /* IE6-9 */
+}
+.about svg {
+	fill: #02CEBA;
+	height: 20px;
+	transform: rotate(270deg);
+	/*margin-left: -25px;*/
 }
 .clickoff {
 	width: 100vw;
@@ -353,6 +359,7 @@ p {
 	font-size: 40px;
 	line-height: 1.2em;
 	margin-top: 25px;
+	margin-left: 25px;
 }
 .arrow {
 	height: 25px;
@@ -415,6 +422,7 @@ p {
 .featured-sub-menu, .design-sub-menu, .drawing-sub-menu, .sub-menu {
 	max-height: 0;
 	opacity: 0;
+	margin-left: 25px;
 	pointer-events:none;
 	-webkit-transition: .5s ease-in-out;
 	-moz-transition: .5s ease-in-out;
