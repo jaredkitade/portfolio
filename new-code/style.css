@@ -1524,9 +1524,11 @@ p {
 		width: 100%;
 		min-width: 0;
 		position: relative;
+		margin-top: 50vh;
 	}
 	.project-hero-image {
 		height: 50vh;
+		position: fixed;
 	}
 	.project-head {
 		min-width: 0;
@@ -1542,6 +1544,12 @@ p {
 	}
 	.project-image {
 		height: 50vh;
+		margin:0;
+		background-color: rgba(235,235,235,1);
+	}
+	.project-image-two {
+		margin:0;
+		background-color: rgba(235,235,235,1);
 	}
 }
 /*------------------------------------------------------------iPHONE 5*/

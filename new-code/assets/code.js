@@ -78,6 +78,12 @@ $(document).ready(function(){
 		$('.design').find('.arrow-bottom2').toggleClass('flip-on');
 		$('.design span').toggleClass('menu-selected');
 	});
+
+	$(function(){
+    	$('#hamburger-menu').load('hamburger.html'); 
+    });
+
+
 	var logo = [
 	  'assets/logos/planeta.gif',
 	  'assets/logos/domaine.gif',
