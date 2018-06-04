@@ -1,10 +1,8 @@
 $(document).ready(function(){
 
-	$(function(){
-    	$('#hamburger-menu').load('hamburger.html'); 
-    });
+    $('#menu-frame').load('hamburger.html'); 
 
-    
+
 	var hamburger = document.querySelector('.hamburger');
 
 	hamburger.addEventListener('click', function() {
