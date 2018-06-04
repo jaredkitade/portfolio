@@ -4,7 +4,7 @@ $(document).ready(function(){
     	$('#hamburger-menu').load('hamburger.html'); 
     });
 
-    
+
 	var hamburger = document.querySelector('.hamburger');
 
 	hamburger.addEventListener('click', function() {
@@ -29,60 +29,60 @@ $(document).ready(function(){
 		$('.menu-title').toggleClass('menu-title-active');
 	});
 
-	$('.featured span').click(function(){
-		$('.featured-sub-menu').toggleClass('show-sub-menu');
-		$('.featured').find('.arrow-top1').toggleClass('flip-off');
-		$('.featured').find('.arrow-bottom1').toggleClass('flip-off');
-		$('.featured').find('.arrow-top2').toggleClass('flip-on');
-		$('.featured').find('.arrow-bottom2').toggleClass('flip-on');
+	$('#hamburger-menu > .featured span').click(function(){
+		$('#hamburger-menu > .featured-sub-menu').toggleClass('show-sub-menu');
+		$('#hamburger-menu > .featured').find('.arrow-top1').toggleClass('flip-off');
+		$('#hamburger-menu > .featured').find('.arrow-bottom1').toggleClass('flip-off');
+		$('#hamburger-menu > .featured').find('.arrow-top2').toggleClass('flip-on');
+		$('#hamburger-menu > .featured').find('.arrow-bottom2').toggleClass('flip-on');
 		$(this).toggleClass('menu-selected');
 
 	});
 
-	$('.drawing span').click(function(){
-		$('.drawing-sub-menu').toggleClass('show-sub-menu');
-		$('.drawing').find('.arrow-top1').toggleClass('flip-off');
-		$('.drawing').find('.arrow-bottom1').toggleClass('flip-off');
-		$('.drawing').find('.arrow-top2').toggleClass('flip-on');
-		$('.drawing').find('.arrow-bottom2').toggleClass('flip-on');
+	$('#hamburger-menu > .drawing span').click(function(){
+		$('#hamburger-menu > .drawing-sub-menu').toggleClass('show-sub-menu');
+		$('#hamburger-menu > .drawing').find('.arrow-top1').toggleClass('flip-off');
+		$('#hamburger-menu > .drawing').find('.arrow-bottom1').toggleClass('flip-off');
+		$('#hamburger-menu > .drawing').find('.arrow-top2').toggleClass('flip-on');
+		$('#hamburger-menu > .drawing').find('.arrow-bottom2').toggleClass('flip-on');
 		$(this).toggleClass('menu-selected');
 	});
 
-	$('.design span').click(function(){
-		$('.design-sub-menu').toggleClass('show-sub-menu');
-		$('.design').find('.arrow-top1').toggleClass('flip-off');
-		$('.design').find('.arrow-bottom1').toggleClass('flip-off');
-		$('.design').find('.arrow-top2').toggleClass('flip-on');
-		$('.design').find('.arrow-bottom2').toggleClass('flip-on');
+	$('#hamburger-menu > .design span').click(function(){
+		$('#hamburger-menu > .design-sub-menu').toggleClass('show-sub-menu');
+		$('#hamburger-menu > .design').find('.arrow-top1').toggleClass('flip-off');
+		$('#hamburger-menu > .design').find('.arrow-bottom1').toggleClass('flip-off');
+		$('#hamburger-menu > .design').find('.arrow-top2').toggleClass('flip-on');
+		$('#hamburger-menu > .design').find('.arrow-bottom2').toggleClass('flip-on');
 		$(this).toggleClass('menu-selected');
 	});
 
 
-	$('.featured svg').click(function(){
-		$('.featured-sub-menu').toggleClass('show-sub-menu');
-		$('.featured').find('.arrow-top1').toggleClass('flip-off');
-		$('.featured').find('.arrow-bottom1').toggleClass('flip-off');
-		$('.featured').find('.arrow-top2').toggleClass('flip-on');
-		$('.featured').find('.arrow-bottom2').toggleClass('flip-on');
-		$('.featured span').toggleClass('menu-selected');
+	$('#hamburger-menu > .featured svg').click(function(){
+		$('#hamburger-menu > .featured-sub-menu').toggleClass('show-sub-menu');
+		$('#hamburger-menu > .featured').find('.arrow-top1').toggleClass('flip-off');
+		$('#hamburger-menu > .featured').find('.arrow-bottom1').toggleClass('flip-off');
+		$('#hamburger-menu > .featured').find('.arrow-top2').toggleClass('flip-on');
+		$('#hamburger-menu > .featured').find('.arrow-bottom2').toggleClass('flip-on');
+		$('#hamburger-menu > .featured span').toggleClass('menu-selected');
 	});
 
-	$('.drawing svg').click(function(){
-		$('.drawing-sub-menu').toggleClass('show-sub-menu');
-		$('.drawing').find('.arrow-top1').toggleClass('flip-off');
-		$('.drawing').find('.arrow-bottom1').toggleClass('flip-off');
-		$('.drawing').find('.arrow-top2').toggleClass('flip-on');
-		$('.drawing').find('.arrow-bottom2').toggleClass('flip-on');
-		$('.drawing span').toggleClass('menu-selected');
+	$('#hamburger-menu > .drawing svg').click(function(){
+		$('#hamburger-menu > .drawing-sub-menu').toggleClass('show-sub-menu');
+		$('#hamburger-menu > .drawing').find('.arrow-top1').toggleClass('flip-off');
+		$('#hamburger-menu > .drawing').find('.arrow-bottom1').toggleClass('flip-off');
+		$('#hamburger-menu > .drawing').find('.arrow-top2').toggleClass('flip-on');
+		$('#hamburger-menu > .drawing').find('.arrow-bottom2').toggleClass('flip-on');
+		$('#hamburger-menu > .drawing span').toggleClass('menu-selected');
 	});
 
-	$('.design svg').click(function(){
-		$('.design-sub-menu').toggleClass('show-sub-menu');
-		$('.design').find('.arrow-top1').toggleClass('flip-off');
-		$('.design').find('.arrow-bottom1').toggleClass('flip-off');
-		$('.design').find('.arrow-top2').toggleClass('flip-on');
-		$('.design').find('.arrow-bottom2').toggleClass('flip-on');
-		$('.design span').toggleClass('menu-selected');
+	$('#hamburger-menu > .design svg').click(function(){
+		$('#hamburger-menu > .design-sub-menu').toggleClass('show-sub-menu');
+		$('#hamburger-menu > .design').find('.arrow-top1').toggleClass('flip-off');
+		$('#hamburger-menu > .design').find('.arrow-bottom1').toggleClass('flip-off');
+		$('#hamburger-menu > .design').find('.arrow-top2').toggleClass('flip-on');
+		$('#hamburger-menu > .design').find('.arrow-bottom2').toggleClass('flip-on');
+		$('#hamburger-menu > .design span').toggleClass('menu-selected');
 	});
 
 	var logo = [
