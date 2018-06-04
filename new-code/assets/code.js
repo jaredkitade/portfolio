@@ -1,4 +1,10 @@
 $(document).ready(function(){
+
+	$(function(){
+    	$('#hamburger-menu').load('hamburger.html'); 
+    });
+
+    
 	var hamburger = document.querySelector('.hamburger');
 
 	hamburger.addEventListener('click', function() {
@@ -78,11 +84,6 @@ $(document).ready(function(){
 		$('.design').find('.arrow-bottom2').toggleClass('flip-on');
 		$('.design span').toggleClass('menu-selected');
 	});
-
-	$(function(){
-    	$('#hamburger-menu').load('hamburger.html'); 
-    });
-
 
 	var logo = [
 	  'assets/logos/planeta.gif',
