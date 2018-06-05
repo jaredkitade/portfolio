@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('#menu-frame').load('hamburger.html'); 
+    // $('#menu-frame').load('hamburger.html'); 
 
 
 	var hamburger = document.querySelector('.hamburger');
