@@ -1518,7 +1518,7 @@ p {
 @media only screen and (max-width: 1280px) {
 	
 }
-/*------------------------------------------------------------13in MACBOOK*/
+/*------------------------------------------------------------iPAD LANDSCAPE*/
 @media only screen and (max-width: 1024px) {
 	.thumbnail-button {
 		width: 300px;
@@ -1539,7 +1539,7 @@ p {
 		width: 85%;
 	}
 }
-/*------------------------------------------------------------iPHONE 6s*/
+/*------------------------------------------------------------ iPAD PORTRAIT*/
 @media only screen and (max-width: 930px) {
 	.two {
 		width: 100%;
@@ -1552,7 +1552,7 @@ p {
 		width: 375px;
 	}
 }
-/*------------------------------------------------------------PHONE PORTRAIT*/
+/*------------------------------------------------------------LARGE PHONES*/
 @media only screen and (max-width: 414px) {
 	h1 {
 		font-size: 40px;
@@ -1563,7 +1563,7 @@ p {
 		letter-spacing: auto;
 	}
 	.all {
-		margin-top: 60px;
+		margin-top: 10%;
 	}
 	.two {
 		width: 100%;
@@ -1582,6 +1582,10 @@ p {
 		width: 100%;
 		min-width: 300px;
 		padding-left: 0;
+	}
+	.menu li {
+		font-size: 36px;
+		margin-top: 15px;
 	}
 	.menu ul {
 		top:1%;
@@ -1678,6 +1682,29 @@ p {
 		background-color: rgba(235,235,235,1);
 	}
 }
-/*------------------------------------------------------------iPHONE 5*/
-@media only screen and (max-width: 320px) {
+/*------------------------------------------------------------iPHONE 6,7,8--*/
+@media only screen and (max-width: 375px) {
+
+	.all {
+		margin-top: 5%;
+	}
+
 }
+
+/*------------------------------------------------------------iPHONE 5--*/
+@media only screen and (max-width: 375px) {
+
+	.all {
+		margin-top: 5%;
+	}
+	.menu li {
+		font-size: 28px;
+		margin-top: 15px;
+	}
+}
+
+
+
+
+
+
