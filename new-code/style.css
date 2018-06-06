@@ -1597,6 +1597,12 @@ p {
     	font-size: 18px;
     	margin-top: 10px;
 	}
+	.featured svg, .design svg, .drawing svg, .about svg {
+		height: 15px;
+	}
+	.menu-indent, .menu-indent ul {
+	    margin-left: 35px;
+	}
 	.about {
 		padding-bottom: 70%;
 	}
