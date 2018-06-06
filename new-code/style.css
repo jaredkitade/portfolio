@@ -261,6 +261,7 @@ p {
 	bottom: 0;
 	background-color: rgba(255,255,255,1);
 	min-width: 400px;
+	height: 106px;
 	width: 27%;
 	z-index: -1;
 	opacity: 0;
@@ -484,7 +485,7 @@ p {
 	font-weight: normal;
 	font-size: 40px;
 	line-height: 1.2em;
-	margin-top: 25px;
+	margin-top: 20px;
 }
 .arrow {
 	height: 25px;
@@ -1588,7 +1589,7 @@ p {
 		margin-top: 15px;
 	}
 	.menu ul {
-		top:1%;
+		top:5%;
 	}
 	.menu-title>span:hover {
 		color: #231f20;
