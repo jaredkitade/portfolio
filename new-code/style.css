@@ -1593,6 +1593,10 @@ p {
 	.menu-title>span:hover {
 		color: #231f20;
 	}
+	.featured-sub-menu li, .design-sub-menu li, .drawing-sub-menu li, .sub-menu li {
+    	font-size: 18px;
+    	margin-top: 10px;
+	}
 	.about {
 		padding-bottom: 70%;
 	}
@@ -1688,6 +1692,10 @@ p {
 	.all {
 		margin-top: 5%;
 	}
+	.featured-sub-menu li, .design-sub-menu li, .drawing-sub-menu li, .sub-menu li {
+    	font-size: 18px;
+    	margin-top: 10px;
+	}
 
 }
 
@@ -1700,6 +1708,10 @@ p {
 	.menu li {
 		font-size: 28px;
 		margin-top: 15px;
+	}
+	.featured-sub-menu li, .design-sub-menu li, .drawing-sub-menu li, .sub-menu li {
+    	font-size: 18px;
+    	margin-top: 10px;
 	}
 }
 
