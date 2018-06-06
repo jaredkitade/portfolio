@@ -1560,11 +1560,11 @@ p {
 		letter-spacing: auto;
 	}
 	h3 {
-		font-size: 24px;
+		/*font-size: 24px;*/
 		letter-spacing: auto;
 	}
 	.all {
-		margin-top: 10%;
+		margin-top: 60px;
 	}
 	.two {
 		width: 100%;
@@ -1575,9 +1575,6 @@ p {
 	}
 	.main-nav {
 		display: none;
-	}
-	.jared {
-		left: 20px;
 	}
 	.menu, .menu-bottom {
 		width: 100%;
@@ -1590,6 +1587,9 @@ p {
 	}
 	.menu ul {
 		top:5%;
+	}
+	.two {
+		height: 500px;
 	}
 	.menu-title>span:hover {
 		color: #231f20;
@@ -1614,7 +1614,7 @@ p {
 		width: 100%;
 	}
 	.thumbnail-button {
-		width: 250px;
+		width: 295px;
 	}
 	#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image {
 		left: 50%;
@@ -1696,9 +1696,6 @@ p {
 /*------------------------------------------------------------iPHONE 6,7,8--*/
 @media only screen and (max-width: 375px) {
 
-	.all {
-		margin-top: 5%;
-	}
 	.featured-sub-menu li, .design-sub-menu li, .drawing-sub-menu li, .sub-menu li {
     	font-size: 18px;
     	margin-top: 10px;
@@ -1707,10 +1704,12 @@ p {
 }
 
 /*------------------------------------------------------------iPHONE 5--*/
-@media only screen and (max-width: 375px) {
-
-	.all {
-		margin-top: 5%;
+@media only screen and (max-width: 320px) {
+	h3 {
+		font-size: 24px;
+	}
+	.thumbnail-button {
+		width: 200px;
 	}
 	.menu li {
 		font-size: 28px;
@@ -1720,6 +1719,7 @@ p {
     	font-size: 18px;
     	margin-top: 10px;
 	}
+
 }
 
 
