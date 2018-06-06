@@ -11,6 +11,7 @@ $(document).ready(function(){
 
 	$('.hamburger').click(function(){
 		$('.menu').toggleClass('open');
+		$('.menu-bottom').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
 		$('.all').toggleClass('body-menu');
@@ -21,6 +22,7 @@ $(document).ready(function(){
 	$('.clickoff').click(function(){
 		hamburger.classList.toggle('is-active');
 		$('.menu').toggleClass('open');
+		$('.menu-bottom').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
 		$('.all').toggleClass('body-menu');

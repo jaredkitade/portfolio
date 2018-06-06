@@ -219,16 +219,107 @@ p {
 	top: 62px;
 	background-color: rgba(255,255,255,1);
 	min-width: 400px;
-	width: 25%;
+	width: 27%;
 	height: 100%;
 	z-index: -1;
 	opacity: 0;
-	padding:1% 5% 100px 1%;
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
 	-o-transition: .25s cubic-bezier(.92,0,.5,1);
 	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
 	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.menu ul {
+	width: 90%;
+	top:7%;
+	left: 1px;
+}
+.menu-interior {
+	width: 80%;
+	height: 90%;
+	position: absolute;
+	left: 50%;
+	top: 5%;
+	transform:translate(-50%,0%);
+}
+.menu-top {
+	margin-left: 25px;
+}
+.jared {
+	font-size: 22px;
+	font-family: DomaineDisplayBold;
+	height: auto;
+}
+.sub {
+	font-family: DomaineDisplayRegularItalic;
+	font-size: 16px;
+	height: auto;
+}
+.menu-bottom {
+	position: fixed;
+	right: -25%;
+	bottom: 0;
+	background-color: rgba(255,255,255,1);
+	min-width: 400px;
+	width: 27%;
+	z-index: -1;
+	opacity: 0;
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.menu-contact {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 5%;
+	padding-top: 3%;
+	background-color: rgba(255,255,255,1);
+}
+.menu-contact-left {
+	width: 40%;
+	position: relative;
+	float: left;
+}
+.menu-contact-right {
+	width: 60%;
+	position: relative;
+	float: left;
+}
+.menu-contact-right a {
+	color: black;
+}
+.menu-contact-category {
+	font-family: DomaineDisplayRegularItalic;
+	font-size: 16px;
+	margin-top: 8px;
+	position: relative;
+}
+.menu-contact-info {
+	font-family: DomaineDisplayBold;
+	font-size: 16px;
+	margin-top: 8px;
+	position: relative;
+	width: auto;
+}
+.menu-contact:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 6px;
+	display: block;
+	margin-top: -3%;
+	left: 0;
+	height: 6px;
+	width: 100%;
+	background: rgb(0,216,195); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(0,216,195,1) 0%, rgba(237,28,36,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,216,195,1) 0%,rgba(237,28,36,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,216,195,1) 0%,rgba(237,28,36,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d8c3', endColorstr='#ed1c24',GradientType=1 ); /* IE6-9 */
 }
 .menu-title, .menu-title > span, .menu-title a {
 	position: relative;
@@ -316,6 +407,9 @@ p {
 	fill: #00d8c3;
 	height: 20px;
 }
+.about {
+	padding-bottom: 60%;
+}
 .about a, .about span {
 	/*color:red;*/
 	color: #1f1f22;
@@ -391,7 +485,6 @@ p {
 	font-size: 40px;
 	line-height: 1.2em;
 	margin-top: 25px;
-	margin-left: 25px;
 }
 .arrow {
 	height: 25px;
@@ -454,7 +547,6 @@ p {
 .featured-sub-menu, .design-sub-menu, .drawing-sub-menu, .sub-menu {
 	max-height: 0;
 	opacity: 0;
-	margin-left: 25px;
 	pointer-events:none;
 	-webkit-transition: .5s ease-in-out;
 	-moz-transition: .5s ease-in-out;
@@ -492,11 +584,6 @@ p {
 	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
 	transition: .25s cubic-bezier(.92,0,.5,1);
 }
-
-.menu-contact {
-	float: left;
-}
-
 
 .mdes-menu:hover {
 	color: rgba(12,209,199,1);
@@ -620,6 +707,9 @@ p {
 	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
 	transition: .25s cubic-bezier(.92,0,.5,1);
 }
+.menu-indent, .menu-indent ul {
+	margin-left: 50px;
+}
 /*-----------------------------------------------------------------ANIMATIONS*/
 @keyframes slideleft {
 	0% {
@@ -662,7 +752,7 @@ p {
 	-o-animation:1s ease-in-out 0s 1 fadeload;
 	-ms-animation:1s ease-in-out 0s 1 fadeload;
 }
-.jared {
+.logo {
 	position: absolute;
 	top: 50%;
 	/*left: 50%;
@@ -672,7 +762,7 @@ p {
 	z-index: 100;
 	height: 40px;
 }
-.jared img {
+.logo img {
 	height: 40px;
 	width: auto;
 }
@@ -1488,10 +1578,19 @@ p {
 	.jared {
 		left: 20px;
 	}
-	.menu {
+	.menu, .menu-bottom {
 		width: 100%;
 		min-width: 300px;
 		padding-left: 0;
+	}
+	.menu ul {
+		top:1%;
+	}
+	.menu-title>span:hover {
+		color: #231f20;
+	}
+	.about {
+		padding-bottom: 70%;
 	}
 	.thumbnail-portrait, .thumbnail-landscape {
 		width: 90%;
