@@ -113,7 +113,7 @@ h1 {
 	margin: 0;
 	width: auto;
 	font-size: 55px;
-	line-height: 1em;
+	line-height: 1.1em;
 	font-family: DomaineDisplayBold;
 	letter-spacing: .5px;
 	color: #231f20;
@@ -1537,11 +1537,11 @@ p {
 		margin: 15% 0;
 	}
 	.project-image-two img {
-		width: 85%;
+		width: 75%;
 	}
 }
 /*------------------------------------------------------------ iPAD PORTRAIT*/
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 800px) {
 	.two {
 		width: 100%;
 		height: 550px;
@@ -1551,6 +1551,46 @@ p {
 	}
 	.thumbnail-button {
 		width: 375px;
+	}
+	.project-left {
+		width: 100%;
+		z-index: 99;
+	}
+	.project-right {
+		width: 100%;
+		min-width: 0;
+		position: relative;
+		margin-top: 70vh;
+	}
+	.project-hero-image {
+		height: 70vh;
+		position: fixed;
+	}
+	.project-head {
+		min-width: 0;
+		padding: 30px 5% 10px 5%;
+		margin-top: 0;
+	}
+	.interior-nav {
+		margin-bottom: 100px;
+		margin: 0 5% 90px 5%;
+	}
+	.project-description {
+		margin: 0 5% 50px 5%;
+	}
+	.project-image {
+		height: 70vh;
+		margin:0;
+		background-color: rgba(235,235,235,1);
+	}
+	.project-image-two {
+		/*width: 50%;
+		float:left;*/
+		margin:-1px;
+		background-color: rgba(235,235,235,1);
+	}
+	.project-image-two img {
+		width: 65%;
 	}
 }
 /*------------------------------------------------------------LARGE PHONES*/
