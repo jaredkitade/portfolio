@@ -711,6 +711,45 @@ p {
 .menu-indent, .menu-indent ul {
 	margin-left: 50px;
 }
+/*-----------------------------------------------------------------FOOTER*/
+.spacer {
+	width: 100%;
+	margin-bottom: 300px;
+	position:relative;
+	display: block;
+	clear: both;
+}
+.footer {
+	width: 100%;
+	height: 200px;
+	bottom: 0;
+	position:fixed;
+	display: block;
+	/*background: red;*/
+	clear: both;
+	background: black;
+	z-index: -1;
+	color: white;
+}
+.footer::before {
+	content: '';
+    width: 100%;
+    height: 2px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-image: url('assets/images/rule.gif');
+}
+.copyright {
+	width: auto;
+	height: auto;
+	font-family: WhitneyHTFLight;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform:translate(0,-50%);
+	font-size: 12px;
+}
 /*-----------------------------------------------------------------ANIMATIONS*/
 @keyframes slideleft {
 	0% {
@@ -737,6 +776,17 @@ p {
 	100% {
 		left: 0;
 		opacity: 1;
+	}
+}
+@keyframes bounce {
+	0% {
+		margin-top: 0%;
+	}
+	50% {
+		margin-top: 1.5%;
+	}
+	100% {
+		margin-top: 0%;
 	}
 }
 /*-----------------------------------------------------------------TOP NAV BAR*/
@@ -896,7 +946,6 @@ p {
 }
 
 .button:hover::after {
-	/*background: rgba(12,209,199,.6);*/
 	-webkit-transform:translate(2px,2px);
 	-moz-transform:translate(2px,2px);
 	-o-transform:translate(2px,2px);
@@ -909,7 +958,7 @@ p {
 	transition: .2s ease-in-out;
 }
 .thumbnail-button {
-	position: absolute;;
+	position: absolute;
 	width: 375px;
 	min-width: 250px;
 	height: auto;
@@ -1033,8 +1082,9 @@ p {
 	width: 100%;
 	height: 750px;
 	position: relative;
-	margin-top: 10px;
+	padding-top: 10px;
 	clear: both;
+	background: white;
 }
 .two {	
 	width: 50%;
@@ -1042,8 +1092,8 @@ p {
 	max-height: 900px;
 	position: relative;
 	float: left;
-	/*background: red;*/
-	margin-top: 10px;
+	background: white;
+	padding-top: 10px;
 }
 .thumbnail-landscape {
 	width: 80%;
@@ -1280,11 +1330,14 @@ p {
 	z-index: 99;
 }
 .project-right {
-	height: 100%;
+	/*height: 100%;*/
 	z-index: 100;
+	overflow-y:scroll;
+	overflow-x:hidden;
 	position: fixed;
 	right: 0;
 	top: 0;
+	bottom: 0;
 	width: 40%;
 	min-width: 490px;
 	color: #1f1f22;
@@ -1307,6 +1360,8 @@ p {
 	margin:0px 10% 50px 10%;
 	padding-top: 10px;
 	position: relative;
+	overflow-y: scroll;
+	overflow-x: hidden; 
 	opacity: 0;
 	animation:.75s ease-in-out .25s 1 forwards fadeleft;
 	-webkit-animation:.75s ease-in-out .25s 1 forwards fadeleft;
@@ -1474,6 +1529,16 @@ p {
 	-o-transition: .25s cubic-bezier(.92,0,.5,1);
 	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
 	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.scroll-notification {
+	position: absolute;
+	opacity: 0;
+	font-family: WhitneyHTFLight;
+	left: 50%;
+	transform: translate(-50%,0);
+	color: #1f1f22;
+	z-index: 1000;
+	animation: .75s ease-in 5s 1 forwards fadeload, .75s ease-in bounce 2.5s infinite;
 }
 .black {
 	color: #1f1f22;
