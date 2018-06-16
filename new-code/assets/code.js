@@ -30,7 +30,7 @@ $(document).ready(function(){
 		$('.menu-bottom').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
-		// $('.all').toggleClass('body-menu');
+		$('.all').toggleClass('body-menu');
 		$('.project-right').toggleClass('project-right-menu');
 		$('.project-left').toggleClass('body-menu');
 		$('.project-hero-image').toggleClass('body-menu');
@@ -99,13 +99,13 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
 
-		if (scroll >= 50) {
-			$('.scroll').addClass('scroll-fade');
+		if (scroll >= 80) {
+			$('.scroll-wrap').addClass('scroll-fade');
 		}
 
 	});
 
-	$('.scroll').click(function(){
+	$('.scroll-wrap').click(function(){
 		$(this).css('pointer-events', 'none')
 		$('html, body').animate({
 			scrollTop: window.pageYOffset + $(window).height()}, 1000);
