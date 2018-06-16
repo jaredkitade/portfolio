@@ -35,7 +35,7 @@ $(document).ready(function(){
 		$('.project-right').toggleClass('menu-wide');
 		$('.project-left').toggleClass('menu-short');
 		$('.project-hero-image').toggleClass('menu-short');
-		$('.scroll-wrap').toggleClass('menu-short');
+		$('.scroll-wrap').toggleClass('menu-wide');
 		$('.menu-title').toggleClass('menu-title-active');
 		$('.thumbnail-portrait img').toggleClass('menu-short');
 		$('.thumbnail-landscape img').toggleClass('menu-short');
