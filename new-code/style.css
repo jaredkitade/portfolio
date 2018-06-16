@@ -707,7 +707,7 @@ p {
 }
 .body-menu {
 	/*right: 25% !important;*/
-	transform: translateX(-25%) !important;
+	transform: translateX(-15%) !important;
 	/*opacity: .25;*/
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -717,7 +717,7 @@ p {
 }
 .project-right-menu {
 	/*right: 25% !important;*/
-	transform: translateX(-60%) !important;
+	transform: translateX(-50%) !important;
 	/*opacity: .25;*/
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -986,6 +986,11 @@ p {
 	-moz-animation:.65s ease-in 0s 1 fadeload;
 	-o-animation:.65s ease-in 0s 1 fadeload;
 	-ms-animation:.65s ease-in 0s 1 fadeload;
+	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
+	-o-transition: .75s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .75s cubic-bezier(.92,0,.5,1);
+	transition: .75s cubic-bezier(.92,0,.5,1);
 }
 .thumbnail-button>span {
 	z-index: 3;
@@ -1195,6 +1200,11 @@ p {
 }*/
 .thumbnail-portrait img, .thumbnail-landscape img {
 	object-fit:cover;
+	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
+	-o-transition: .75s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .75s cubic-bezier(.92,0,.5,1);
+	transition: .75s cubic-bezier(.92,0,.5,1);
 }
 .bw-overlay {
 	mix-blend-mode: color;
@@ -1275,7 +1285,6 @@ p {
 #els-description {
 	top: 82%;
 	left: 50%;
-	transform:translate(-50%,0);
 	background-color: rgba(237,91,46,.7);
 }
 #els-description::before {
