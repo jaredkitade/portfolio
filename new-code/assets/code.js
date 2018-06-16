@@ -14,13 +14,14 @@ $(document).ready(function(){
 		$('.menu-bottom').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
-		// $('.all').toggleClass('body-menu');
-		$('.thumbnail-portrait img').toggleClass('body-menu');
-		$('.thumbnail-landscape img').toggleClass('body-menu');
-		$('.thumbnail-button').toggleClass('project-right-menu');
-		$('.project-right').toggleClass('project-right-menu');
-		$('.project-left').toggleClass('body-menu');
-		$('.project-hero-image').toggleClass('body-menu');
+		// $('.all').toggleClass('menu-short');
+		$('.thumbnail-portrait img').toggleClass('menu-short');
+		$('.thumbnail-landscape img').toggleClass('menu-short');
+		$('.thumbnail-button').toggleClass('menu-wide');
+		$('.project-right').toggleClass('menu-wide');
+		$('.project-left').toggleClass('menu-short');
+		$('.project-hero-image').toggleClass('menu-short');
+		$('.scroll-wrap').toggleClass('menu-wide');
 		$('.menu-title').toggleClass('menu-title-active');
 	});
 
@@ -30,14 +31,15 @@ $(document).ready(function(){
 		$('.menu-bottom').toggleClass('open');
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
-		$('.all').toggleClass('body-menu');
-		$('.project-right').toggleClass('project-right-menu');
-		$('.project-left').toggleClass('body-menu');
-		$('.project-hero-image').toggleClass('body-menu');
+		$('.all').toggleClass('menu-short');
+		$('.project-right').toggleClass('menu-wide');
+		$('.project-left').toggleClass('menu-short');
+		$('.project-hero-image').toggleClass('menu-short');
+		$('.scroll-wrap').toggleClass('menu-short');
 		$('.menu-title').toggleClass('menu-title-active');
-		$('.thumbnail-portrait img').toggleClass('body-menu');
-		$('.thumbnail-landscape img').toggleClass('body-menu');
-		$('.thumbnail-button').toggleClass('project-right-menu');
+		$('.thumbnail-portrait img').toggleClass('menu-short');
+		$('.thumbnail-landscape img').toggleClass('menu-short');
+		$('.thumbnail-button').toggleClass('menu-wide');
 	});
 
 	$('.featured span').click(function(){

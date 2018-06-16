@@ -1438,6 +1438,7 @@ p {
 	width:60%;
 	top:62px;
 	height: 100vh;
+	max-height:calc(100vh - 60px);
 	display: block;
 	overflow: hidden;
 	position: fixed;
@@ -1571,12 +1572,17 @@ p {
 	position: fixed;
 	left: 20px;
 	bottom: 5px;
-	z-index: 1000;
+	z-index: 2;
 	cursor: pointer;
 	height: 75px;
 	width: 75px;
+	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
+	-o-transition: .75s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .75s cubic-bezier(.92,0,.5,1);
+	transition: .75s cubic-bezier(.92,0,.5,1);
 }
-.scroll {
+.scroll-interior {
 	opacity: 0;
 	height: 50px;
 	width: 50px;
@@ -1663,20 +1669,16 @@ p {
 
 
 /*-----------------------------------------------------------WHEN MENU IS OPEN*/
-.body-menu {
-	/*right: 25% !important;*/
+.menu-short {
 	transform: translateX(-15%) !important;
-	/*opacity: .25;*/
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
 	-o-transition: .75s cubic-bezier(.92,0,.5,1);
 	-ms-transition: .75s cubic-bezier(.92,0,.5,1);
 	transition: .75s cubic-bezier(.92,0,.5,1);
 }
-.project-right-menu {
-	/*right: 25% !important;*/
-	transform: translateX(-50%) !important;
-	/*opacity: .25;*/
+.menu-wide {
+	transform: translateX(-45%) !important;
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
 	-o-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -1760,6 +1762,9 @@ p {
 	}
 	.project-image-two img {
 		width: 65%;
+	}
+	.scroll-wrap {
+		display: none;
 	}
 }
 /*------------------------------------------------------------LARGE PHONES*/
@@ -1879,7 +1884,8 @@ p {
 		height: auto;
 	}
 	.project-hero-image {
-		height: 50vh;
+		height: 60vh;
+		max-height: calc(60vh - 60px);
 		position: fixed;
 	}
 	.project-head {
