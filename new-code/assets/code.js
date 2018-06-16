@@ -15,7 +15,9 @@ $(document).ready(function(){
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
 		$('.all').toggleClass('body-menu');
-		$('.project-right').toggleClass('body-menu');
+		$('.project-right').toggleClass('project-right-menu');
+		$('.project-left').toggleClass('body-menu');
+		$('.project-hero-image').toggleClass('body-menu');
 		$('.menu-title').toggleClass('menu-title-active');
 	});
 
@@ -26,6 +28,9 @@ $(document).ready(function(){
 		$('.clickoff').toggleClass('open-clickoff');
 		$('body').toggleClass('scroll');
 		$('.all').toggleClass('body-menu');
+		$('.project-right').toggleClass('project-right-menu');
+		$('.project-left').toggleClass('body-menu');
+		$('.project-hero-image').toggleClass('body-menu');
 		$('.menu-title').toggleClass('menu-title-active');
 	});
 
@@ -83,6 +88,21 @@ $(document).ready(function(){
 		$('.design').find('.arrow-top2').toggleClass('flip-on');
 		$('.design').find('.arrow-bottom2').toggleClass('flip-on');
 		$('.design span').toggleClass('menu-selected');
+	});
+
+	$(window).scroll(function(){
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+			$('.scroll').addClass('scroll-fade');
+		}
+
+	});
+
+	$('.scroll').click(function(){
+		$(this).css('pointer-events', 'none')
+		$('html, body').animate({
+			scrollTop: window.pageYOffset + $(window).height()}, 1000);
 	});
 
 	var logo = [
