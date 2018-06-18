@@ -23,6 +23,24 @@ $(document).ready(function(){
 		$('.project-hero-image').toggleClass('menu-short');
 		$('.scroll-wrap').toggleClass('menu-wide');
 		$('.menu-title').toggleClass('menu-title-active');
+		$('.featured-sub-menu').removeClass('show-sub-menu');
+		$('.featured').find('.arrow-top1').removeClass('flip-off');
+		$('.featured').find('.arrow-bottom1').removeClass('flip-off');
+		$('.featured').find('.arrow-top2').removeClass('flip-on');
+		$('.featured').find('.arrow-bottom2').removeClass('flip-on');
+		$('.drawing-sub-menu').removeClass('show-sub-menu');
+		$('.drawing').find('.arrow-top1').removeClass('flip-off');
+		$('.drawing').find('.arrow-bottom1').removeClass('flip-off');
+		$('.drawing').find('.arrow-top2').removeClass('flip-on');
+		$('.drawing').find('.arrow-bottom2').removeClass('flip-on');
+		$('.design-sub-menu').removeClass('show-sub-menu');
+		$('.design').find('.arrow-top1').removeClass('flip-off');
+		$('.design').find('.arrow-bottom1').removeClass('flip-off');
+		$('.design').find('.arrow-top2').removeClass('flip-on');
+		$('.design').find('.arrow-bottom2').removeClass('flip-on');
+		$('.design span').removeClass('menu-selected');
+		$('.featured span').removeClass('menu-selected');
+		$('.drawing span').removeClass('menu-selected');
 	});
 
 	$('.clickoff').click(function(){
@@ -40,6 +58,24 @@ $(document).ready(function(){
 		$('.thumbnail-portrait img').toggleClass('menu-short');
 		$('.thumbnail-landscape img').toggleClass('menu-short');
 		$('.thumbnail-button').toggleClass('menu-wide');
+		$('.featured-sub-menu').removeClass('show-sub-menu');
+		$('.featured').find('.arrow-top1').removeClass('flip-off');
+		$('.featured').find('.arrow-bottom1').removeClass('flip-off');
+		$('.featured').find('.arrow-top2').removeClass('flip-on');
+		$('.featured').find('.arrow-bottom2').removeClass('flip-on');
+		$('.drawing-sub-menu').removeClass('show-sub-menu');
+		$('.drawing').find('.arrow-top1').removeClass('flip-off');
+		$('.drawing').find('.arrow-bottom1').removeClass('flip-off');
+		$('.drawing').find('.arrow-top2').removeClass('flip-on');
+		$('.drawing').find('.arrow-bottom2').removeClass('flip-on');
+		$('.design-sub-menu').removeClass('show-sub-menu');
+		$('.design').find('.arrow-top1').removeClass('flip-off');
+		$('.design').find('.arrow-bottom1').removeClass('flip-off');
+		$('.design').find('.arrow-top2').removeClass('flip-on');
+		$('.design').find('.arrow-bottom2').removeClass('flip-on');
+		$('.design span').removeClass('menu-selected');
+		$('.featured span').removeClass('menu-selected');
+		$('.drawing span').removeClass('menu-selected');
 	});
 
 	$('.featured span').click(function(){
