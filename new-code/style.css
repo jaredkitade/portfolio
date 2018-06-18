@@ -237,7 +237,7 @@ p {
 	left: 1px;
 }
 .menu-interior {
-	width: 80%;
+	width: 70%;
 	height: 90%;
 	position: absolute;
 	left: 50%;
@@ -245,7 +245,7 @@ p {
 	transform:translate(-50%,0%);
 }
 .menu-top {
-	margin-left: 25px;
+	/*margin-left: 25px;*/
 }
 .jared {
 	font-size: 22px;
@@ -427,6 +427,9 @@ p {
 	fill: #00d8c3;
 	height: 20px;
 	transform: rotate(270deg);
+}
+.featured svg, .design svg, .drawing svg, .about svg {
+	margin-left: -25px;
 }
 .clickoff {
 	width: 100vw;
@@ -706,7 +709,7 @@ p {
 	transition: .75s cubic-bezier(.92,0,.5,1);
 }
 .menu-indent, .menu-indent ul {
-	margin-left: 50px;
+	margin-left: 20px;
 }
 /*-----------------------------------------------------------------FOOTER*/
 .spacer {
@@ -1815,9 +1818,10 @@ p {
 	}
 	.featured svg, .design svg, .drawing svg, .about svg {
 		height: 15px;
+		margin-left: -20px;
 	}
 	.menu-indent, .menu-indent ul {
-	    margin-left: 35px;
+	    margin-left: 15px;
 	}
 	.about {
 		padding-bottom: 70%;
