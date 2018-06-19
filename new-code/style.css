@@ -1621,7 +1621,7 @@ p {
 .scroll-fade {
 	opacity: 0;
 	visibility: hidden;
-	transform: translateY(-2em);
+	transform: translateY(-3em);
 	-webkit-transition: .5s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .5s cubic-bezier(.92,0,.5,1);
 	-o-transition: .5s cubic-bezier(.92,0,.5,1);
