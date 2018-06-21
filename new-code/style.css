@@ -1429,7 +1429,7 @@ p {
 }*/
 
 .intro-paragraph {
-	font-size: 22px;
+	font-size: 20px;
 	margin-top: 25px;
 	line-height: 1.25em;
 	font-family: WhitneyHTFSemibold;
@@ -1473,7 +1473,7 @@ p {
 }
 .project-image {
 	width: 100%;
-	height: 100vh;
+	height: calc(100vh - 60px);
 	display: block;
 	position: relative;
 	animation:1s ease-in-out 0s 1 fadeload;
@@ -1514,8 +1514,8 @@ p {
 }
 .caption {
 	position: absolute;
-	left: -20px;
-	bottom: -20px;
+	left: -15px;
+	bottom: -15px;
 	height: 40px;
 	width: 40px;
 	z-index: 99;
@@ -1554,6 +1554,7 @@ p {
 	min-width: 310px;
 	max-width: 310px;
 	line-height: 1.2em;
+	font-family: WhitneyHTFBook;
 }
 .caption-hidden {
 	opacity: 0;
@@ -1887,7 +1888,7 @@ p {
 		max-width: 70%;
 	}
 	.intro-paragraph {
-		font-size: 18px;
+		font-size: 20px;
 	}
 }
 /*------------------------------------------------------------ iPAD PORTRAIT*/
@@ -2101,10 +2102,6 @@ p {
 	.project-image-two {
 		margin:0;
 		background-color: rgba(235,235,235,1);
-	}
-	.caption {
-		left: -15px;
-		bottom: -15px;
 	}
 	.project-image-wrap-two {
 		width: 100%;
