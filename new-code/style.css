@@ -1484,7 +1484,8 @@ p {
 }
 .project-image-two {
 	width: 50%;
-	height: 100vh;
+	height: calc(100vh - 60px);
+	height: 80vh;
 	display: block;
 	float: left;
 	position: relative;
@@ -1497,23 +1498,24 @@ p {
 .clear {
 	clear: both;
 }
-.project-image img, .project-image-two img {
-	width: 90%;
-	position: absolute;
-	top: 50%;
+.project-image-wrap, .project-image-wrap-two {
+	min-height: 250px;
+	min-width: 250px;
+	max-width: 90%;
+	max-height: calc(100vh - 60px);
+	display: inline-block;
+	position: relative;
 	left: 50%;
-	transform:translate(-50%,-50%);
-	z-index: 1;
-	animation:1s ease-in-out 0s 1 fadeload;
-	-webkit-animation:1s ease-in-out 0s 1 fadeload;
-	-moz-animation:1s ease-in-out 0s 1 fadeload;
-	-o-animation:1s ease-in-out 0s 1 fadeload;
-	-ms-animation:1s ease-in-out 0s 1 fadeload;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.project-image-wrap img, .project-image-wrap-two img {
+	width: 100%;
 }
 .caption {
 	position: absolute;
-	left: 30px;
-	bottom: 30px;
+	left: -20px;
+	bottom: -20px;
 	height: 40px;
 	width: 40px;
 	z-index: 99;
@@ -1870,14 +1872,22 @@ p {
 	.project-left {
 		width: 50%;
 	}
+	.project-right {
+		width: 50%;
+	}
+	.project-image {
+		height: 70vh;
+	}
 	.project-image-two {
 		float: none;
 		width: 100%;
 		height: 90vh;
-		margin: 15% 0;
 	}
-	.project-image-two img {
-		width: 75%;
+	.project-image-wrap-two {
+		max-width: 70%;
+	}
+	.intro-paragraph {
+		font-size: 18px;
 	}
 }
 /*------------------------------------------------------------ iPAD PORTRAIT*/
@@ -1895,6 +1905,7 @@ p {
 	.project-left {
 		width: 100%;
 		z-index: 99;
+		margin-top: 0;
 	}
 	.project-right {
 		width: 100%;
@@ -1930,12 +1941,22 @@ p {
 		margin:-1px;
 		background-color: rgba(235,235,235,1);
 	}
-	.project-image-two img {
-		width: 65%;
-	}
 	.scroll-wrap {
 		display: none;
 	}
+	.project-image-wrap-two {
+		max-width: 60%;
+	}
+	/*.caption-expand {
+		max-width: 250px;
+	}
+	.caption-button div {
+		display: inline-block;
+		position: relative;
+		min-width: 170px;
+		max-width: 170px;
+		line-height: 1.2em;
+	}*/
 }
 /*------------------------------------------------------------LARGE PHONES*/
 @media only screen and (max-width: 414px) {
@@ -2081,6 +2102,27 @@ p {
 		margin:0;
 		background-color: rgba(235,235,235,1);
 	}
+	.caption {
+		left: -15px;
+		bottom: -15px;
+	}
+	.project-image-wrap-two {
+		width: 100%;
+	}
+	.project-image-wrap-two img {
+		width: 100%;
+	}
+	.caption-expand {
+		max-width: 300px;
+	}
+	.caption-button div {
+		display: inline-block;
+		position: relative;
+		min-width: 220px;
+		max-width: 220px;
+		line-height: 1.2em;
+	}
+
 }
 /*------------------------------------------------------------iPHONE 6,7,8--*/
 @media only screen and (max-width: 375px) {
