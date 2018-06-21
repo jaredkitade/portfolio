@@ -122,6 +122,12 @@ $(document).ready(function(){
 		$('.drawing').find('.arrow-bottom2').toggleClass('flip-on');
 		$('.drawing span').toggleClass('menu-selected');
 	});
+	$('.caption-button').click(function(){
+		$(this).toggleClass('caption-expand');
+		$(this).find('div').toggleClass('caption-visible');
+		$(this).find('.plus-v').toggleClass('spin');
+		$(this).find('.plus-h').toggleClass('spin-far');
+	});
 
 	$('.design svg').click(function(){
 		$('.design-sub-menu').toggleClass('show-sub-menu');
