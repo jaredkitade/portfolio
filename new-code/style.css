@@ -1782,14 +1782,13 @@ p {
 }
 .about-right {
 	height:auto;
-	/*min-height: calc(100vh - 60px);*/
 	width:60%;
+	min-height: calc(100vh - 60px);
+	background: white;
+	z-index: 99;
 	margin-top: 60px;
 	position: relative;
-	/*background-color: rgba(235,235,235,1);*/
-	/*background: blue;*/
 	padding-bottom: 50px;
-	z-index: 1;
 	margin-left: 40%;
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -2095,7 +2094,7 @@ p {
 		margin: 0 5% 50px 5%;
 	}
 	.project-image {
-		height: 50vh;
+		height: 60vh;
 		margin:0;
 		background-color: rgba(235,235,235,1);
 	}
@@ -2119,6 +2118,23 @@ p {
 		max-width: 220px;
 		line-height: 1.2em;
 	}
+	.about-left {
+		width: 100%;
+		position: fixed;
+		left: 0;
+		height: 60vh;
+	}
+	.about-left img {
+
+	}
+	.about-right {
+		width: 100%;
+		margin-top: calc(60vh + 60px);
+		margin-left: 0;
+	}
+	.about-description {
+		margin: 0px 5% 10px 5%;
+	}
 
 }
 /*------------------------------------------------------------iPHONE 6,7,8--*/
@@ -2131,7 +2147,13 @@ p {
     	font-size: 18px;
     	margin-top: 10px;
 	}
-
+	/*.caption-expand {
+		max-width: 365px;
+	}
+	.caption-button div {
+		max-width: 300px;
+		min-width: 300px;
+	}*/
 }
 
 /*------------------------------------------------------------iPHONE 5--*/
