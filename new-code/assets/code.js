@@ -153,19 +153,6 @@ $(document).ready(function(){
 			scrollTop: window.pageYOffset + $(window).height()}, 1000);
 	});
 
-	var photos = [
-		'assets/images/about/wave.jpg',
-		'assets/images/about/lion.jpg',
-		'assets/images/about/ice-cream.jpg',
-		'assets/images/about/look.jpg',
-		'assets/images/about/jeff.jpg',
-		'assets/images/about/shine.jpg',
-		'assets/images/about/beard.jpg'
-	];
-
-	var size = photos.length
-	var x = Math.floor(size*Math.random())
-	document.getElementById('about-image').src=photos[x];
 
 	var logo = [
 	  'assets/logos/planeta.gif',
@@ -177,5 +164,21 @@ $(document).ready(function(){
 	var size = logo.length
 	var x = Math.floor(size*Math.random())
 	document.getElementById('logo-image').src=logo[x];
+
+
+	var photo = [
+		'assets/images/about/wave.jpg',
+		'assets/images/about/lion.jpg',
+		'assets/images/about/ice-cream.jpg',
+		'assets/images/about/look.jpg',
+		'assets/images/about/jeff.jpg',
+		'assets/images/about/shine.jpg',
+		'assets/images/about/beard.jpg'
+	];
+
+	var size = photo.length
+	var y = Math.floor(size*Math.random())
+	document.getElementById('about-image').src=photo[y];
+
 
 });	
