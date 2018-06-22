@@ -40,6 +40,8 @@ $(document).ready(function(){
 		$('.design span').removeClass('menu-selected');
 		$('.featured span').removeClass('menu-selected');
 		$('.drawing span').removeClass('menu-selected');
+		$('.about-right').toggleClass('menu-wide');
+		$('.about-left').toggleClass('menu-short');
 	});
 
 	$('.clickoff').click(function(){
@@ -74,6 +76,8 @@ $(document).ready(function(){
 		$('.design span').removeClass('menu-selected');
 		$('.featured span').removeClass('menu-selected');
 		$('.drawing span').removeClass('menu-selected');
+		$('.about-right').toggleClass('menu-wide');
+		$('.about-left').toggleClass('menu-short');
 	});
 
 	$('.featured span').click(function(){
