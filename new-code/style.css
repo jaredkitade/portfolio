@@ -1106,7 +1106,7 @@ p {
 /*-----------------------------------------------------------------HOME PAGE THUMBNAIL*/
 .center {
 	width: 100%;
-	height: 750px;
+	height: 800px;
 	position: relative;
 	padding-top: 10px;
 	clear: both;
@@ -1324,6 +1324,26 @@ p {
 }
 #remote-overlay {
 	background-color: rgba(220,220,30,1);
+}
+
+#loeb-image {
+	top:55%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#loeb-description {
+	top:85%;
+	left: 20%;
+	background-color: rgba(255,60,100,.7);
+}
+#loeb-description::before {
+	background-color: rgba(255,60,100,1);
+}
+#loeb-description::after {
+	background-color: rgba(255,60,100,.3);
+}
+#loeb-overlay {
+	background-color: rgba(255,60,100,1);
 }
 
 /*------------------------------------------------------------PROJECT PAGE*/
@@ -1766,7 +1786,7 @@ p {
 	-ms-transition: .75s cubic-bezier(.92,0,.5,1);
 	transition: .75s cubic-bezier(.92,0,.5,1);
 }
-.about-left img {
+.about-left > #about-image {
 	position: absolute;
 	top: 0;
 	left: 0;
