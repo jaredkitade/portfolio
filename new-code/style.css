@@ -108,9 +108,9 @@ svg {
 body {
 	padding: 0;
 	margin: 0;
-	width: 100% !important;
-	min-width: 100% !important;
-	max-width: 100% !important;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
 	height: auto;
 	background: white;
 	letter-spacing: .25px;
@@ -792,9 +792,9 @@ p {
 }
 /*-----------------------------------------------------------------TOP NAV BAR*/
 .top-bar {
-	width: 100% !important;
-	min-width: 100% !important;
-	max-width: 100% !important;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
 	height: 60px;
 	position: fixed;
 	z-index: 1000;
@@ -2166,6 +2166,8 @@ p {
 @media only screen and (max-width: 375px) {
 	.menu, .menu-bottom, .top-bar {
 		max-width: 375px;
+		width: 375px;
+		min-width: 375px;
 	}
 	.menu li {
 		font-size: 30px;
