@@ -42,7 +42,7 @@
 }
 
 .hamburger:hover {
-  opacity: 0.2; 
+  opacity: 0.5; 
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
