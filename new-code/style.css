@@ -2164,6 +2164,9 @@ p {
 }
 /*------------------------------------------------------------iPHONE 6,7,8--*/
 @media only screen and (max-width: 375px) {
+	.menu, .menu-bottom, .top-bar {
+		max-width: 375px;
+	}
 	.menu li {
 		font-size: 30px;
 	}
