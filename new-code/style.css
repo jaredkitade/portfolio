@@ -2048,12 +2048,12 @@ p {
 	.thumbnail-button {
 		width: 295px;
 	}
-	#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image {
+	#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image, #loeb-image {
 		left: 50%;
 		top: 50%;
 		transform:translate(-50%,-50%);
 	}
-	#mdes-description, #nba-description, #els-description, #diagram-description, #remote-description {
+	#mdes-description, #nba-description, #els-description, #diagram-description, #remote-description, #loeb-description {
 		left: 50%;
 		top: 75%;
 		transform:translate(-50%,0);
@@ -2164,11 +2164,6 @@ p {
 }
 /*------------------------------------------------------------iPHONE 6,7,8--*/
 @media only screen and (max-width: 375px) {
-	.menu, .menu-bottom, .top-bar {
-		max-width: 375px;
-		width: 375px;
-		min-width: 375px;
-	}
 	.menu li {
 		font-size: 30px;
 	}
