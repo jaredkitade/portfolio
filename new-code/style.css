@@ -223,7 +223,7 @@ p {
 	margin-top: 5px;
 }
 /*-----------------------------------------------------------------HAMBURGER MENU*/
-.menu-frame > .menu {
+.menu {
 	position: fixed;
 	overflow-y: scroll;
 	transform: translateX(100%);
@@ -242,12 +242,12 @@ p {
 	-ms-transition: .75s cubic-bezier(.92,0,.5,1);
 	transition: .75s cubic-bezier(.92,0,.5,1);
 }
-.menu-frame > .menu ul {
+.menu ul {
 	width: 90%;
 	top:7%;
 	left: 1px;
 }
-.menu-frame > .menu-interior {
+.menu-interior {
 	width: 70%;
 	height: 90%;
 	position: absolute;
@@ -255,7 +255,7 @@ p {
 	top: 5%;
 	transform:translate(-50%,0%);
 }
-.menu-frame > .menu-top {
+.menu-top {
 	/*margin-left: 25px;*/
 }
 .jared {
@@ -268,7 +268,7 @@ p {
 	font-size: 16px;
 	height: auto;
 }
-.menu-frame > .menu-bottom {
+.menu-bottom {
 	position: fixed;
 	transform: translateX(100%);
 	bottom: 0;
