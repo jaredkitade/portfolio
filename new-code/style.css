@@ -357,7 +357,6 @@ p {
 	background: -webkit-linear-gradient(left,  rgba(0,215,229,1) 0%,rgba(96,1,146,1) 50%,rgba(255,14,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  rgba(0,215,229,1) 0%,rgba(96,1,146,1) 50%,rgba(255,14,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d7e5', endColorstr='#ff0e77',GradientType=1 ); /* IE6-9 */
-
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
 	-o-transition: .25s cubic-bezier(.92,0,.5,1);
@@ -411,6 +410,9 @@ p {
 .about span:after {
 	transition-delay:1.05s;
 	/*background:red;*/
+}
+.about svg {
+	transform: rotate(-90deg);
 }
 .clickoff {
 	width: 100vw;
