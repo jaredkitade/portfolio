@@ -363,13 +363,19 @@ p {
 	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
 	transition: .25s cubic-bezier(.92,0,.5,1);
 }
-.menu-title>span:hover {
+.menu-title:hover > span {
 	color: rgba(0,215,229,1);
 	-webkit-transition: .25s ease-in-out;
 	-moz-transition: .25s ease-in-out;
 	-o-transition: .25s ease-in-out;
 	-ms-transition: .25s ease-in-out;
 	transition: .25s ease-in-out;
+}
+.featured:hover > svg, .design:hover > svg, .drawing:hover > svg {
+	animation:1s ease-in menu-bounce infinite;
+}
+.about:hover > svg {
+	animation:1s ease-in about-bounce infinite;
 }
 .menu-title-active span:after {
 	width: 100%;
@@ -405,14 +411,19 @@ p {
 	/*background:#FFBA49;*/
 }
 .about {
-	padding-bottom: 60%;
+	margin-bottom: 60%;
 }
 .about span:after {
 	transition-delay:1.05s;
 	/*background:red;*/
 }
 .about svg {
-	transform: rotate(-90deg);
+	/*transform: rotate(-90deg);*/
+	width: 20px;
+	height: auto;
+}
+.about span {
+	margin-left: -2px;
 }
 .clickoff {
 	width: 100vw;
@@ -790,6 +801,28 @@ p {
 	}
 	100% {
 		transform: translateY(-.65em);
+	}
+}
+@keyframes menu-bounce {
+	0% {
+		transform: translateY(-2px);
+	}
+	50% {
+		transform: translateY(2px);
+	}
+	100% {
+		transform: translateY(-2px);
+	}
+}
+@keyframes about-bounce {
+	0% {
+		transform: translateX(-2px);
+	}
+	50% {
+		transform: translateX(2px);
+	}
+	100% {
+		transform: translateX(-2px);
 	}
 }
 /*-----------------------------------------------------------------TOP NAV BAR*/
@@ -1880,8 +1913,10 @@ p {
 	transition: .75s cubic-bezier(.92,0,.5,1);
 }
 /*-----------------------------------------------------------MEDIA QUERIES*/
-@media only screen and (max-width: 1280px) {
-	
+@media only screen and (max-width: 1300px) {
+	.two {
+		height: 600px;
+	}	
 }
 /*------------------------------------------------------------iPAD LANDSCAPE*/
 @media only screen and (max-width: 1024px) {
@@ -1969,6 +2004,12 @@ p {
 	.project-image-wrap-two {
 		max-width: 60%;
 	}
+	.menu-title:hover > span {
+		color: #231f20;
+	}
+	.featured:hover > svg, .design:hover > svg, .drawing:hover > svg, .about:hover > svg {
+		animation: none;
+	}
 	/*.caption-expand {
 		max-width: 250px;
 	}
@@ -2024,9 +2065,6 @@ p {
 	.two {
 		height: 500px;
 	}
-	.menu-title>span:hover {
-		color: #231f20;
-	}
 	.featured-sub-menu li, .design-sub-menu li, .drawing-sub-menu li, .sub-menu li {
     	font-size: 18px;
     	margin-top: 10px;
@@ -2034,6 +2072,9 @@ p {
 	.featured svg, .design svg, .drawing svg, .about svg {
 		height: 15px;
 		margin-left: -20px;
+	}
+	.about span {
+		margin-left: -5px;
 	}
 	.menu-indent, .menu-indent ul {
 	    margin-left: 15px;
