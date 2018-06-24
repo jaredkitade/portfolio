@@ -1,12 +1,13 @@
 $(document).ready(function(){
 
     $('.menu-frame').load('hamburger.html');
+    $('.nav-frame').load('nav-bar.html');
 
-	var hamburger = document.querySelector('.hamburger');
+	// var hamburger = document.querySelector('.hamburger');
 
-	hamburger.addEventListener('click', function() {
-		hamburger.classList.toggle('is-active');
-	});
+	// hamburger.addEventListener('click', function() {
+	// 	hamburger.classList.toggle('is-active');
+	// });
 
 	// $(document).ready(function(){
 	// 	$('.hamburger').click(function(){
