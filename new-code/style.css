@@ -1364,6 +1364,21 @@ p {
 #concept-description::after {
 	background-color: rgba(255,153,153,.3);
 }
+#card-image {
+	top:25%;
+	right:-7%;
+}
+#card-description {
+	top:75%;
+	right: 5%;
+	background-color: rgba(0,91,221,.7);
+}
+#card-description::before, .card-background {
+	background-color: rgba(0,91,221,1);
+}
+#card-description::after {
+	background-color: rgba(0,91,221,.3);
+}
 
 /*------------------------------------------------------------PROJECT PAGE*/
 .project-left { 
