@@ -5,6 +5,19 @@
 		hamburger.addEventListener('click', function() {
 			hamburger.classList.toggle('is-active');
 		});
+
+		var logo = [
+			'assets/logos/planeta.gif',
+			'assets/logos/domaine.gif',
+			'assets/logos/bodoni.gif',
+			'assets/logos/din.gif'
+		];
+
+		var size = logo.length
+		var x = Math.floor(size*Math.random())
+		document.getElementById('logo-image').src=logo[x];
+
+
 	});
 </script>
 <div class='top-bar'>

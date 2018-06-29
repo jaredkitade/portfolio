@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
     $('.menu-frame').load('hamburger.html');
-    // $('.nav-frame').load('nav-bar.html');
+    $('.nav-frame').load('nav-bar.html');
 
-	var hamburger = document.querySelector('.hamburger');
+	// var hamburger = document.querySelector('.hamburger');
 
-	hamburger.addEventListener('click', function() {
-		hamburger.classList.toggle('is-active');
-	});
+	// hamburger.addEventListener('click', function() {
+	// 	hamburger.classList.toggle('is-active');
+	// });
 
 	// $(document).ready(function(){
 	// 	$('.hamburger').click(function(){
@@ -182,16 +182,16 @@ $(document).ready(function(){
 	});
 
 
-	var logo = [
-	  'assets/logos/planeta.gif',
-	  'assets/logos/domaine.gif',
-	  'assets/logos/bodoni.gif',
-	  'assets/logos/din.gif'
-	];
+	// var logo = [
+	//   'assets/logos/planeta.gif',
+	//   'assets/logos/domaine.gif',
+	//   'assets/logos/bodoni.gif',
+	//   'assets/logos/din.gif'
+	// ];
 
-	var size = logo.length
-	var x = Math.floor(size*Math.random())
-	document.getElementById('logo-image').src=logo[x];
+	// var size = logo.length
+	// var x = Math.floor(size*Math.random())
+	// document.getElementById('logo-image').src=logo[x];
 
 
 	var photo = [
