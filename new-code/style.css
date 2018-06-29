@@ -887,6 +887,18 @@ p {
 	font-family: DomaineDisplayBold;
 	font-size: 16px;
 }
+.featured-frame > .top-bar > .main-nav > .featured-nav::after {
+	width: 100%;
+}
+.design-frame > .top-bar > .main-nav > .design-nav::after {
+	width: 100%;
+}
+.drawing-frame > .top-bar > .main-nav > .drawing-nav::after {
+	width: 100%;
+}
+.about-frame > .top-bar > .main-nav > .about-nav::after {
+	width: 100%;
+}
 /*-----------------------------------------------------------------OFFSET BUTTON*/
 .button-container {
 	z-index: 1;
