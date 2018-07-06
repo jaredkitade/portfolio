@@ -1150,6 +1150,9 @@ p {
 	background: white;
 	padding-top: 10px;
 }
+.first {
+	margin-top: 50px;
+}
 .thumbnail-landscape {
 	width: 80%;
 	max-width: 900px;
