@@ -1395,6 +1395,44 @@ p {
 .concept-text {
 	color: rgba(128,190,238,1);
 }
+#cosplay-image {
+	top:25%;
+	right:-7%;
+}
+#cosplay-description {
+	top:75%;
+	right: 5%;
+	background-color: rgba(0,200,180,.7);
+}
+#cosplay-description::before, .cosplay-background, .cosplay-border::before, .cosplay-border::after {
+	background-color: rgba(0,200,180,1);
+}
+#cosplay-description::after {
+	background-color: rgba(0,200,180,.3);
+}
+.cosplay-text {
+	color: rgba(237,115,107,1);
+}
+
+#banana-image {
+	top:25%;
+	right:-7%;
+}
+#banana-description {
+	top:75%;
+	right: 5%;
+	background-color: rgba(200,50,100,.7);
+}
+#banana-description::before, .banana-background, .banana-border::before, .banana-border::after {
+	background-color: rgba(200,50,100,1);
+}
+#banana-description::after {
+	background-color: rgba(200,50,100,.3);
+}
+.banana-text {
+	color: rgba(70,40,130,1);
+}
+
 #card-image {
 	top:25%;
 	right:-7%;
