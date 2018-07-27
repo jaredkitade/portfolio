@@ -1581,6 +1581,7 @@ p {
 	position: fixed;
 	z-index: -1;
 	animation:1s ease-in-out 0s 1 fadeload;
+	background-color: rgba(235,235,235,.3);
 	-webkit-animation:1s ease-in-out 0s 1 fadeload;
 	-moz-animation:1s ease-in-out 0s 1 fadeload;
 	-o-animation:1s ease-in-out 0s 1 fadeload;
