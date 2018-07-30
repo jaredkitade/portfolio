@@ -1485,6 +1485,7 @@ p {
 	z-index: 2;
 	overflow-y:scroll;
 	overflow-x:hidden;
+	/*overflow: hidden;*/
 	position: fixed;
 	right: 0;
 	top: 0;
@@ -1514,8 +1515,9 @@ p {
 	margin:0px 10% 50px 10%;
 	padding-top: 10px;
 	position: relative;
-	overflow-y: scroll;
-	overflow-x: hidden; 
+	/*overflow-y: scroll;
+	overflow-x: hidden;*/ 
+	overflow: hidden;
 	opacity: 0;
 	animation:.75s ease-in-out .25s 1 forwards fadeleft;
 	-webkit-animation:.75s ease-in-out .25s 1 forwards fadeleft;
@@ -1742,7 +1744,7 @@ p {
 	transition: .75s cubic-bezier(.92,0,.5,1);	
 }
 .interior-nav {
-	margin: 0px 10% 50px 10%;
+	margin: 0px 10% 85px 10%;
 	width: auto;
 	position: relative;
 	display: block;
