@@ -1648,6 +1648,14 @@ p {
 }
 .project-image-wrap img, .project-image-wrap-two img {
 	width: 100%;
+	-webkit-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+}
+.no-shadow {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
 }
 .caption {
 	position: absolute;
