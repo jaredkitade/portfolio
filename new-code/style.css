@@ -1037,6 +1037,9 @@ p {
 	-o-transition: .75s cubic-bezier(.92,0,.5,1);
 	-ms-transition: .75s cubic-bezier(.92,0,.5,1);
 	transition: .75s cubic-bezier(.92,0,.5,1);
+	-webkit-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
 }
 .thumbnail-button>span {
 	z-index: 3;
@@ -1065,6 +1068,9 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+	-webkit-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
 }
 .thumbnail-button::after {
 	content:'';
@@ -1081,6 +1087,9 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+	-webkit-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.2);
 }
 .thumbnail-portrait:hover > .thumbnail-button>span, .thumbnail-landscape:hover > .thumbnail-button>span {
 	-webkit-transform:translate(-10px,-10px);
@@ -1191,6 +1200,9 @@ p {
 	-o-transition: .2s ease-in-in;
 	-ms-transition: .2s ease-in-in;
 	transition: .2s ease-in-in;
+	-webkit-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
 }
 .thumbnail-portrait {
 	width: 55%;
@@ -1217,6 +1229,9 @@ p {
 	-o-transition: .2s ease-in-in;
 	-ms-transition: .2s ease-in-in;
 	transition: .2s ease-in-in;
+	-webkit-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
 }
 /*.thumbnail-portrait img:hover, .thumbnail-landscape img:hover {
 	transform: scale(1.01);
