@@ -874,7 +874,7 @@ p {
 	100% {color: #1f1f22;}
 }*/
 .rule {
-	/*background-image: url('assets/images/rule.gif');*/
+	background-image: url('assets/images/rule.gif');
 	position: fixed;
 	width: 100%;
 	height: 2px;
@@ -882,13 +882,6 @@ p {
 	z-index: 1;
 	left: 50%;
 	transform:translate(-50%,0);
-}
-.rule::after {
-	background: rgb(0,215,229); /* Old browsers */
-	background: -moz-linear-gradient(left,  rgba(0,215,229,1) 0%, rgba(96,1,146,1) 50%, rgba(255,14,119,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  rgba(0,215,229,1) 0%,rgba(96,1,146,1) 50%,rgba(255,14,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  rgba(0,215,229,1) 0%,rgba(96,1,146,1) 50%,rgba(255,14,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d7e5', endColorstr='#ff0e77',GradientType=1 ); /* IE6-9 */
 }
 .main-nav {
 	top: 50%;
