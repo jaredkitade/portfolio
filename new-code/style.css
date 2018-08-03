@@ -655,7 +655,7 @@ p {
 .concept-menu:hover:after {
 	background: rgba(229,107,110,1);
 }
-.sound-pack-menu:hover {
+.sound-packs-menu:hover {
 	color: rgba(0,187,240,1);
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
@@ -663,7 +663,7 @@ p {
 	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
 	transition: .25s cubic-bezier(.92,0,.5,1);
 }
-.sound-pack-menu:hover:after {
+.sound-packs-menu:hover:after {
 	background: rgba(0,187,240,1);
 }
 
@@ -675,7 +675,7 @@ p {
 	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
 	transition: .25s cubic-bezier(.92,0,.5,1);
 }
-.banana-menu:hover:after {
+.banana-menu:hover:after { 
 	background: rgba(200,50,100,1);
 }
 
@@ -689,6 +689,18 @@ p {
 }
 .bjork-menu:hover:after {
 	background: rgba(242,40,120,1);
+}
+
+.remote-menu:hover {
+	color: rgba(220,220,30,1);
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.remote-menu:hover:after {
+	background: rgba(220,220,30,1);
 }
 
 .cosplay-menu:hover {
