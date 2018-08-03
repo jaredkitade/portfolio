@@ -703,6 +703,18 @@ p {
 	background: rgba(0,200,180,1);
 }
 
+.filters-menu:hover {
+	color: rgba(0,49,158,1);
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.filters-menu:hover:after {
+	background: rgba(0,49,158,1);
+}
+
 .underline { 
 	position: relative;
 }
