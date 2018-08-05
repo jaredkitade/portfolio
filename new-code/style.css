@@ -1354,7 +1354,7 @@ p {
 	left: 55%;
 	background-color: rgba(12,209,199,.7);
 }
-#mdes-description::before, .mdes-background {
+#mdes-description::before, .mdes-background, .mdes-border:before, .mdes-border:after {
 	background-color: rgba(12,209,199,1);
 }
 #mdes-description::after {
@@ -1366,9 +1366,6 @@ p {
 .mdes-border {
 	border-color: rgba(228,78,105,1);
 }
- .mdes-border:before, .mdes-border:after {
- 	background-color: rgba(228,78,105,1);
- }
 
 #nba-image {
 	top: 25%;
@@ -1379,7 +1376,7 @@ p {
 	right: 55%;
 	background-color: rgba(50,190,100,.7);
 }
-#nba-description::before, .nba-background {
+#nba-description::before, .nba-background, .nba-background::before, .nba-border::after {
 	background-color: rgba(50,190,100,1);
 }
 #nba-description::after {
@@ -1398,14 +1395,14 @@ p {
 	left: 50%;
 	background-color: rgba(237,91,46,.7);
 }
-#els-description::before, .els-background {
+#els-description::before, .els-background, .els-border::before, .els-border::after {
 	background-color: rgba(237,91,46,1);
 }
 #els-description::after {
 	background-color: rgba(237,91,46,.3);
 }
 .els-text {
-	color: rgba(12,209,199,1);
+	color: rgba(200,200,200,1);
 }
 #diagram-image {
 	top:20%;
@@ -1461,7 +1458,7 @@ p {
 	background-color: rgba(255,60,100,.3);
 }
 .loeb-text {
-	color: rgba(255,60,100,1);
+	color: rgba(20,155,207,1);
 }
 #concept-image {
 
