@@ -1354,7 +1354,7 @@ p {
 	left: 55%;
 	background-color: rgba(12,209,199,.7);
 }
-#mdes-description::before, .mdes-background, .mdes-border:before, .mdes-border:after {
+#mdes-description::before, .mdes-background {
 	background-color: rgba(12,209,199,1);
 }
 #mdes-description::after {
@@ -1366,6 +1366,9 @@ p {
 .mdes-border {
 	border-color: rgba(228,78,105,1);
 }
+ .mdes-border:before, .mdes-border:after {
+ 	background-color: rgba(228,78,105,1);
+ }
 
 #nba-image {
 	top: 25%;
