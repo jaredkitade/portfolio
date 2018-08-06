@@ -1408,16 +1408,16 @@ p {
 #nba-description {
 	top:80%;
 	right: 55%;
-	background-color: rgba(50,190,100,.7);
+	background-color: rgba(29,66,138,.7);
 }
-#nba-description::before, .nba-background, .nba-background::before, .nba-border::after {
-	background-color: rgba(50,190,100,1);
+#nba-description::before, .nba-background, .nba-border::before, .nba-background::before, .nba-border::after {
+	background-color: rgba(29,66,138,1);
 }
 #nba-description::after {
-	background-color: rgba(50,190,100,.3);
+	background-color: rgba(29,66,138,.3);
 }
 .nba-text {
-	color: rgba(12,209,199,1);
+	color: rgba(201,8,42,1);
 }
 #els-image {
 	top:20%;
