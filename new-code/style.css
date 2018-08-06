@@ -3,7 +3,7 @@
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 a {
-	cursor: pointer;
+	cursor: pointer !important;
 }
 ::selection {
 	/*color: white;*/
@@ -105,7 +105,6 @@ a {
 }
 
 svg {
-	cursor: pointer;
 }
 
 body {
@@ -395,7 +394,6 @@ p {
 .featured a, .featured span, .design a, .design span, .drawing a, .drawing span, .about a, .about span {
 	/*color: #02CEBA;*/
 	color: #1f1f22;
-	cursor: pointer;
 }
 .featured span:after {
 	transition-delay:.75s;
@@ -441,7 +439,6 @@ p {
 	opacity: 0;
 	visibility: hidden;
 	z-index: 4;
-	cursor: pointer;
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
 	-o-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -1189,7 +1186,6 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
-	cursor: pointer;
 }
 .thumbnail-portrait:hover > .thumbnail-button::before, .thumbnail-landscape:hover > .thumbnail-button::before {
 	/*background: #0cd1c7;*/
@@ -1203,7 +1199,6 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
-	cursor: pointer;
 }
 
 .thumbnail-portrait:hover > .thumbnail-button::after, .thumbnail-landscape:hover > .thumbnail-button::after {
@@ -1218,7 +1213,6 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
-	cursor: pointer;
 }
 .thumbnail-portrait:hover .overlay, .thumbnail-landscape:hover .overlay {
 	opacity: 1;
@@ -1227,7 +1221,6 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
-	cursor: pointer;
 }
 .thumbnail-landscape:hover .bw-overlay, .thumbnail-portrait:hover .bw-overlay {
 	/*opacity: 1;*/
@@ -1237,7 +1230,6 @@ p {
 	-o-transition: .2s ease-in-out;
 	-ms-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
-	cursor: pointer;
 }
 
 /*-----------------------------------------------------------------HOME PAGE THUMBNAIL*/
@@ -1832,7 +1824,6 @@ p {
 	max-height: 40px;
 	border-radius: 20px;
 	position: relative;
-	cursor: pointer;
 	display: inline-block;
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -1961,7 +1952,6 @@ p {
 	left: 20px;
 	bottom: 20px;
 	z-index: 2;
-	cursor: pointer;
 	height: 50px;
 	width: 50px;
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -1986,12 +1976,10 @@ p {
 	opacity: 1;
 }
 .scroll-notification {
-	cursor: pointer;
 	opacity: 0;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	cursor: pointer;
 	z-index: 9999;
 	animation: .75s ease-in 3s 1 forwards fadeload, 1s ease-in bounce 2.5s infinite;
 	-webkit-transition: .35s cubic-bezier(.92,0,.5,1);
@@ -2063,12 +2051,10 @@ p {
 }
 
 .scroll-top {
-	cursor: pointer;
 	/*opacity: 0;*/
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	cursor: pointer;
 	z-index: 9999;
 	/*animation: .75s ease-in 3s 1 forwards fadeload, 1s ease-in bounce 2.5s infinite;*/
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
