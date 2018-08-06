@@ -2,6 +2,9 @@
 	box-sizing:border-box;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+a {
+	cursor: pointer;
+}
 ::selection {
 	color: white;
 	/*color: rgba(255,24,119,1);*/
@@ -1468,6 +1471,8 @@ p {
 }
 #concept-description {
 	background-color: rgba(255,153,153,.7);
+	top:85%;
+	left: 20%;
 }
 #concept-description::before, .concept-background, .concept-border::before, .concept-border::after {
 	background-color: rgba(255,153,153,1);
@@ -1499,12 +1504,12 @@ p {
 }
 
 #banana-image {
-	top:25%;
+	top:5%;
 	right:-7%;
 }
 #banana-description {
-	top:75%;
-	right: 5%;
+	top: 20%;
+    left: 65%;
 	background-color: rgba(200,50,100,.7);
 }
 #banana-description::before, .banana-background, .banana-border::before, .banana-border::after {
@@ -1537,8 +1542,9 @@ p {
 }
 
 #bjork-image {
-	top:25%;
-	right:-7%;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
 }
 #bjork-description {
 	top:75%;
