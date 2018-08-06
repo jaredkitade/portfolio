@@ -975,36 +975,36 @@ p {
 	font-size: 16px;
 }
 .featured-nav::after, .design-nav::after, .about-nav::after, .drawing-nav::after, {
-	height: 2px;
-	background: rgb(0,215,229);
-    background: -moz-linear-gradient(left, rgba(0,215,229,1) 0%, rgba(96,1,146,1) 50%, rgba(255,14,119,1) 100%);
-    background: -webkit-linear-gradient(left, rgba(0,215,229,1) 0%,rgba(96,1,146,1) 50%,rgba(255,14,119,1) 100%);
-    background: linear-gradient(to right, rgba(0,215,229,1) 0%,rgba(96,1,146,1) 50%,rgba(255,14,119,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d7e5', endColorstr='#ff0e77',GradientType=1 );
+	height: 2px !important;
+	background: rgb(0,215,229) !important;
+    background: -moz-linear-gradient(left, rgba(0,215,229,1) 0%, rgba(96,1,146,1) 50%, rgba(255,14,119,1) 100%) !important;
+    background: -webkit-linear-gradient(left, rgba(0,215,229,1) 0%,rgba(96,1,146,1) 50%,rgba(255,14,119,1) 100%) !important;
+    background: linear-gradient(to right, rgba(0,215,229,1) 0%,rgba(96,1,146,1) 50%,rgba(255,14,119,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d7e5', endColorstr='#ff0e77',GradientType=1 ) !important;
 }
 
 .featured-frame > .top-bar > .main-nav > .featured-nav::after {
 	width: 100%;
 }
-.featured-frame > .top-bar > .main-nav > .featured-nav::after {
+.featured-frame > .top-bar > .main-nav > .featured-nav {
 	color: rgba(0,215,229,1) !important;
 }
 .design-frame > .top-bar > .main-nav > .design-nav::after {
 	width: 100%;
 }
-.design-frame > .top-bar > .main-nav > .design-nav::after {
+.design-frame > .top-bar > .main-nav > .design-nav {
 	color: rgba(0,215,229,1) !important;
 }
 .drawing-frame > .top-bar > .main-nav > .drawing-nav::after {
 	width: 100%;
 }
-.drawing-frame > .top-bar > .main-nav > .drawing-nav::after {
+.drawing-frame > .top-bar > .main-nav > .drawing-nav {
 	color: rgba(0,215,229,1) !important;
-}
-.about-frame > .top-bar > .main-nav > .about-nav {
-	width: 100%;
 }
 .about-frame > .top-bar > .main-nav > .about-nav::after {
+	width: 100%;
+}
+.about-frame > .top-bar > .main-nav > .about-nav {
 	color: rgba(0,215,229,1) !important;
 }
 /*-----------------------------------------------------------------OFFSET BUTTON*/
