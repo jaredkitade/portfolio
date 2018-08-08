@@ -1383,22 +1383,22 @@ p {
 #mdes-description {
 	top: 15%;
 	left: 55%;
-	background-color: rgba(12,209,199,.7);
+	background-color: rgba(228,78,105,.7);
 }
 #mdes-description::before, .mdes-background {
-	background-color: rgba(12,209,199,1);
+	background-color: rgba(228,78,105,1);
 }
 #mdes-description::after {
-	background-color: rgba(12,209,199,.3);
+	background-color: rgba(228,78,105,.3);
 }
 .mdes-text {
-	color: rgba(12,209,199,1);
+	color: rgba(228,78,105,1);
 }
 .mdes-border {
 	border-color: rgba(228,78,105,1);
 }
  .mdes-border:before, .mdes-border:after {
- 	background-color: rgba(228,78,105,1);
+ 	background-color: rgba(110,15,84,1);
  }
 
 #nba-image {
@@ -1408,13 +1408,13 @@ p {
 #nba-description {
 	top:80%;
 	right: 55%;
-	background-color: rgba(29,66,138,.7);
+	background-color: rgba(0,155,152,.7);
 }
 #nba-description::before, .nba-background, .nba-border::before, .nba-background::before, .nba-border::after {
-	background-color: rgba(29,66,138,1);
+	background-color: rgba(0,155,152,1);
 }
 #nba-description::after {
-	background-color: rgba(29,66,138,.3);
+	background-color: rgba(0,155,152,.3);
 }
 .nba-text {
 	color: rgba(201,8,42,1);
@@ -1626,8 +1626,99 @@ p {
 	background-color: rgba(0,91,221,.3);
 }
 .card-text {
-	color: rgba(0,91,221,1);
+	color: rgba(189,145,86,1);
 }
+
+
+#tony-image {
+	top:25%;
+	right:-7%;
+}
+#tony-description {
+	top:75%;
+	right: 5%;
+	background-color: rgba(189,145,86,.7);
+}
+#tony-description::before, .tony-background, .tony-border::before, .tony-border::after {
+	background-color: rgba(189,145,86,1);
+}
+#tony-description::after {
+	background-color: rgba(189,145,86,.3);
+}
+.tony-text {
+	color: rgba(200,200,200,1);
+}
+.tony-menu {
+	color: rgba(189,145,86,1);
+}
+
+#lupe-image {
+	top:25%;
+	right:-7%;
+}
+#lupe-description {
+	top:75%;
+	right: 5%;
+	background-color: rgba(200,200,200,.7);
+}
+#lupe-description::before, .lupe-background, .lupe-border::before, .lupe-border::after {
+	background-color: rgba(200,200,200,1);
+}
+#lupe-description::after {
+	background-color: rgba(200,200,200,.3);
+}
+.lupe-text {
+	color: black;
+}
+.lupe-menu {
+	color: rgba(200,200,200,1);
+}
+
+#still-life-image {
+	top:25%;
+	right:-7%;
+}
+#still-life-description {
+	top:75%;
+	right: 5%;
+	background-color: rgba(200,200,200,.7);
+}
+#still-life-description::before, .still-life-background, .still-life-border::before, .still-life-border::after {
+	background-color: rgba(200,200,200,1);
+}
+#still-life-description::after {
+	background-color: rgba(200,200,200,.3);
+}
+.still-life-text {
+	color: black;
+}
+.still-life-menu {
+	color: rgba(200,200,200,1);
+}
+
+#landscape-image {
+	top:25%;
+	right:-7%;
+}
+#landscape-description {
+	top:75%;
+	right: 5%;
+	background-color: rgba(255,107,0,.7);
+}
+#landscape-description::before, .landscape-background, .landscape-border::before, .landscape-border::after {
+	background-color: rgba(255,107,0,1);
+}
+#landscape-description::after {
+	background-color: rgba(255,107,0,.3);
+}
+.landscape-text {
+	color: rgba(0,187,247,1);
+}
+.landscape-menu {
+	color: rgba(0,187,247,1);
+}
+
+
 
 /*------------------------------------------------------------PROJECT PAGE*/
 .project-left { 
