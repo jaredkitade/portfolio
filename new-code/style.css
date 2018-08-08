@@ -1785,9 +1785,19 @@ p {
 	-o-animation:1s ease-in-out 0s 1 fadeload;
 	-ms-animation:1s ease-in-out 0s 1 fadeload;
 }
+.project-image-portrait {
+	width: auto;
+	height: calc(80vh - 60px);
+	display: block;
+	position: relative;
+	animation:1s ease-in-out 0s 1 fadeload;
+	-webkit-animation:1s ease-in-out 0s 1 fadeload;
+	-moz-animation:1s ease-in-out 0s 1 fadeload;
+	-o-animation:1s ease-in-out 0s 1 fadeload;
+	-ms-animation:1s ease-in-out 0s 1 fadeload;
+}
 .project-image-two {
 	width: 50%;
-	height: calc(100vh - 60px);
 	height: 80vh;
 	display: block;
 	float: left;
@@ -1801,7 +1811,7 @@ p {
 .clear {
 	clear: both;
 }
-.project-image-wrap, .project-image-wrap-two {
+.project-image-wrap, .project-image-wrap-two, .project-image-portrait-wrap {
 	min-height: 250px;
 	min-width: 250px;
 	max-width: 90%;
@@ -1812,11 +1822,21 @@ p {
 	top: 50%;
 	transform: translate(-50%,-50%);
 }
+.project-image-portrait-wrap {
+	max-height: calc(80vh - 60px) !important;
+}
 .project-image-wrap img, .project-image-wrap-two img {
 	width: 100%;
 	-webkit-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
 	-moz-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
 	box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+}
+.project-image-portrait-wrap img {
+	width: auto;
+	-webkit-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 80px -11px rgba(0,0,0,0.8);
+	max-height: calc(80vh - 60px) !important;
 }
 .no-shadow {
 	box-shadow: none !important;
@@ -1825,18 +1845,18 @@ p {
 }
 .caption {
 	position: absolute;
-	left: -15px;
-	bottom: -15px;
-	height: 40px;
-	width: 40px;
-	z-index: 99;
+    left: -15px;
+    bottom: -15px;
+    min-height: 40px;
+    height: 40px;
+    max-width: calc(100% + 40px);
+    z-index: 99;
 }
 .caption-button {
-	/*width: 40px;*/
 	max-width: 40px;
 	min-width: 40px;
 	min-height: 40px;
-	max-height: 40px;
+	height: 40px;
 	border-radius: 20px;
 	position: relative;
 	display: inline-block;
@@ -1847,11 +1867,10 @@ p {
 	transition: .75s cubic-bezier(.92,0,.5,1);
 }
 .caption-expand {
-	max-width: 400px;
-	max-height: 400px;
-	width: auto;
-	height: auto;
-	padding:15px 45px;
+	max-width: calc(100% + 40px);
+    width: auto;
+    height: auto;
+    padding: 10px 45px;
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
 	-o-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -1859,29 +1878,47 @@ p {
 	transition: .75s cubic-bezier(.92,0,.5,1);
 }
 .caption-button div {
-	display: inline-block;
+	max-width: calc(100% + 40px);
+	width: calc(100% + 40px);
+	height: auto;
 	position: relative;
-	min-width: 310px;
-	max-width: 310px;
 	line-height: 1.2em;
 	font-family: WhitneyHTFBook;
+	color: white;
+}
+.hidden {
+	visibility: hidden;
+	max-height: 0;
+	-webkit-transition: .5s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .5s cubic-bezier(.92,0,.5,1);
+	-o-transition: .5s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .5s cubic-bezier(.92,0,.5,1);
+	transition: .5s cubic-bezier(.92,0,.5,1);
+}
+.visible {
+	visibility: visible;
+	max-height: 500px;
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1) .25s;
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1) .25s;
+	-o-transition: .25s cubic-bezier(.92,0,.5,1) .25s;
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1) .25s;
+	transition: .25s cubic-bezier(.92,0,.5,1) .25s;
 }
 .caption-hidden {
 	opacity: 0;
-	color: white;
-	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
-	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
-	-o-transition: .25s cubic-bezier(.92,0,.5,1);
-	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
-	transition: .25s cubic-bezier(.92,0,.5,1);
+	-webkit-transition: .15s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .15s cubic-bezier(.92,0,.5,1);
+	-o-transition: .15s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .15s cubic-bezier(.92,0,.5,1);
+	transition: .15s cubic-bezier(.92,0,.5,1);
 }
 .caption-visible {
 	opacity: 1 !important;
-	-webkit-transition: .75s cubic-bezier(.92,0,.5,1) .5s;
-	-moz-transition: .75s cubic-bezier(.92,0,.5,1) .5s;
-	-o-transition: .75s cubic-bezier(.92,0,.5,1) .5s;
-	-ms-transition: .75s cubic-bezier(.92,0,.5,1) .5s;
-	transition: .75s cubic-bezier(.92,0,.5,1) .5s;
+	-webkit-transition: .75s cubic-bezier(.92,0,.5,1) .75s;
+	-moz-transition: .75s cubic-bezier(.92,0,.5,1) .75s;
+	-o-transition: .75s cubic-bezier(.92,0,.5,1) .75s;
+	-ms-transition: .75s cubic-bezier(.92,0,.5,1) .75s;
+	transition: .75s cubic-bezier(.92,0,.5,1) .75s;
 }
 .caption-button svg {
 	position: absolute;
