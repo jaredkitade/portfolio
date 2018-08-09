@@ -2477,7 +2477,7 @@ p {
 	.menu-title:hover > span {
 		color: #231f20;
 	}
-	.featured:hover > svg, .design:hover > svg, .drawing:hover > svg, .about:hover > svg {
+	.featured:hover > svg, .design:hover > svg, .drawing:hover > svg, .about:hover > svg, .underline:hover:after {
 		animation: none;
 	}
 	.thumbnail-portrait > .thumbnail-button>span, .thumbnail-landscape > .thumbnail-button>span {
