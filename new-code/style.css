@@ -548,6 +548,35 @@ p {
 	-ms-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 }
+
+.underline { 
+	position: relative;
+}
+.underline:after {
+	content: '';
+  	position: absolute;
+ 	width: 0; 
+ 	height: 1px;
+  	display: block;
+ 	margin-top: 1px;
+  	/*right: 0;*/
+  	left: 0;
+  	background: black;
+  	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.underline:hover:after {
+	width: 100%;
+  	left: 0;
+  	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
 .featured-sub-menu, .design-sub-menu, .drawing-sub-menu, .sub-menu {
 	max-height: 0;
 	opacity: 0;
@@ -726,35 +755,62 @@ p {
 .filters-menu:hover:after {
 	background: rgba(0,49,158,1) !important;
 }
+.landscape-menu:hover {
+	color: rgba(0,187,247,1);
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.landscape-menu:hover:after {
+	background: rgba(0,187,247,1);
+}
+.card-menu:hover {
+	color: rgba(0,91,221,1);
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.card-menu:hover:after {
+	background: rgba(0,91,221,1);
+}
+.still-life-menu:hover {
+	color: rgba(200,200,200,1);
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.still-life-menu:hover:after {
+	background: rgba(200,200,200,1);
+}
+.lupe-menu:hover {
+	color: rgba(200,200,200,1);
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.lupe-menu:hover:after {
+	background: rgba(200,200,200,1);
+}
+.tony-menu:hover, .card-menu:hover {
+	color: rgba(189,145,86,1) !important;
+	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
+	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
+	-o-transition: .25s cubic-bezier(.92,0,.5,1);
+	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
+	transition: .25s cubic-bezier(.92,0,.5,1);
+}
+.tony-menu:hover:after, .card-menu:hover:after {
+	background: rgba(189,145,86,1) !important;
+}
 
-.underline { 
-	position: relative;
-}
-.underline:after {
-	content: '';
-  	position: absolute;
- 	width: 0; 
- 	height: 1px;
-  	display: block;
- 	margin-top: 1px;
-  	/*right: 0;*/
-  	left: 0;
-  	background: black;
-  	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
-	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
-	-o-transition: .25s cubic-bezier(.92,0,.5,1);
-	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
-	transition: .25s cubic-bezier(.92,0,.5,1);
-}
-.underline:hover:after {
-	width: 100%;
-  	left: 0;
-  	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
-	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
-	-o-transition: .25s cubic-bezier(.92,0,.5,1);
-	-ms-transition: .25s cubic-bezier(.92,0,.5,1);
-	transition: .25s cubic-bezier(.92,0,.5,1);
-}
 .open {
 	transform: none;
 	opacity: 1;
@@ -1629,7 +1685,6 @@ p {
 	color: rgba(189,145,86,1);
 }
 
-
 #tony-image {
 	top:25%;
 	right:-7%;
@@ -1648,9 +1703,7 @@ p {
 .tony-text {
 	color: rgba(200,200,200,1);
 }
-.tony-menu, .card-menu {
-	color: rgba(189,145,86,1);
-}
+
 
 #lupe-image {
 	top:25%;
@@ -1669,9 +1722,6 @@ p {
 }
 .lupe-text {
 	color: black;
-}
-.lupe-menu {
-	color: rgba(200,200,200,1);
 }
 
 #still-life-image {
@@ -1692,9 +1742,7 @@ p {
 .still-life-text {
 	color: black;
 }
-.still-life-menu {
-	color: rgba(200,200,200,1);
-}
+
 
 #landscape-image {
 	top:25%;
@@ -1714,9 +1762,7 @@ p {
 .landscape-text {
 	color: rgba(0,187,247,1);
 }
-.landscape-menu {
-	color: rgba(0,187,247,1);
-}
+
 
 
 
