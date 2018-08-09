@@ -1688,7 +1688,7 @@ p {
 
 #tony-image {
 	top: 12%;
-    left: 15%;
+    left: 8%;
 }
 #tony-description {
 	top: 85%;
@@ -1731,7 +1731,7 @@ p {
 	transform: translate(-50%,-50%);
 }
 #still-life-description {
-	top:75%;
+	top:85%;
 	right: 5%;
 	background-color: rgba(200,200,200,.7);
 }
@@ -2574,12 +2574,12 @@ p {
 	.project-image-wrap-two {
 		max-width: 60%;
 	}
-	#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image, #loeb-image, #card-image {
+	#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image, #loeb-image, #card-image, #tony-image, #landscape-image, #lupe-image, #still-life-image, #concept-image, #cosplay-image, #filters-image, #bjork-image, #sound-pack-image, #banana-image {
 		left: 50%;
 		top: 50%;
 		transform:translate(-50%,-50%);
 	}
-	#mdes-description, #nba-description, #els-description, #diagram-description, #remote-description, #loeb-description, #card-description {
+	#mdes-description, #nba-description, #els-description, #diagram-description, #remote-description, #loeb-description, #card-description, #tony-description, #landscape-description, #lupe-description, #still-life-description, #concept-description, #cosplay-description, #filters-description, #bjork-description, #sound-pack-description, #banana-description {
 		left: 50%;
 		top: 75%;
 		transform:translate(-50%,0);
