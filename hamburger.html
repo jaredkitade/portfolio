@@ -1,0 +1,267 @@
+<script type='text/javascript'>
+	$(document).ready(function(){
+		$('.hamburger').click(function(){
+			$('.menu').toggleClass('open');
+			$('.menu-bottom').toggleClass('open');
+			$('.clickoff').toggleClass('open-clickoff');
+			$('body').toggleClass('scroll');
+			$('.thumbnail-portrait img').toggleClass('menu-short');
+			$('.thumbnail-landscape img').toggleClass('menu-short');
+			$('.thumbnail-button').toggleClass('menu-wide');
+			$('.project-right').toggleClass('menu-wide');
+			$('.project-left').toggleClass('menu-short');
+			$('.project-hero-image').toggleClass('menu-short');
+			$('.scroll-wrap').toggleClass('menu-wide');
+			$('.menu-title').toggleClass('menu-title-active');
+			$('.featured-sub-menu').removeClass('show-sub-menu');
+			$('.featured').find('.arrow-top1').removeClass('flip-off');
+			$('.featured').find('.arrow-bottom1').removeClass('flip-off');
+			$('.featured').find('.arrow-top2').removeClass('flip-on');
+			$('.featured').find('.arrow-bottom2').removeClass('flip-on');
+			$('.drawing-sub-menu').removeClass('show-sub-menu');
+			$('.drawing').find('.arrow-top1').removeClass('flip-off');
+			$('.drawing').find('.arrow-bottom1').removeClass('flip-off');
+			$('.drawing').find('.arrow-top2').removeClass('flip-on');
+			$('.drawing').find('.arrow-bottom2').removeClass('flip-on');
+			$('.design-sub-menu').removeClass('show-sub-menu');
+			$('.design').find('.arrow-top1').removeClass('flip-off');
+			$('.design').find('.arrow-bottom1').removeClass('flip-off');
+			$('.design').find('.arrow-top2').removeClass('flip-on');
+			$('.design').find('.arrow-bottom2').removeClass('flip-on');
+			$('.design span').removeClass('menu-selected');
+			$('.featured span').removeClass('menu-selected');
+			$('.drawing span').removeClass('menu-selected');
+			$('.about-right').toggleClass('menu-wide');
+			$('.about-left').toggleClass('menu-short');
+		});
+
+
+		// $('.clickoff').click(function(){
+		// 	hamburger.classList.toggle('is-active');
+		// 	$('.menu').toggleClass('open');
+		// 	$('.menu-bottom').toggleClass('open');
+		// 	$('.clickoff').toggleClass('open-clickoff');
+		// 	$('body').toggleClass('scroll');
+		// 	$('.project-right').toggleClass('menu-wide');
+		// 	$('.project-left').toggleClass('menu-short');
+		// 	$('.project-hero-image').toggleClass('menu-short');
+		// 	$('.scroll-wrap').toggleClass('menu-wide');
+		// 	$('.menu-title').toggleClass('menu-title-active');
+		// 	$('.thumbnail-portrait img').toggleClass('menu-short');
+		// 	$('.thumbnail-landscape img').toggleClass('menu-short');
+		// 	$('.thumbnail-button').toggleClass('menu-wide');
+		// 	$('.featured-sub-menu').removeClass('show-sub-menu');
+		// 	$('.featured').find('.arrow-top1').removeClass('flip-off');
+		// 	$('.featured').find('.arrow-bottom1').removeClass('flip-off');
+		// 	$('.featured').find('.arrow-top2').removeClass('flip-on');
+		// 	$('.featured').find('.arrow-bottom2').removeClass('flip-on');
+		// 	$('.drawing-sub-menu').removeClass('show-sub-menu');
+		// 	$('.drawing').find('.arrow-top1').removeClass('flip-off');
+		// 	$('.drawing').find('.arrow-bottom1').removeClass('flip-off');
+		// 	$('.drawing').find('.arrow-top2').removeClass('flip-on');
+		// 	$('.drawing').find('.arrow-bottom2').removeClass('flip-on');
+		// 	$('.design-sub-menu').removeClass('show-sub-menu');
+		// 	$('.design').find('.arrow-top1').removeClass('flip-off');
+		// 	$('.design').find('.arrow-bottom1').removeClass('flip-off');
+		// 	$('.design').find('.arrow-top2').removeClass('flip-on');
+		// 	$('.design').find('.arrow-bottom2').removeClass('flip-on');
+		// 	$('.design span').removeClass('menu-selected');
+		// 	$('.featured span').removeClass('menu-selected');
+		// 	$('.drawing span').removeClass('menu-selected');
+		// 	$('.about-right').toggleClass('menu-wide');
+		// 	$('.about-left').toggleClass('menu-short');
+		// });
+
+
+		$('.featured span').click(function(){
+			$('.featured-sub-menu').toggleClass('show-sub-menu');
+			$('.featured').find('.arrow-top1').toggleClass('flip-off');
+			$('.featured').find('.arrow-bottom1').toggleClass('flip-off');
+			$('.featured').find('.arrow-top2').toggleClass('flip-on');
+			$('.featured').find('.arrow-bottom2').toggleClass('flip-on');
+			$(this).toggleClass('menu-selected');
+
+		});
+
+		$('.drawing span').click(function(){
+			$('.drawing-sub-menu').toggleClass('show-sub-menu');
+			$('.drawing').find('.arrow-top1').toggleClass('flip-off');
+			$('.drawing').find('.arrow-bottom1').toggleClass('flip-off');
+			$('.drawing').find('.arrow-top2').toggleClass('flip-on');
+			$('.drawing').find('.arrow-bottom2').toggleClass('flip-on');
+			$(this).toggleClass('menu-selected');
+		});
+
+		$('.design span').click(function(){
+			$('.design-sub-menu').toggleClass('show-sub-menu');
+			$('.design').find('.arrow-top1').toggleClass('flip-off');
+			$('.design').find('.arrow-bottom1').toggleClass('flip-off');
+			$('.design').find('.arrow-top2').toggleClass('flip-on');
+			$('.design').find('.arrow-bottom2').toggleClass('flip-on');
+			$(this).toggleClass('menu-selected');
+		});
+
+
+		$('.featured svg').click(function(){
+			$('.featured-sub-menu').toggleClass('show-sub-menu');
+			$('.featured').find('.arrow-top1').toggleClass('flip-off');
+			$('.featured').find('.arrow-bottom1').toggleClass('flip-off');
+			$('.featured').find('.arrow-top2').toggleClass('flip-on');
+			$('.featured').find('.arrow-bottom2').toggleClass('flip-on');
+			$('.featured span').toggleClass('menu-selected');
+		});
+
+		$('.drawing svg').click(function(){
+			$('.drawing-sub-menu').toggleClass('show-sub-menu');
+			$('.drawing').find('.arrow-top1').toggleClass('flip-off');
+			$('.drawing').find('.arrow-bottom1').toggleClass('flip-off');
+			$('.drawing').find('.arrow-top2').toggleClass('flip-on');
+			$('.drawing').find('.arrow-bottom2').toggleClass('flip-on');
+			$('.drawing span').toggleClass('menu-selected');
+		});
+
+
+		$('.design svg').click(function(){
+			$('.design-sub-menu').toggleClass('show-sub-menu');
+			$('.design').find('.arrow-top1').toggleClass('flip-off');
+			$('.design').find('.arrow-bottom1').toggleClass('flip-off');
+			$('.design').find('.arrow-top2').toggleClass('flip-on');
+			$('.design').find('.arrow-bottom2').toggleClass('flip-on');
+			$('.design span').toggleClass('menu-selected');
+		});
+	});
+</script>
+<div class='menu'>
+	<div class='menu-interior'>
+		<div class='menu-top'>
+			<span class='jared'>Jared Kitade</span>
+			<br>
+			<span class='sub'>Artist+Designer</span>
+		</div>
+		<ul>
+			<li class='menu-title featured'>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.07 60.75">
+					<g id="Layer_2" data-name="Layer 2">
+						<g id="Layer_1-2" data-name="Layer 1">
+							<path class="arrow-top1" d="M27.54 60.75L.51 25.08a2.5 2.5 0 0 1 4-3l23 30.41 23-30.41a2.5 2.5 0 0 1 4 3z"/>
+
+							<path class="arrow-bottom1" d="M27.54 38a2.5 2.5 0 0 1-2-1L.51 4a2.5 2.5 0 0 1 2-4h50.06a2.51 2.51 0 0 1 2 4l-25 33a2.48 2.48 0 0 1-2.03 1zM7.53 5l20 26.4L47.54 5z"/>
+
+							<path class="arrow-top2" d="M27.54 39.68L.51 4a2.5 2.5 0 1 1 4-3l23 30.41L50.58 1a2.5 2.5 0 0 1 4 3z"/>
+
+							<path class="arrow-bottom2" d="M27.54 59.11a2.5 2.5 0 0 1-2-1l-25-33a2.5 2.5 0 0 1 2-4h50.03a2.51 2.51 0 0 1 2 4l-25 33a2.48 2.48 0 0 1-2.03 1zm-20-33l20 26.4 20-26.4z"/>
+						</g>
+					</g>
+				</svg>
+				<span>Featured</span>
+			</li>
+			<li class='menu-indent'>
+				<ul class='featured-sub-menu'>
+					<li><a class='underline mdes-menu' href='mdes.html'>MDES Showcase</a></li>
+					<li><a class='underline nba-menu' href='nba.html'>NBA Drawings</a></li>
+					<li><a class='underline els-menu' href='els.html'>ELS Architecture</a></li>
+					<li><a class='underline nfl-menu' href='diagram.html'>Brain Disease & NFL Players</a></li>
+					<li><a class='underline loeb-menu' href='loeb.html'>The Loeb Fellowship</a></li>
+					<li><a class='underline concept-menu' href='concept.html'>Concept Lecture Series 2015</a></li>
+					<li><a class='underline all-projects' href='index.html'>All Featured</a></li>
+				</ul>
+			</li>
+			<li class='menu-title design'>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.07 60.75">
+					<g id="Layer_2" data-name="Layer 2">
+						<g id="Layer_1-2" data-name="Layer 1">
+							<path class="arrow-top1" d="M27.54 60.75L.51 25.08a2.5 2.5 0 0 1 4-3l23 30.41 23-30.41a2.5 2.5 0 0 1 4 3z"/>
+							<path class="arrow-bottom1" d="M27.54 38a2.5 2.5 0 0 1-2-1L.51 4a2.5 2.5 0 0 1 2-4h50.06a2.51 2.51 0 0 1 2 4l-25 33a2.48 2.48 0 0 1-2.03 1zM7.53 5l20 26.4L47.54 5z"/>
+							<path class="arrow-top2" d="M27.54 39.68L.51 4a2.5 2.5 0 1 1 4-3l23 30.41L50.58 1a2.5 2.5 0 0 1 4 3z"/>
+							<path class="arrow-bottom2" d="M27.54 59.11a2.5 2.5 0 0 1-2-1l-25-33a2.5 2.5 0 0 1 2-4h50.03a2.51 2.51 0 0 1 2 4l-25 33a2.48 2.48 0 0 1-2.03 1zm-20-33l20 26.4 20-26.4z"/>
+						</g>
+					</g>
+				</svg>
+				<span>Design</span>
+			</li>
+			<li class='menu-indent'>
+				<ul class='design-sub-menu'>
+					<li><a class='underline mdes-menu' href='mdes.html'>MDES Showcase</a></li>
+					<li><a class='underline els-menu' href='els.html'>ELS Architecture</a></li>	
+					<li><a class='underline nfl-menu' href='diagram.html'>Brain Disease & NFL Players</a></li>
+					<li><a class='underline loeb-menu' href='loeb.html'>The Loeb Fellowship</a></li>
+					<li><a class='underline concept-menu' href='concept.html'>Concept Lecture Series 2015</a></li>
+					<li><a class='underline remote-menu' href='remote.html'>Remotely Remote</a></li>
+					<li><a class='underline filters-menu' href='filters.html'>GSW Geofilters</a></li>
+					<li><a class='underline sound-packs-menu' href='sound-packs.html'>Retronyms Sound Packs</a></li>
+					<li><a class='underline banana-menu' href='banana.html'>Motion to Still</a></li>
+					<li><a class='underline bjork-menu' href='bjork.html'>Bjork: This is How I'm Feeling</a></li>
+					<li><a class='underline cosplay-menu' href='cosplay.html'>Cosplay: A Subculture</a></li>
+					<li><a class='underline all-projects' href='design.html'>All Design</a></li>
+				</ul>
+			</li>
+			<li class='menu-title drawing'>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.07 60.75">
+					<g id="Layer_2" data-name="Layer 2">
+						<g id="Layer_1-2" data-name="Layer 1">
+							<path class="arrow-top1" d="M27.54 60.75L.51 25.08a2.5 2.5 0 0 1 4-3l23 30.41 23-30.41a2.5 2.5 0 0 1 4 3z"/>
+							<path class="arrow-bottom1" d="M27.54 38a2.5 2.5 0 0 1-2-1L.51 4a2.5 2.5 0 0 1 2-4h50.06a2.51 2.51 0 0 1 2 4l-25 33a2.48 2.48 0 0 1-2.03 1zM7.53 5l20 26.4L47.54 5z"/>
+							<path class="arrow-top2" d="M27.54 39.68L.51 4a2.5 2.5 0 1 1 4-3l23 30.41L50.58 1a2.5 2.5 0 0 1 4 3z"/>
+							<path class="arrow-bottom2" d="M27.54 59.11a2.5 2.5 0 0 1-2-1l-25-33a2.5 2.5 0 0 1 2-4h50.03a2.51 2.51 0 0 1 2 4l-25 33a2.48 2.48 0 0 1-2.03 1zm-20-33l20 26.4 20-26.4z"/>
+						</g>
+					</g>
+				</svg>
+				<span>Drawing</span>
+			</li>
+			<li class='menu-indent'>
+				<ul class='drawing-sub-menu'>
+					<li><a class='underline nba-menu' href='nba.html'>NBA Drawings</a></li>
+					<li><a class='underline tony-menu' href='tony-williams.html'>Tony Williams</a></li>
+					<li><a class='underline lupe-menu' href='lupe.html'>Lupe Fiasco</a></li>
+					<li><a class='underline card-menu' href='card.html'>Watch The Throne Playing Card</a></li>
+					<li><a class='underline still-life-menu' href='still-life.html'>Still Life - Skull</a></li>
+					<li><a class='underline landscape-menu' href='landscape.html'> Landscape</a></li>
+					<li><a class='underline all-projects' href='drawing.html'>All Drawing</a></li>
+				</ul>
+			</li>
+			<a href='about.html'>
+				<li class='menu-title about'>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.1 17.3">
+						<g id="Layer_1-2_1_">
+							<path class="st0" d="M19.1,8.7L7.9,17.2C7.5,17.4,7,17.4,6.8,17c-0.3-0.3-0.2-0.8,0.2-1.1l0,0l9.6-7.2L6.9,1.4
+							C6.6,1.2,6.5,0.7,6.8,0.3s0.8-0.4,1.1-0.2L19.1,8.7z"/>
+							<path class="st0" d="M12,8.7c0,0.2-0.1,0.5-0.3,0.6L1.3,17.2c-0.3,0.3-0.8,0.2-1.1-0.2C0.1,16.9,0,16.7,0,16.5V0.8
+							C0,0.3,0.4,0,0.8,0C1,0,1.1,0.1,1.3,0.2L11.6,8C11.8,8.2,12,8.4,12,8.7z M1.6,15l8.3-6.3L1.6,2.4V15z"/>
+						</g>
+					</svg>
+
+					<span>About</span>
+				</li>
+			</a>
+		</ul>
+	</div>
+</div>
+<div class='menu-bottom'>
+	<div class='menu-interior'>
+		<div class='menu-contact'>
+			<div class='menu-contact-left'>
+				<div class='menu-contact-category'>e-mail:</div>
+				<div class='menu-contact-category'>phone:</div>
+				<div class='menu-contact-category'>resume:</div>
+			</div>
+			<div class='menu-contact-right'>
+				<a href='mailto:hi@jaredkita.de'>
+					<div class='menu-contact-info'>
+						<span class='underline'>hi@jaredkita.de</span>
+					</div>
+				</a>
+				<a href='tel:+19164581110'>
+					<div class='menu-contact-info'>
+						<span class='underline'>+1 916.458.1110</span>
+					</div>
+				</a>
+				<a href='files/kitade-resume.pdf' target='blank'>
+					<div class='menu-contact-info'>
+						<span class='underline'>download</span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- <div class='clickoff'></div> -->
