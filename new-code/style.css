@@ -619,7 +619,7 @@ p {
 }
 
 .mdes-menu:hover {
-	color: rgba(12,209,199,1) !important;
+	color: rgba(228,78,105,1) !important;
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
 	-o-transition: .25s cubic-bezier(.92,0,.5,1);
@@ -627,10 +627,10 @@ p {
 	transition: .25s cubic-bezier(.92,0,.5,1);
 }
 .mdes-menu:hover:after {
-	background: rgba(12,209,199,1) !important;
+	background: rgba(228,78,105,1) !important;
 }
 .nba-menu:hover {
-	color: rgba(50,190,100,1);
+	color: rgba(0,155,152,1);
 	-webkit-transition: .25s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .25s cubic-bezier(.92,0,.5,1);
 	-o-transition: .25s cubic-bezier(.92,0,.5,1);
@@ -638,7 +638,7 @@ p {
 	transition: .25s cubic-bezier(.92,0,.5,1);
 }
 .nba-menu:hover:after {
-	background: rgba(50,190,100,1) !important;
+	background: rgba(0,155,152,1) !important;
 }
 .els-menu:hover {
 	color: rgba(237,91,46,1) !important;
