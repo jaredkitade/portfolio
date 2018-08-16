@@ -440,6 +440,7 @@ p {
 	opacity: 0;
 	visibility: hidden;
 	z-index: 4;
+	cursor: pointer;
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
 	-o-transition: .75s cubic-bezier(.92,0,.5,1);
@@ -2477,7 +2478,7 @@ p {
 	.menu-title:hover > span {
 		color: #231f20;
 	}
-	.featured:hover > svg, .design:hover > svg, .drawing:hover > svg, .about:hover > svg, .underline:hover:after {
+	.featured:hover > svg, .design:hover > svg, .drawing:hover > svg, .about:hover > svg, .underline:hover:after, .about-underline:hover, .about-underline:hover::after {
 		animation: none;
 	}
 	.thumbnail-portrait > .thumbnail-button>span, .thumbnail-landscape > .thumbnail-button>span {
