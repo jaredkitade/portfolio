@@ -2671,6 +2671,9 @@ p {
 	.thumbnail-button {
 		width: 295px;
 	}
+	#tony-image, #mdes-image {
+		top: 50% !important;
+	}
 	/*#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image, #loeb-image {
 		left: 50%;
 		top: 50%;
