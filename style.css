@@ -1777,7 +1777,7 @@ p {
 	margin-top: 100vh;
 	position: relative;
 	background-color: rgba(235,235,235,1);
-	padding-bottom: 50px;
+	padding-bottom: 120px;
 	z-index: 1;
 	-webkit-transition: .75s cubic-bezier(.92,0,.5,1);
 	-moz-transition: .75s cubic-bezier(.92,0,.5,1);
