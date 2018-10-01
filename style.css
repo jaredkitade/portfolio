@@ -1553,7 +1553,9 @@ p {
 	color: rgba(20,155,207,1);
 }
 #concept-image {
-
+	top:45%;
+	left:50%;
+	transform:translate(-50%,-50%);
 }
 #concept-description {
 	background-color: rgba(255,153,153,.7);
@@ -1595,7 +1597,7 @@ p {
 }
 #banana-description {
 	top: 20%;
-    left: 65%;
+    left: 45%;
 	background-color: rgba(200,50,100,.7);
 }
 #banana-description::before, .banana-background, .banana-border::before, .banana-border::after {
@@ -1753,7 +1755,7 @@ p {
 	transform: translate(-50%,-50%);
 }
 #landscape-description {
-	top:75%;
+	top:85%;
 	right: 5%;
 	background-color: rgba(255,107,0,.7);
 }
