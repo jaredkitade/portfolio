@@ -1496,6 +1496,48 @@ p {
 .els-text {
 	color: rgba(200,200,200,1);
 }
+#compass-image {
+	top:20%;
+	left: 50%;
+	transform:translate(-50%,0);
+}
+#compass-description {
+	top: 82%;
+	left: 50%;
+	background-color: rgba(237,91,46,.7);
+	background-color: black;
+}
+#compass-description::before, .compass-background, .compass-border::before, .compass-border::after {
+	background-color: rgba(237,91,46,1);
+	background-color: black;
+}
+#compass-description::after {
+	background-color: rgba(237,91,46,.3);
+	background-color: black;
+}
+.compass-text {
+	color: rgba(200,200,200,1);
+}
+#svma-image {
+	top:20%;
+	left: 50%;
+	transform:translate(-50%,0);
+}
+#svma-description {
+	top: 82%;
+	left: 50%;
+	background-color: rgba(244,177,51,.7);
+}
+#svma-description::before, .svma-background, .svma-border::before, .svma-border::after {
+	background-color: rgba(244,177,51,1);
+}
+#svma-description::after {
+	background-color: rgba(244,177,51,.3);
+}
+.svma-text {
+	color: rgba(247,75,56,1);
+	color: rgba(244,177,51,1);
+}
 #diagram-image {
 	top:20%;
 	left: 5%;
