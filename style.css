@@ -2624,12 +2624,12 @@ p {
 	.project-image-wrap-two {
 		max-width: 60%;
 	}
-	#mdes-image, #nba-image, #els-image, #diagram-image, #remote-image, #loeb-image, #card-image, #tony-image, #landscape-image, #lupe-image, #still-life-image, #concept-image, #cosplay-image, #filters-image, #bjork-image, #sound-pack-image, #banana-image {
+	#svma-image, #mdes-image, #nba-image, #els-image, #diagram-image, #remote-image, #loeb-image, #card-image, #tony-image, #landscape-image, #lupe-image, #still-life-image, #concept-image, #cosplay-image, #filters-image, #bjork-image, #sound-pack-image, #banana-image {
 		left: 50%;
 		top: 50%;
 		transform:translate(-50%,-50%);
 	}
-	#mdes-description, #nba-description, #els-description, #diagram-description, #remote-description, #loeb-description, #card-description, #tony-description, #landscape-description, #lupe-description, #still-life-description, #concept-description, #cosplay-description, #filters-description, #bjork-description, #sound-pack-description, #banana-description {
+	#svma-description, #mdes-description, #nba-description, #els-description, #diagram-description, #remote-description, #loeb-description, #card-description, #tony-description, #landscape-description, #lupe-description, #still-life-description, #concept-description, #cosplay-description, #filters-description, #bjork-description, #sound-pack-description, #banana-description {
 		left: 50%;
 		top: 75%;
 		transform:translate(-50%,0);
